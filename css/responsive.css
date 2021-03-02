@@ -1,0 +1,196 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+.services-inner-box h2 {
+left: 100px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.services-inner-box h2 {
+left: 95px;
+}.navbar-dark .navbar-brand {
+width: 120px;
+}.navbar-dark .navbar-nav .nav-link::after {
+display: none;
+}.navbar-dark .navbar-toggler {
+color: #333;
+border-color: #333;
+-webkit-transition: all .5s;
+transition: all .5s;
+}.navbar-dark.body_dark .navbar-toggler {
+color: #ddd;
+border-color: #ddd;
+-webkit-transition: all .5s;
+transition: all .5s;
+}.section-title h3 {
+font-size: 28px;
+}.section-title p {
+font-size: 14px;
+}.filter-button-group button {
+padding: 5px 10px;
+margin: 3px 0;
+}.filter-button-group {
+text-align: center !important;
+margin: 0;
+}.post-box {
+margin-bottom: 30px;
+}.footer-distributed .footer-left {
+text-align: center;
+}.toggle {
+margin: 0 !important;
+}.heading h1 {
+font-size: 38px;
+letter-spacing: .15em;
+}.heading p {
+font-size: 14px;
+}.section {
+padding: 30px 0 60px;
+}.section-title {
+margin-bottom: 20px;
+}.post-box .date {
+padding: 5px 10px;
+}#home {
+background-size: auto 100%;
+}.navbar {
+padding: .5rem 1rem;
+}#mainNav .navbar-collapse {
+padding: 0;
+}#git {
+padding-bottom: 20px;
+}#git .section-title,#contact .section-title {
+margin-bottom: 30px;
+}.home-bottom {
+padding: 10px;
+}.home-bottom div {
+line-height: 80px;
+font-size: 25px;
+}.navbar-dark .navbar-nav .nav-item,.navbar-dark .navbar-nav .nav-item:hover,.navbar-dark .navbar-nav .nav-item.active{
+border-bottom: 2px solid rgba(0,0,0,0) !important;
+}.heading .h1-top{
+margin-top: 100px;
+}
+}
+@media (max-width: 767px) {
+.navbar-dark .navbar-brand {
+width: 120px;
+}.navbar-dark .navbar-nav .nav-link::after {
+display: none;
+}.navbar-dark .navbar-toggler {
+color: #333;
+border-color: #333;
+-webkit-transition: all .5s;
+transition: all .5s;
+}.navbar-dark.body_dark .navbar-toggler {
+color: #ddd;
+border-color: #ddd;
+-webkit-transition: all .5s;
+transition: all .5s;
+}.section-title h3 {
+font-size: 28px;
+}.section-title p {
+font-size: 14px;
+}.filter-button-group button {
+padding: 5px 10px;
+margin: 3px 0;
+}.filter-button-group {
+text-align: center !important;
+margin: 0;
+}.post-box {
+margin-bottom: 30px;
+}.footer-distributed .footer-left {
+text-align: center;
+}.toggle {
+margin: 0 !important;
+}.heading h1 {
+font-size: 38px;
+letter-spacing: .15em;
+}.heading p {
+font-size: 14px;
+}.section {
+padding: 30px 0 60px;
+}.section-title {
+margin-bottom: 20px;
+}.post-box .date {
+padding: 5px 10px;
+}#home {
+background-size: auto 100%;
+}.navbar {
+padding: .5rem 1rem;
+}#mainNav .navbar-collapse {
+padding: 0;
+}#git {
+padding-bottom: 20px;
+}#git .section-title,#contact .section-title {
+margin-bottom: 30px;
+}.home-bottom {
+padding: 10px;
+}.home-bottom div {
+line-height: 80px;
+font-size: 25px;
+}.navbar-dark .navbar-nav .nav-item,.navbar-dark .navbar-nav .nav-item:hover,.navbar-dark .navbar-nav .nav-item.active{
+border-bottom: 2px solid rgba(0,0,0,0) !important;
+}.heading .h1-top{
+margin-top: 100px;
+}
+}
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+.navbar-dark .navbar-brand {
+width: 120px;
+}.navbar-dark .navbar-nav .nav-link::after {
+display: none;
+}.navbar-dark .navbar-toggler {
+color: #333;
+border-color: #333;
+-webkit-transition: all .5s;
+transition: all .5s;
+}.navbar-dark.body_dark .navbar-toggler {
+color: #ddd;
+border-color: #ddd;
+-webkit-transition: all .5s;
+transition: all .5s;
+}.section-title h3 {
+font-size: 28px;
+}.section-title p {
+font-size: 14px;
+}.filter-button-group button {
+padding: 5px 10px;
+margin: 3px 0;
+}.filter-button-group {
+text-align: center !important;
+margin: 0;
+}.post-box {
+margin-bottom: 30px;
+}.footer-distributed .footer-left {
+text-align: center;
+}.toggle {
+margin: 0 !important;
+}.heading h1 {
+font-size: 38px;
+letter-spacing: .15em;
+}.heading p {
+font-size: 14px;
+}.section {
+padding: 30px 0 60px;
+}.section-title {
+margin-bottom: 20px;
+}.post-box .date {
+padding: 5px 10px;
+}#home {
+background-size: auto 100%;
+}.navbar {
+padding: .5rem 1rem;
+}#mainNav .navbar-collapse {
+padding: 0;
+}#git {
+padding-bottom: 20px;
+}#git .section-title,#contact .section-title {
+margin-bottom: 30px;
+}.home-bottom {
+padding: 10px;
+}.home-bottom div {
+line-height: 80px;
+font-size: 25px;
+}.navbar-dark .navbar-nav .nav-item,.navbar-dark .navbar-nav .nav-item:hover,.navbar-dark .navbar-nav .nav-item.active{
+border-bottom: 2px solid rgba(0,0,0,0) !important;
+}.heading .h1-top{
+margin-top: 100px;
+}
+}

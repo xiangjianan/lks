@@ -31,11 +31,12 @@ if ($scroll_to_top.length) {
 }
 // 控制台
 console.log(`
-博客园：https://www.cnblogs.com/xiangjianan/
-
-
 (╭  ￣▽￣)╭
 
-微信：inMyLife2021
+Email : xjn9872@163.com
+
+Page  : www.helloxjn.com
+
+WeChat: inMyLife2021
 
 `);

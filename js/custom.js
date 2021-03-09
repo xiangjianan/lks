@@ -31,12 +31,10 @@ if ($scroll_to_top.length) {
 }
 // 控制台
 console.log(`
-(╭  ￣▽￣)╭
+GitHub: https://github.com/xiangjianan
 
-Email : xjn9872@163.com
+Email: xiang9872@gmail.com
 
-Page  : www.helloxjn.com
-
-WeChat: inMyLife2021
+Page: www.helloxjn.com
 
 `);

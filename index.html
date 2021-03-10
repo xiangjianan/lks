@@ -306,7 +306,7 @@ $('button').click(function (event) {
   if (num === '0'){
     $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526?spm_id_from=333.788.b_765f7570696e666f.1" target="_blank"> -LKs- </a>良心到难以置信的网站推荐`);
   }else{
-    $('.group-video').html(`视频传送门：<a href="${video_list[Number(num)][1]}" target="_blank">${video_list[Number(num)][0]}</a>`);
+    $('.group-video').html(`视频传送门：<a href="${video_list[Number(num)][1]}" rel="nofollow noreferrer" target="_blank">${video_list[Number(num)][0]}</a>`);
   }
 })
 </script>

@@ -7,7 +7,7 @@ background-color: #f2f3f5;
 }html, body {
 height: 100%;
 }
-.filter-button-group button,.filter-button-group button:hover,.heading h3 span,.services-inner-box,.services-inner-box:hover,.services-inner-box h2,.services-inner-box p span,.btn-hover-new {
+.group-video a,.group-video a:hover,.filter-button-group button,.filter-button-group button:hover,.heading h3 span,.services-inner-box,.services-inner-box:hover,.services-inner-box h2,.services-inner-box p span,.btn-hover-new {
 -webkit-transition: all .3s ease-in-out;
 -moz-transition: all .3s ease-in-out;
 -ms-transition: all .3s ease-in-out;

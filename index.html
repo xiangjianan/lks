@@ -11,6 +11,16 @@
 <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
 <style>
+:root {
+--primary-light: #8abdff;
+--primary: #6d5dfc;
+--primary-dark: #5b0eeb;
+--white: #FFFFFF;
+--greyLight-1: #E4EBF5;
+--greyLight-2: #c8d0e7;
+--greyLight-3: #bec8e4;
+--greyDark: #9baacf;
+}
 .services-inner-box {
 height: 100px;
 }.services-inner-box h2 {
@@ -25,12 +35,12 @@ display: -webkit-box;
 }.hot-single {
 margin: 25px 0 25px;
 }.section.lb, body,.services-inner-box{
-background-color: #E4EBF5;
+background-color: var(--greyLight-1);
 }.services-inner-box{
-box-shadow: 0.8rem 0.8rem 1.0rem #c8d0e7, -0.2rem -0.2rem 1.4rem #FFFFFF;
+box-shadow: 0.8rem 0.8rem 1.0rem var(--greyLight-2), -0.2rem -0.2rem 1.4rem #FFFFFF;
 }.services-inner-box:hover{
--webkit-box-shadow: inset 0.2rem 0.2rem 0.5rem #c8d0e7, inset -0.2rem -0.2rem 0.5rem #FFFFFF;
-box-shadow: inset 0.2rem 0.2rem 0.5rem #c8d0e7, inset -0.2rem -0.2rem 0.5rem #FFFFFF;
+-webkit-box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem #FFFFFF;
+box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem #FFFFFF;
 }.hot-grid{
 padding-left: 25px;
 padding-right: 25px;

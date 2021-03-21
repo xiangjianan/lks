@@ -106,8 +106,6 @@ background: #f2f3f5;
 margin-bottom: 30px;
 border-radius: 1em;
 }.services-inner-box:hover {
--webkit-transform: translateY(-3px);
-transform: translateY(-3px);
 -webkit-box-shadow: 0 3px 10px #ccc;
 box-shadow: 0 3px 10px #ccc;
 }.ser-icon {
@@ -133,6 +131,8 @@ bottom: 0;
 }.services-inner-box p span {
 color: #222;
 }.post-info span:hover,.services-inner-box h2:hover,.services-inner-box p span:hover {
+color: darkorange;
+}.services-inner-box:hover h2{
 color: darkorange;
 }/*------------------------------------------------------------------
 PORTFOLIO
@@ -170,8 +170,8 @@ letter-spacing: 1px;
 font-weight: 600;
 font-size: 14px;
 cursor: pointer;
-background: #f2f3f5;
-padding: 12px 40px;
+background: rgba(0,0,0,0.03);
+padding: 8px 24px;
 border-radius: 0.3em;
 }.filter-button-group button:hover {
 background: #333333;

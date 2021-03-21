@@ -8,7 +8,7 @@ letter-spacing: 0.1em;
 }html, body {
 height: 100%;
 }
-.group-video a,.group-video a:hover,.filter-button-group button,.filter-button-group button:hover,.heading h3 span,.services-inner-box,.services-inner-box:hover,.services-inner-box p span,.btn-hover-new {
+.services-inner-box h2,.group-video a,.group-video a:hover,.filter-button-group button,.filter-button-group button:hover,.heading h3 span,.services-inner-box,.services-inner-box:hover,.services-inner-box p span,.btn-hover-new {
 -webkit-transition: all .3s ease-in-out;
 -moz-transition: all .3s ease-in-out;
 -ms-transition: all .3s ease-in-out;
@@ -105,9 +105,6 @@ padding: 15px;
 background: #f2f3f5;
 margin-bottom: 30px;
 border-radius: 1em;
-}.services-inner-box:hover {
--webkit-box-shadow: 0 3px 10px #ccc;
-box-shadow: 0 3px 10px #ccc;
 }.ser-icon {
 float: left;
 width: 90px;

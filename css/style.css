@@ -196,8 +196,7 @@ MISC
 .dmtop.show {
 bottom: 50px;
 }.dmtop {
-background-color: #3C3D41;
-background-color: rgba(33, 33, 33, 0.6);
+background-color: #E4EBF5;
 z-index: 100;
 width: 50px;
 height: 50px;
@@ -208,7 +207,7 @@ border-radius: 3px;
 right: 50px;
 text-align: center;
 font-size: 28px;
-color: #ffffff !important;
+color: #777777 !important;
 cursor: pointer;
 -webkit-transition: all .7s ease-in-out;
 -moz-transition: all .7s ease-in-out;

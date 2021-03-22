@@ -1,0 +1,16 @@
+{
+  "id": "2437672",
+  "name": "lks",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1048885",
+      "name": "向上",
+      "font_class": "icon_on_the_top",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    }
+  ]
+}

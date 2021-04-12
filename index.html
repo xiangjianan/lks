@@ -58,7 +58,7 @@ margin-bottom: 10px;
 <div class="container">
 <div class="section-title text-left">
 <h3 class="">网站推荐</h3>
-<p class="group-video">B站博主<a href="https://space.bilibili.com/125526?spm_id_from=333.788.b_765f7570696e666f.1" target="_blank"> -LKs- </a>良心到难以置信的网站推荐</p>
+<p class="group-video">B站博主<a href="https://space.bilibili.com/125526?spm_id_from=333.788.b_765f7570696e666f.1" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》</p>
 </div>
 <div class="hot-menu row">
 <div class="col-md-12">
@@ -287,7 +287,7 @@ margin-bottom: 10px;
 <div class="copyrights section ">
 <div class="container">
 <p class="footer-links text-center">
-Copyright © 2021 <a href="https://github.com/xiangjianan" target="_target">xiangjianan</a>
+Copyright © 2021 <a href="https://github.com/xiangjianan/lks" target="_target">xiangjianan</a>
 </p></div>
 </div>
 <a href="#notes" id="scroll-to-top" class="dmtop global-radius" ontouchstart="">
@@ -316,7 +316,7 @@ itemSelector: '.hot-grid'
 });
 // 视频链接
 let video_list = [
-  ['B站博主',' -LKs- 良心到难以置信的网站推荐','https://space.bilibili.com/125526'],
+  ['B站博主',' -LKs- 《良心到难以置信的网站推荐》','https://space.bilibili.com/125526'],
   ['第一期 av3743771','https://www.bilibili.com/video/av3743771/'],
   ['第二期 av9856372','https://www.bilibili.com/video/av9856372/'],
   ['第三期 av27234784','https://www.bilibili.com/video/av27234784/'],
@@ -329,7 +329,7 @@ $('button').click(function (event) {
   let num = $(this).attr('num');
   console.log(num);
   if (num === '0'){
-    $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526?spm_id_from=333.788.b_765f7570696e666f.1" target="_blank"> -LKs- </a>良心到难以置信的网站推荐`);
+    $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526?spm_id_from=333.788.b_765f7570696e666f.1" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
   }else{
     $('.group-video').html(`视频传送门：<a href="${video_list[Number(num)][1]}" rel="nofollow noreferrer" target="_blank">${video_list[Number(num)][0]}</a>`);
   }

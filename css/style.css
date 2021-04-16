@@ -248,7 +248,7 @@ ul, li, ol {
 @media (min-width: 768px) and (max-width: 991px) {
     .filter-button-group button {
         padding: 5px 10px;
-        margin: 3px 2px;
+        margin: 4px 2px;
     }
     .filter-button-group {
         text-align: center !important;
@@ -285,7 +285,7 @@ ul, li, ol {
 @media (max-width: 767px) {
     .filter-button-group button {
         padding: 5px 10px;
-        margin: 3px 1px;
+        margin: 4px 2px;
     }
     .filter-button-group {
         text-align: center !important;
@@ -322,7 +322,7 @@ ul, li, ol {
 @media only screen and (min-width: 280px) and (max-width: 599px) {
     .filter-button-group button {
         padding: 5px 10px;
-        margin: 3px 1px;
+        margin: 4px 2px;
     }
     .filter-button-group {
         text-align: center !important;

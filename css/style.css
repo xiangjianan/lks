@@ -13,7 +13,7 @@ body {
     letter-spacing: 0.1em;
 }
 
-a, a:hover {
+a, a:hover, .filter-button-group button {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;

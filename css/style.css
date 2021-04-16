@@ -13,7 +13,7 @@ body {
     letter-spacing: 0.1em;
 }
 
-a, a:hover, .filter-button-group button {
+a, a:hover {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
@@ -177,10 +177,12 @@ ul, li, ol {
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
-    background: rgba(0, 0, 0, 0.03);
+    background: rgba(0, 0, 0, 0);
     padding: 8px 24px;
+    margin: 0 3px;
     border-radius: 0.3em;
     outline: none;
+    box-shadow: 0.1rem 0.1rem 0.2rem var(--greyLight-2), -0.1rem -0.1rem 0.2rem var(--white);
 }
 
 /* 页脚 */
@@ -200,12 +202,12 @@ ul, li, ol {
 }
 
 .copyrights {
-    background-color: rgba(0, 0, 0, 0.03);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
     padding: 25px 0 !important;
     overflow: hidden;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
 }
 
 /* top按钮 */
@@ -215,7 +217,7 @@ ul, li, ol {
 }
 
 .dmtop {
-    background-color: #E4EBF5;
+    background-color: var(--greyLight-1);
     z-index: 100;
     width: 50px;
     height: 50px;
@@ -246,7 +248,7 @@ ul, li, ol {
 @media (min-width: 768px) and (max-width: 991px) {
     .filter-button-group button {
         padding: 5px 10px;
-        margin: 3px 0;
+        margin: 3px 2px;
     }
     .filter-button-group {
         text-align: center !important;
@@ -283,7 +285,7 @@ ul, li, ol {
 @media (max-width: 767px) {
     .filter-button-group button {
         padding: 5px 10px;
-        margin: 3px 0;
+        margin: 3px 1px;
     }
     .filter-button-group {
         text-align: center !important;
@@ -320,7 +322,7 @@ ul, li, ol {
 @media only screen and (min-width: 280px) and (max-width: 599px) {
     .filter-button-group button {
         padding: 5px 10px;
-        margin: 3px 0;
+        margin: 3px 1px;
     }
     .filter-button-group {
         text-align: center !important;

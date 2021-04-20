@@ -7,6 +7,7 @@
 body {
     color: #999999;
     font-size: 14px;
+    -webkit-font-smoothing: antialiased;
     font-family: "Microsoft Yahei Light", "Microsoft Yahei", PingFangSC-Regular, Helvetica, sans-serif;
     line-height: 1.80857;
     background-color: var(--greyLight-1);

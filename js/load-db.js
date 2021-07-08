@@ -11,3 +11,4 @@ hot_list.forEach(function (hot) {
   </a></div>`
 });
 $('.hot-list').html(hot_list_html);
+$('.copyrights').removeClass('hide');

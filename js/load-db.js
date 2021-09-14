@@ -5,7 +5,7 @@ hot_list.forEach(function (hot) {
   <div class="col-md-4 hot-grid ${hot.kind}">
     <a href="${hot.href}" target="_blank">
       <div class="services-inner-box hot-single clearfix" ontouchstart="">
-          <h2 class="iconfont">${hot.title}</h2>
+          <h2>${hot.title}</h2>
           <p>${hot.href}</p>
       </div>
   </a></div>`

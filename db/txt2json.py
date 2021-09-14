@@ -15,13 +15,14 @@ for i in range(1, num + 1):
                 if '	' in line:
                     line = line.replace('	', ' ')
                 line = line.replace(' http', '|http').replace('\n', '|').replace('  ', ' ')
+                print(line)
                 if not line.startswith('|http'):
                     if flag:
                         flag = False
                     else:
                         line = ''.join(['\n', line])
                 else:
-                    line = line.strip('|')
+                    line = line.lstrip('|')
                 fo.write(line)
             fo.write('|\n')
 

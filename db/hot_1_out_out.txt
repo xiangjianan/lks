@@ -1,8 +1,8 @@
-The Internet map（外）|http://internet-map.net/
+The Internet map 🌐|http://internet-map.net/
 钢琴|http://touchpianist.com/
-搜图（外）|http://iqdb.org/
-搜图（外）|http://saucenao.com/index.php
-搜图（外）|http://safebooru.org/
+搜图 🌐|http://iqdb.org/
+搜图 🌐|http://saucenao.com/index.php
+搜图 🌐|http://safebooru.org/
 环境|http://www.rainymood.com/
 环境|http://www.ambient-mixer.com/
 不明觉厉|http://mrdoob.com/#/157/spin_painter
@@ -14,8 +14,8 @@ The Internet map（外）|http://internet-map.net/
 风景|http://www.airpano.com/?n=10&sort_by=&page=1
 制作|http://threejs.org/
 制作|http://www.instructables.com/
-miku（外）|http://johnsu.deviantart.com/art/Halfne-Miku-Studio-396850314
-miku（外）|https://www.youtube.com/watch?v=1szQ7YDGdXw&feature=youtu.be
+miku 🌐|http://johnsu.deviantart.com/art/Halfne-Miku-Studio-396850314
+miku 🌐|https://www.youtube.com/watch?v=1szQ7YDGdXw&feature=youtu.be
 音游|http://www.beatstage.com/
 音游|http://www.m2ustudio.com/index.html#album-tracks
 水效果|http://watereffect.net/index.php
@@ -32,17 +32,17 @@ miku（外）|https://www.youtube.com/watch?v=1szQ7YDGdXw&feature=youtu.be
 剁手|http://www.chiphell.com/
 电音|http://techno.org/electronic-music-guide/
 电音|https://the.wubmachine.com/
-捏人（外）|http://www.dreamself.me/clothes.php?action=view&id=0&c=1
-gal（外）|http://polka-dot.co/lzbx.php
+捏人 🌐|http://www.dreamself.me/clothes.php?action=view&id=0&c=1
+gal 🌐|http://polka-dot.co/lzbx.php
 搬砖|http://www.fotojet.com/
 搬砖|https://habitica.com/static/front
 聊天|http://drrr.com/lounge
-图站（外）|https://anime-pictures.net/
-与佛论禅（外）|http://www.ptxz.com/fo/
+图站 🌐|https://anime-pictures.net/
+与佛论禅 🌐|http://www.ptxz.com/fo/
 音乐|http://haru.ocv.me/
 学习|http://www.wolframalpha.com/
-不明觉厉（外）|https://edialogue.org/index/zh-CN
-不明觉厉（外）|https://dribbble.com/wagerfield
+不明觉厉 🌐|https://edialogue.org/index/zh-CN
+不明觉厉 🌐|https://dribbble.com/wagerfield
 手机|http://mowned.com/
 GPS|http://www.flashearth.com/
 北方|http://wiki.joyme.com/jc/%E5%8C%97%E6%96%B9%E9%85%B1%E8%A1%A8%E6%83%85

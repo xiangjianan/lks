@@ -20,22 +20,24 @@ for i in range(1, num + 1):
                         flag = False
                     else:
                         line = ''.join(['\n', line])
-                line = line[0:-1]
+                else:
+                    line = line.strip('|')
                 fo.write(line)
+            fo.write('|\n')
 
 # txt转json
 for i in range(1, num + 1):
     kind = f'hot_{i}'
     with open(f'./hot_{i}_out.txt', 'r') as f:
         for line in f:
-            line_list = line[0:-1].split('|')
+            line_list = line.split('|')
             # print(line_list)
-            for url in line_list[1:]:
+            for url in line_list[1:-1]:
                 # print(url)
                 hot_list.append({
                     'kind': kind,
                     'title': line_list[0],
-                    'href': url,
+                    'href': url.strip('\n'),
                 })
 with open(f'hot_list.json', 'w')as fp:
     json.dump(hot_list, fp)

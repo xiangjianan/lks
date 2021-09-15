@@ -24,7 +24,7 @@ Page: www.helloxjn.com
 
 `);
 $('.container').imagesLoaded(function () {
-  let portfolio = $('.hot-menu');
+  let portfolio = $('.web-menu');
   portfolio.on('click', 'button', function () {
     $(this).addClass('active').siblings().removeClass('active');
     let filterValue = $(this).attr('data-filter');
@@ -32,8 +32,8 @@ $('.container').imagesLoaded(function () {
       filter: filterValue
     });
   });
-  let $grid = $('.hot-list').isotope({
-    itemSelector: '.hot-grid'
+  let $grid = $('.web-list').isotope({
+    itemSelector: '.web-grid'
   });
 });
 let video_list = [
@@ -45,6 +45,7 @@ let video_list = [
   ['第五期 BV1a741137NS', 'https://www.bilibili.com/video/BV1a741137NS/'],
   ['第六期 BV1wv411y7L6', 'https://www.bilibili.com/video/BV1wv411y7L6/'],
   ['第七期 BV1bU4y1x7A1', 'https://www.bilibili.com/video/BV1bU4y1x7A1/'],
+  ['第八期 (视频链接待更新)', 'https://www.bilibili.com/video/BV1bU4y1x7A1/'],
 ]
 $('button').click(function (event) {
   let num = $(this).attr('num');

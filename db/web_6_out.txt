@@ -1,25 +1,24 @@
-AI音乐推荐|https://www.gnoosic.com/faves.php
-RAP|https://foreignrap.com
-壁纸|https://wallhaven.cc/
+AI音乐推荐|https://www.gnoosic.com/faves.php*star
+RAP <span class='iconfont'>&#xe64b;</span>|https://foreignrap.com
+壁纸|https://wallhaven.cc/*star
 私人定制|https://www.fiverr.com/
-云旅游|http://www.airpano.com/
+云旅游|http://www.airpano.com/*star
 云住酒店云吃饭|https://bbs.saraba1st.com/2b/space-uid-197835.html
 开窗户|https://window-swap.com/
 伴奏提取|https://www.lalal.ai/
 格式转换|https://www.alltoall.net/
 格式转换|https://www.aconvert.com/cn/
-高端翻译|https://www.deepl.com/translator
-图片唱歌 🌐|https://yanderify.com/
-好好说话 🌐|https://lab.magiconch.com/nbnhhsh/
+高端翻译|https://www.deepl.com/translator*star
+好好说话|https://lab.magiconch.com/nbnhhsh/
 那你能帮帮我吗|https://zh.wikihow.com/%E9%A6%96%E9%A1%B5
 天气|https://www.windy.com/
-倒计时自毁网站 🌐|https://www.thiswebsitewillselfdestruct.com/
-起名 🌐|https://www.behindthename.com/
+自杀网站|https://www.thiswebsitewillselfdestruct.com/
+起名|https://www.behindthename.com/
 版权音乐曲库|https://www.epidemicsound.com/
-独立游戏 🌐|https://www.indiexpo.net/
+独立游戏|https://www.indiexpo.net/
 学钢琴|https://app.flowkey.com.cn/
-焦段科普 🌐|https://www.samyanglens.com/en/product/simulator/lens.php
+焦段科普|https://www.samyanglens.com/en/product/simulator/lens.php
 全球生活水平|https://www.gapminder.org/dollar-street/
 海|https://seaside-station.com/region/hokkaido/
 标准地图|http://bzdt.ch.mnr.gov.cn/index.html
-色差|http://www.cuishuai.cc/game/
+色差|http://www.cuishuai.cc/game/ 

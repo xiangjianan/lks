@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1903886",
+      "name": "web__新手",
+      "font_class": "web__xinshou",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
       "icon_id": "1048885",
       "name": "向上",
       "font_class": "icon_on_the_top",

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e057143-80d4-45c7-b43c-5efdb80bbd2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/load-db.1.0.9.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/font/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/font/iconfont.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/iconfont.json" beforeDir="false" afterPath="$PROJECT_DIR$/font/iconfont.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/font/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/font/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/font/iconfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/load-db.1.0.8.min.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1y8xDxVQo4TpkLrRCXgVH7ZXeN8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e057143-80d4-45c7-b43c-5efdb80bbd2a" name="Default Changelist" comment="" />
+      <created>1631646906039</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631646906039</updated>
+      <workItem from="1631646913358" duration="268000" />
+      <workItem from="1631686498093" duration="1639000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

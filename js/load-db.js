@@ -5,7 +5,7 @@ web_list.forEach(function (web) {
   <div class="col-md-4 web-grid ${web.kind}">
     <a href="${web.href}" target="_blank">
       <div class="services-inner-box web-single clearfix" ontouchstart="">
-        <span class="flag ${web.star} iconfont">&#xe612;</span>
+        <span class="flag ${web.star} iconfont">&#xe639;</span>
         <h2>${web.title}</h2>
         <p>${web.href}</p>
       </div>

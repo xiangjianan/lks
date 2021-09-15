@@ -18,9 +18,9 @@ if ($scroll_to_top.length) {
 console.log(`
 GitHub: https://github.com/xiangjianan
 
-Email: xiang9872@gmail.com
+Website: https://www.helloxjn.com
 
-Page: www.helloxjn.com
+Email: xiang9872@gmail.com
 
 `);
 $('.container').imagesLoaded(function () {

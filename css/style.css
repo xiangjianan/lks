@@ -112,7 +112,7 @@ ul, li, ol {
     left: 30px;
 }
 
-.services-inner-box:active > h2 {
+.services-inner-box:active > h2, .services-inner-box:active > .flag {
     color: darkorange;
 }
 
@@ -401,6 +401,7 @@ ul, li, ol {
 .flag {
     display: none;
     color: #333333;
+    font-weight: 600;
 }
 
 .star {
@@ -409,6 +410,5 @@ ul, li, ol {
     position: absolute;
     top: 0;
     right: 0;
-    color: #f7d716!important;
     text-align: center;
 }

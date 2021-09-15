@@ -26,21 +26,6 @@ for i in range(1, num + 1):
                     fo.write(line)
 
 # txt转json
-# for i in range(1, num + 1):
-#     kind = f'web_{i}'
-#     with open(f'./web_{i}_out.txt', 'r') as f:
-#         for line in f:
-#             line_list = line.split('|')
-#             # print(line_list)
-#             for url in line_list[1:-1]:
-#                 # print(url)
-#                 web_list.append({
-#                     'kind': kind,
-#                     'title': line_list[0],
-#                     'href': url.strip('\n'),
-#                 })
-
-# txt转json
 for i in range(num, 0, -1):
     kind = f'web_{i}'
     with open(f'./web_{i}_out.txt', 'r') as f:

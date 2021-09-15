@@ -1,21 +1,20 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2437672 */
-  src: url('iconfont.1.1.0.woff2?t=1631714809492') format('woff2'),
-       url('iconfont.1.1.0.woff?t=1631714809492') format('woff'),
-       url('iconfont.1.1.0.ttf?t=1631714809492') format('truetype');
+  src: url('iconfont.1.1.1.woff2?t=1631720713475') format('woff2'),
+       url('iconfont.1.1.1.woff?t=1631720713475') format('woff'),
+       url('iconfont.1.1.1.ttf?t=1631720713475') format('truetype');
 }
 
 .iconfont {
   font-family: "iconfont" !important;
   font-size: 20px;
-  color: #77d648;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-xingbiao:before {
-  content: "\e612";
+.icon-xingxing4:before {
+  content: "\e639";
 }
 
 .icon-web__xinshou:before {

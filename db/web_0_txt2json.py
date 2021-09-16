@@ -18,6 +18,7 @@ for i in range(1, num + 1):
                     line = line[:-2] + '\n'
                 line = line.replace(' http', '|http')
                 line = line.replace(' 强推', '*star')
+                line = line.replace('（外）', " <span class='iconfont'>&#xe64b;</span>")
                 if line.count('|http') > 1:
                     line_list = line[:-1].split('|')
                     for ll in line_list[1:]:

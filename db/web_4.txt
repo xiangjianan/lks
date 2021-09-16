@@ -5,10 +5,10 @@
 N卡深度学习	https://www.nvidia.com/en-us/research/ai-playground/?fbclid=IwAR2QEjuH4aCYP3SycnKwa_LO36rfmDhulB4WCeY1plGCfofwIU-qf1anBTY		
 渐变图	https://www.ls.graphics/meshgradients		
 时差	https://everytimezone.com/		
-双色 <span class='iconfont'>&#xe64b;</span>	https://duotone.shapefactory.co/?f=f56468&t=27184f&q=_
+双色（外）	https://duotone.shapefactory.co/?f=f56468&t=27184f&q=_
 亚塞	https://wangyasai.github.io/
 listen 1	http://listen1.github.io/listen1/		强推
-音乐 <span class='iconfont'>&#xe64b;</span>	https://www.youtube.com/channel/UCht8qITGkBvXKsR1Byln-wA/videos
+音乐（外）	https://www.youtube.com/channel/UCht8qITGkBvXKsR1Byln-wA/videos
 电音风格	http://music.ishkur.com/		
 创意	https://creativemass.cn/#/
 up主排名	https://leptc.github.io/bili/		

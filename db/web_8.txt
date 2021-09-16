@@ -13,7 +13,7 @@ LKs网页推荐站	https://xiangjianan.gitee.io/lks/			强推
 人工智障写作	http://if.caiyunai.com/dream/#/			
 书法生成器	http://www.ziticq.com/shufa/			
 健身百科	https://musclewiki.com/			
-世界语言学习 <span class='iconfont'>&#xe64b;</span>	https://www.zerotohero.ca/		强推
+世界语言学习（外）	https://www.zerotohero.ca/		强推
 全球食物地图	https://www.tasteatlas.com/search			
 地图生成器	https://azgaar.github.io/Fantasy-Map-Generator/			
 随机生成器	https://sharkle.com/			

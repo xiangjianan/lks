@@ -1,5 +1,5 @@
 行业报告	http://report.seedsufe.com/#/report
-世界之声 <span class='iconfont'>&#xe64b;</span>	https://aporee.org/maps/
+世界之声（外）	https://aporee.org/maps/
 商用图片	https://www.pexels.com/zh-cn/			强推
 抠图	https://www.remove.bg/	http://waifu2x.udp.jp/
 抠视频	https://www.unscreen.com/
@@ -22,7 +22,7 @@
 森林之声	https://www.tree.fm/
 西方电音	https://www.traxsource.com/dj-top-10s
 猜真假	https://landing.adobe.com/en/na/products/creative-cloud/69308-real-or-photoshop/index.html
-魔性 <span class='iconfont'>&#xe64b;</span>	https://patatap.com/
+魔性（外）	https://patatap.com/
 中华珍宝馆	https://www.ltfc.net/exhibit/recent
 英语游戏	https://www.merriam-webster.com/
 防疫政策	https://i.snssdk.com/feoffline/ugc_activities/html/epidemic-prevention-sftr/index.html?style_id=30044

@@ -1,10 +1,15 @@
 # coding: utf-8
+"""
+将每一期网站数据
+    由txt文本格式 ==转换成==> JSON格式
+    JSON格式的数据可直接在js代码中使用
+"""
 import json
 
 num = 8
 web_list = []
 
-# 格式化txt
+# 格式化web_*.txt，生成统一格式的临时文件 web_*_out.txt
 for i in range(1, num + 1):
     with open(f'./web_{i}_out.txt', 'w') as fo:
         with open(f'./web_{i}.txt', 'r') as f:
@@ -26,7 +31,7 @@ for i in range(1, num + 1):
                 else:
                     fo.write(line)
 
-# txt转json
+# 逐个解析web_*_out.txt文本，生成一个JSON对象，此JSON对象存有完整的全期网站数据
 for i in range(num, 0, -1):
     kind = f'web_{i}'
     with open(f'./web_{i}_out.txt', 'r') as f:
@@ -48,5 +53,6 @@ for i in range(num, 0, -1):
                     'star': None,
                 })
 
+# 生成web_list.json文件，即本地数据库，内容可直接拷贝到js代码中
 with open(f'web_list.json', 'w')as fp:
     json.dump(web_list, fp)

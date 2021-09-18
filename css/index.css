@@ -14,6 +14,7 @@ body {
     letter-spacing: 0.1em;
 }
 
+/* 大标题下的摘要 */
 p.group-video{
     margin-top: 4px;
     font-family: SF Pro SC,SF Pro Text,SF Pro Display,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -23,6 +24,7 @@ p.group-video .iconfont{
     font-size: 14px;
 }
 
+/* 鼠标不可选中的标签 */
 .web-menu, .web-list, #scroll-to-top, #submit {
     -o-user-select: none;
     -moz-user-select: none;
@@ -79,7 +81,7 @@ ul, li, ol {
     display: none !important;
 }
 
-/* 卡片 */
+/* 网站卡片 */
 .section {
     display: block;
     position: relative;
@@ -324,7 +326,7 @@ ul, li, ol {
 }
 
 #submit:active span {
-    color: var(--darkorange);
+    color: darkorange;
 }
 
 #submit:active {
@@ -341,7 +343,7 @@ ul, li, ol {
     padding-left: 5px;
 }
 
-/* 移动端 */
+/* 移动端响应式布局 */
 @media (min-width: 768px) and (max-width: 991px) {
     .filter-button-group button {
         padding: 5px 10px;

@@ -17,7 +17,7 @@ for i in range(1, num + 1):
                 if line[-2] == ' ':
                     line = line[:-2] + '\n'
                 line = line.replace(' http', '|http')
-                line = line.replace(' 强推', '*star')
+                line = line.replace(' 强推', '*$$$$')
                 line = line.replace('（外）', " <span class='iconfont'>&#xe64b;</span>")
                 if line.count('|http') > 1:
                     line_list = line[:-1].split('|')
@@ -31,8 +31,8 @@ for i in range(num, 0, -1):
     kind = f'web_{i}'
     with open(f'./web_{i}_out.txt', 'r') as f:
         for line in f:
-            if '*star' in line:
-                line_list = line.strip('*star\n').split('|')
+            if '*$$$$' in line:
+                line_list = line.strip('*$\n').split('|')
                 web_list.append({
                     'kind': kind,
                     'title': line_list[0],

@@ -8,10 +8,14 @@ body {
     color: #999999;
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
-    font-family: SF Pro SC,SF Pro Text,SF Pro Display,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: "Microsoft Yahei Light","Microsoft Yahei",PingFangSC-Regular,Helvetica,sans-serif;
     line-height: 1.80857;
     background-color: var(--greyLight-1);
     letter-spacing: 0.1em;
+}
+
+p.group-video{
+    font-family: SF Pro SC,SF Pro Text,SF Pro Display,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .web-menu, .web-list, #scroll-to-top {

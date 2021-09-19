@@ -85,12 +85,14 @@ $('button').click(function (event) {
   }
 })
 
-// 窗口自适应
-// function resize() {
-//   $('.web-menu button.active').click();
-// }
-// resize();
-// window.onresize = resize;
+// 桌面端窗口自适应
+function resize() {
+  if($(window).width() >= 768){
+    $('.web-menu button.active').click();
+  }
+}
+resize();
+window.onresize = resize;
 
 // 搜索
 $('#submit').click(function (event) {

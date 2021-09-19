@@ -550,10 +550,12 @@ Email: xiang9872@gmail.com
 `);
 
 // 问题反馈
+let $name = $('#recipient-name');
+let $content = $('#message-text');
+let $send_msg = $('#send_msg');
 $('#send_msg').click(function (event) {
-    let res = this;
-    let name = $('#recipient-name').val().trim();
-    let content = $('#message-text').val().trim();
+    let name = $name.val().trim();
+    let content = $content.val().trim();
     let content_length = content.length;
     let name_length = name.length;
     let null_flag = false;
@@ -575,8 +577,9 @@ $('#send_msg').click(function (event) {
         length_flag = true;
     }
     if (null_flag && length_flag) {
-        $('#recipient-name').val('');
-        $('#message-text').val('');
+        $name.val('');
+        $content.val('');
+        $send_msg.attr('disabled', true);
         let ip = `${navigator.userAgent.toLowerCase()}`;
         $.ajax({
             type: "POST",
@@ -588,12 +591,22 @@ $('#send_msg').click(function (event) {
                 "ip": ip
             },
             error: function (XMLHttpRequest, textStatus, errorThrown) {
+                $send_msg.attr('disabled', false);
                 alert('！！！服务器出问题了，留言发送失败！');
             },
             success: function (msg) {
-                alert(`发送成功！
-        谢谢你的反馈，这对我很有帮助。`);
+                $send_msg.attr('disabled', false);
+                alert(`
+发送成功！
+
+谢谢你的反馈，这将对我很有帮助。`);
             }
         });
     }
 })
+$name.keydown(function (event) {
+    if (event.keyCode === 13) {
+        $content.focus();
+        return false;
+    }
+});

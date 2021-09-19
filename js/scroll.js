@@ -548,3 +548,52 @@ Website: https://www.helloxjn.com
 Email: xiang9872@gmail.com
 
 `);
+
+// 问题反馈
+$('#send_msg').click(function (event) {
+    let res = this;
+    let name = $('#recipient-name').val().trim();
+    let content = $('#message-text').val().trim();
+    let content_length = content.length;
+    let name_length = name.length;
+    let null_flag = false;
+    let length_flag = false;
+    if (!name && !content) {
+        alert('！！！请输入标题、详细内容');
+    } else if (!name) {
+        alert('！！！请输入标题');
+    } else if (!content) {
+        alert('！！！请输入详细内容');
+    } else {
+        null_flag = true;
+    }
+    if (name_length > 32) {
+        alert('！！！标题太长了，已超出32个字符的限制');
+    } else if (content_length > 1024) {
+        alert(`！！！你一共写了${content_length}个字，已超出1024个字符的限制`);
+    } else {
+        length_flag = true;
+    }
+    if (null_flag && length_flag) {
+        $('#recipient-name').val('');
+        $('#message-text').val('');
+        let ip = `${navigator.userAgent.toLowerCase()}`;
+        $.ajax({
+            type: "POST",
+            dataType: "text",
+            url: 'https://www.helloxjn.com/api/db_content',
+            data: {
+                "name": name,
+                "content": content,
+                "ip": ip
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                alert('！！！服务器出问题了，留言发送失败！');
+            },
+            success: function (msg) {
+                alert(`发送成功！
+        谢谢你的反馈，这对我很有帮助。`);
+            }
+        });
+    }
+})

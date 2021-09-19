@@ -349,6 +349,47 @@ ul, li, ol {
     padding: 0 10px 0 0;
 }
 
+/* 模态框 */
+.modal-content {
+    background-color: var(--greyLight-1);
+}
+.modal-content button {
+    outline: none!important; 
+    box-shadow: none!important;
+}
+.form-group {
+    border-radius: 0.8em;
+    outline: none;
+    box-shadow: inset 0.2rem 0.2rem 0.4rem var(--greyLight-2), inset -0.2rem -0.2rem 0.4rem white;
+}
+.form-control {
+    margin-bottom: 30px;
+    border: none;
+    box-sizing: border-box;
+    color: #333333;
+    font-size: 16px;
+    outline: none;
+    padding: 10px 25px;
+    height: 55px;
+    resize: none;
+    width: 100%;
+    border-radius: 0.8em;
+}
+textarea {
+    outline: none;
+    padding: 20px 25px !important;
+    height: 170px !important;
+}
+.form-control::-webkit-input-placeholder {
+    color: #a3a3a3;
+}
+.form-control::-moz-placeholder {
+    color: #a3a3a3;
+}
+.form-control::-ms-input-placeholder {
+    color: #a3a3a3;
+}
+
 /* 移动端响应式布局 */
 @media (min-width: 768px) and (max-width: 991px) {
     .filter-button-group button {

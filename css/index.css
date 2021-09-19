@@ -25,7 +25,7 @@ p.group-video .iconfont{
 }
 
 /* 鼠标不可选中的标签 */
-.web-menu, .web-list, #scroll-to-top, #submit {
+.web-menu, .web-list, #scroll-to-top, #submit, .modal-content {
     -o-user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -310,6 +310,7 @@ ul, li, ol {
 }
 #submit {
     display: block;
+    float: right;
     font-size: 19px;
     color: #333333;
     width: 45px;
@@ -334,13 +335,18 @@ ul, li, ol {
 }
 
 .resize-col-md-3{
-    padding-right: 5px;
-    padding-left: 25px;
+    position: absolute;
+    top: 53px;
+    right: 50px;
+    padding: 0 15px 0 0;
+    
 }
 
 .resize-col-md-1{
-    padding-right: 25px;
-    padding-left: 5px;
+    position: absolute;
+    top: 53px;
+    right: 0;
+    padding: 0 10px 0 0;
 }
 
 /* 移动端响应式布局 */
@@ -435,15 +441,21 @@ ul, li, ol {
         margin: 12px 0 18px;
     }
 
+    p.group-video {
+        margin: 0;
+    }
+
     p.group-video .iconfont{
         font-size: 13px;
     }
 
     .col-md-3{
-        width: 80%;
+        top: 0;
+        width: 50%;
     }
 
     .col-md-1{
+        top: 0;
         width: 20%;
     }
 }
@@ -493,15 +505,23 @@ ul, li, ol {
         margin: 12px 0 18px;
     }
 
+    p.group-video {
+        margin: 0;
+    }
+
     p.group-video .iconfont{
         font-size: 13px;
     }
 
     .col-md-3{
-        width: 80%;
+        top: 0;
+        right: 40px;
+        width: 40%;
     }
 
     .col-md-1{
+        top: 0;
+        right: -10px;
         width: 20%;
     }
 }

@@ -2,7 +2,7 @@ let web_list = [{"kind": "web_8", "title": "\u634f\u8138", "href": "https://picr
 // 渲染出所有网站卡片
 let web_list_html = `<div class="col-md-4 web-grid web_8">
 <a href="javascript:0" target="_self">
-  <div id="lks" class="services-inner-box web-single clearfix" ontouchstart="" @click="send">
+  <div class="services-inner-box web-single clearfix" ontouchstart="" data-toggle="modal" data-target="#exampleModal">
     <span class="flag star iconfont">&#xe639;</span>
     <h2>LKs网页推荐站</h2>
     <p>https://xiangjianan.gitee.io/lks/</p>
@@ -76,10 +76,10 @@ let video_list = [
   ['第七期 BV1bU4y1x7A1', 'https://www.bilibili.com/video/BV1bU4y1x7A1/'],
   ['第八期 BV1qQ4y1r7ty', 'https://www.bilibili.com/video/BV1qQ4y1r7ty/'],
 ]
-$('button').click(function (event) {
+$('.web-menu button').click(function (event) {
   let num = $(this).attr('num');
   if (num === '0') {
-    $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526?spm_id_from=333.788.b_765f7570696e666f.1" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
+    $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
   } else {
     $('.group-video').html(`视频传送门：<a href="${video_list[Number(num)][1]}" rel="nofollow noreferrer" target="_blank"><span class="iconfont">&#xe6b4; </span>${video_list[Number(num)][0]}</a>`);
   }
@@ -91,7 +91,6 @@ function resize() {
     $('.web-menu button.active').click();
   }
 }
-resize();
 window.onresize = resize;
 
 // 搜索
@@ -120,4 +119,13 @@ $('#search').keydown(function (event) {
   if (event.keyCode === 13) {
       $('#submit').click();
   }
+});
+
+// 日访问量统计接口
+$.ajax({
+  type: "POST",
+  url: "https://www.helloxjn.com/log/",
+  data: {
+      'web': 'lks',
+  },
 });

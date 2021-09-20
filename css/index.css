@@ -203,7 +203,7 @@ ul, li, ol {
     font-size: 14px;
     cursor: pointer;
     background: rgba(0, 0, 0, 0);
-    padding: 8px 24px;
+    padding: 8px 20px;
     margin: 0 3px;
     border-radius: 0.3em;
     outline: none;
@@ -390,6 +390,15 @@ textarea {
     color: #a3a3a3;
 }
 
+/* 星标按钮 */
+.btn_star {
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+}
+.btn_star .iconfont {
+    font-size: 14px!important;
+}
+
 /* 移动端响应式布局 */
 @media (min-width: 768px) and (max-width: 991px) {
     .filter-button-group button {
@@ -434,6 +443,11 @@ textarea {
 
     .web-single {
         margin: 12px 0 18px;
+    }
+
+    .btn_star {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
     }
 }
 
@@ -498,6 +512,11 @@ textarea {
     .col-md-1{
         top: 0;
         width: 20%;
+    }
+
+    .btn_star {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
     }
 }
 
@@ -564,6 +583,11 @@ textarea {
         top: 0;
         right: -10px;
         width: 20%;
+    }
+
+    .btn_star {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
     }
 }
 

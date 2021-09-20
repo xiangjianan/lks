@@ -539,6 +539,11 @@ $.ajax({
     },
 });
 
+// 图片懒加载
+setTimeout(function name(params) {
+    $('.modal-body img').attr('src', 'img/lks.png');
+},300)
+
 // 交个朋友
 console.log(`
 GitHub: https://github.com/xiangjianan

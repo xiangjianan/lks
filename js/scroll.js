@@ -542,7 +542,11 @@ $.ajax({
 // 图片懒加载
 setTimeout(function name(params) {
     $('.modal-body img').attr('src', 'img/lks.png');
-},300)
+}, 300)
+
+// lks模态框
+$('.open_lks_btn').click(()=>{window.open("https://xiangjianan.gitee.io/lks/")})
+$('.github_lks_btn').click(()=>{window.open("https://github.com/xiangjianan/lks")})
 
 // 交个朋友
 console.log(`
@@ -557,56 +561,75 @@ Email: xiang9872@gmail.com
 // 问题反馈
 let $name = $('#recipient-name');
 let $content = $('#message-text');
-let $send_msg = $('#send_msg');
-$('#send_msg').click(function (event) {
-    let name = $name.val().trim();
-    let content = $content.val().trim();
-    let content_length = content.length;
-    let name_length = name.length;
-    let null_flag = false;
-    let length_flag = false;
-    if (!name && !content) {
-        alert('！！！请输入标题、详细内容');
-    } else if (!name) {
-        alert('！！！请输入标题');
-    } else if (!content) {
-        alert('！！！请输入详细内容');
-    } else {
-        null_flag = true;
-    }
-    if (name_length > 32) {
-        alert('！！！标题太长了，已超出32个字符的限制');
-    } else if (content_length > 1024) {
-        alert(`！！！你一共写了${content_length}个字，已超出1024个字符的限制`);
-    } else {
-        length_flag = true;
-    }
-    if (null_flag && length_flag) {
-        $name.val('');
-        $content.val('');
-        $send_msg.attr('disabled', true);
-        let ip = `${navigator.userAgent.toLowerCase()}`;
-        $.ajax({
-            type: "POST",
-            dataType: "text",
-            url: 'https://www.helloxjn.com/api/db_content',
-            data: {
-                "name": name,
-                "content": content,
-                "ip": ip
-            },
-            error: function (XMLHttpRequest, textStatus, errorThrown) {
-                $send_msg.attr('disabled', false);
-                alert('！！！服务器出问题了，留言发送失败！');
-            },
-            success: function (msg) {
-                $send_msg.attr('disabled', false);
-                alert(`
-发送成功！
-
-谢谢你的反馈，这将对我很有帮助。`);
+new Vue({
+    el: '#send_msg',
+    data() {
+        return {
+            send_flag: true,
+        };
+    },
+    methods: {
+        send() {
+            let res = this;
+            let $send_msg = $('#send_msg');
+            let name = $name.val().trim();
+            let content = $content.val().trim();
+            let name_length = name.length;
+            let content_length = content.length;
+            this.send_flag = true;
+            if (!name && !content) {
+                this.ele_message('请输入标题、详细内容', 'info');
+            } else if (!name) {
+                this.ele_message('请输入标题', 'info');
+            } else if (!content) {
+                this.ele_message('请输入详细内容', 'info');
             }
-        });
+            if (name_length > 32) {
+                this.ele_message('标题太长了，已超出32个字符的限制', 'warning');
+            } else if (content_length > 1024) {
+                this.ele_message(`你一共写了${content_length}个字，已超出1024个字符的限制`, 'warning');
+            }
+            if (this.send_flag) {
+                $name.val('');
+                $content.val('');
+                $send_msg.attr('disabled', true);
+                let ip = `${navigator.userAgent.toLowerCase()}`;
+                $.ajax({
+                    type: "POST",
+                    dataType: "text",
+                    url: 'https://www.helloxjn.com/api/db_content',
+                    data: {
+                        "name": name,
+                        "content": content,
+                        "ip": ip
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        $send_msg.attr('disabled', false);
+                        res.ele_message('服务器出问题了，消息发送失败！', 'error');
+                    },
+                    success: function (msg) {
+                        $send_msg.attr('disabled', false);
+                        res.$notify({
+                            title: '已发送',
+                            message: `谢谢你的反馈，这将对我非常重要！`,
+                            dangerouslyUseHTMLString: true,
+                            type: 'success',
+                            center: true,
+                        });
+                    }
+                });
+            }
+        },
+        ele_message(msg, type) {
+            this.send_flag = false;
+            $('.el-message__closeBtn').click();
+            this.$message({
+                message: msg,
+                type: type,
+                center: true,
+                showClose: true,
+            });
+        },
     }
 })
 $name.keydown(function (event) {

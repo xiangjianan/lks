@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#E4EBF8">
     <title>LKs - 良心到难以置信的网站推荐</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="https://github.githubassets.com/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="https://github.githubassets.com/apple-touch-icon-180x180.png">
     <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/index.1.0.10.min.css">
+    <link rel="stylesheet" href="css/index.1.0.11.min.css">
     <link rel="stylesheet" href="font/iconfont.1.0.1.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/element-ui/2.15.0/theme-chalk/index.min.css">
 </head>
 
 <body id="page-top" class="politics_version ">
@@ -72,8 +74,8 @@
                 <img src2="img/lks.png" width="100%" style="border-radius: 5px;" alt="">
             </div>
             <div class="modal-footer">
-            <a class="btn btn-primary" href="https://xiangjianan.gitee.io/lks/" target="_blank">打开网站</a>
-            <a class="btn btn-primary" href="https://github.com/xiangjianan/lks" target="_blank">看看源码</a>
+            <button type="button" class="btn btn-primary open_lks_btn">打开网站</button>
+            <button type="button" class="btn btn-primary github_lks_btn">看看源码</button>
             <button type="button" class="btn btn-primary" data-dismiss="modal">溜了！</button>
             </div>
         </div>
@@ -99,15 +101,16 @@
               </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
-              <button id="send_msg" type="button" class="btn btn-primary">发送</button>
+              <button id="send_msg" type="button" class="btn btn-primary" @click="send">发送</button>
             </div>
           </div>
         </div>
       </div>
 </body>
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="js/index.1.0.8.min.js"></script>
+<script src="js/index.1.0.9.min.js"></script>
 <script defer src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-<script defer src="js/scroll.1.0.4.min.js"></script>
+<script defer src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.12/vue.min.js"></script>
+<script defer src="https://cdn.bootcdn.net/ajax/libs/element-ui/2.15.0/index.min.js"></script>
+<script defer src="js/scroll.1.0.5.min.js"></script>
 </html>

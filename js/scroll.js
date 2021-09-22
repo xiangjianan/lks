@@ -535,7 +535,7 @@ new Vue({
                 message: msg,
                 type: type,
                 center: true,
-                offset: 1,
+                offset: -1,
                 showClose: true,
             });
         },
@@ -650,7 +650,7 @@ new Vue({
                 message: msg,
                 type: type,
                 center: true,
-                offset: 1,
+                offset: -1,
                 showClose: true,
             });
         },

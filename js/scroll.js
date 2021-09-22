@@ -650,6 +650,7 @@ new Vue({
                 message: msg,
                 type: type,
                 center: true,
+                offset: 1,
                 showClose: true,
             });
         },

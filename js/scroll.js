@@ -507,21 +507,38 @@ function resize() {
 window.onresize = resize;
 
 // 搜索功能
-$('#submit').click(function (event) {
-    let inp = $('#search').val();
-    if (inp) {
-        $('#search').val('');
-        $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
-        $('.web-list .web-grid').each(function (event) {
-            if ($(this).find('.web-single h2').text().toUpperCase().search(inp.toUpperCase()) != -1) {
-                $(this).addClass('filter_web');
+new Vue({
+    el: '#submit',
+    methods: {
+        search_send() {
+            let inp = $('#search').val();
+            if (inp) {
+                $('#search').val('');
+                $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
+                $('.web-list .web-grid').each(function (event) {
+                    if ($(this).find('.web-single h2').text().toUpperCase().search(inp.toUpperCase()) != -1) {
+                        $(this).addClass('filter_web');
+                    }
+                });
+                $('.web-list').isotope({
+                    itemSelector: '.web-grid',
+                    filter: '.filter_web'
+                });
+                $('.web-list .web-grid').removeClass('filter_web');
+            } else {
+                this.ele_message('请输入关键词', 'info')
             }
-        });
-        $('.web-list').isotope({
-            itemSelector: '.web-grid',
-            filter: '.filter_web'
-        });
-        $('.web-list .web-grid').removeClass('filter_web');
+        },
+        ele_message(msg, type) {
+            $('.el-message__closeBtn').click();
+            this.$message({
+                message: msg,
+                type: type,
+                center: true,
+                offset: 1,
+                showClose: true,
+            });
+        },
     }
 })
 $('#search').keydown(function (event) {
@@ -545,8 +562,8 @@ setTimeout(function name(params) {
 }, 300)
 
 // lks模态框
-$('.open_lks_btn').click(()=>{window.open("https://xiangjianan.gitee.io/lks/")})
-$('.github_lks_btn').click(()=>{window.open("https://github.com/xiangjianan/lks")})
+$('.open_lks_btn').click(() => { window.open("https://xiangjianan.gitee.io/lks/") })
+$('.github_lks_btn').click(() => { window.open("https://github.com/xiangjianan/lks") })
 
 // 交个朋友
 console.log(`

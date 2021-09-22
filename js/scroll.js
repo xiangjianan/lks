@@ -577,12 +577,10 @@ new Vue({
             let name_length = name.length;
             let content_length = content.length;
             this.send_flag = true;
-            if (!name && !content) {
-                this.ele_message('请输入标题、详细内容', 'info');
-            } else if (!name) {
-                this.ele_message('请输入标题', 'info');
+            if (!name) {
+                this.ele_message('请输入反馈内容', 'info');
             } else if (!content) {
-                this.ele_message('请输入详细内容', 'info');
+                content = '无';
             }
             if (name_length > 32) {
                 this.ele_message('标题太长了，已超出32个字符的限制', 'warning');
@@ -593,7 +591,7 @@ new Vue({
                 $name.val('');
                 $content.val('');
                 $send_msg.attr('disabled', true);
-                let ip = `${navigator.userAgent.toLowerCase()}`;
+                $send_msg.addClass('send_disabled');
                 $.ajax({
                     type: "POST",
                     dataType: "text",
@@ -601,14 +599,22 @@ new Vue({
                     data: {
                         "name": name,
                         "content": content,
-                        "ip": ip
+                        "ip": 'lks网站反馈'
                     },
                     error: function (XMLHttpRequest, textStatus, errorThrown) {
                         $send_msg.attr('disabled', false);
-                        res.ele_message('服务器出问题了，消息发送失败！', 'error');
+                        $send_msg.removeClass('send_disabled');
+                        res.$notify({
+                            title: '发送失败',
+                            message: `服务器出问题了，消息发送失败！`,
+                            dangerouslyUseHTMLString: true,
+                            type: 'error',
+                            center: true,
+                        });
                     },
                     success: function (msg) {
                         $send_msg.attr('disabled', false);
+                        $send_msg.removeClass('send_disabled');
                         res.$notify({
                             title: '已发送',
                             message: `谢谢你的反馈，这将对我非常重要！`,

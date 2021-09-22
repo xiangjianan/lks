@@ -410,6 +410,7 @@ ul, li, ol {
 /* 自定义ele */
 .el-notification.right {
     background-color: var(--greyLight-1) !important;
+    width: 333px;
 }
 .modal-footer .btn-primary {
     box-shadow: .1rem .1rem .2rem var(--greyLight-2),-.1rem -.1rem .3rem var(--white)!important;
@@ -423,6 +424,12 @@ ul, li, ol {
 }
 .btn {
     transition: color 0s ease-in-out,background-color 0s ease-in-out,border-color 0s ease-in-out,box-shadow 0s ease-in-out;
+}
+
+/* 发送按钮 */
+#send_msg.send_disabled:active {
+    color: #333333!important;
+    box-shadow: .1rem .1rem .2rem var(--greyLight-2),-.1rem -.1rem .3rem var(--white)!important;
 }
 
 /* 移动端响应式布局 */

@@ -1,29 +1,29 @@
-行业报告	http://report.seedsufe.com/#/report{轻量级行研数据工具，强大的信息聚合站{工具&信息
-世界之声（外）	https://aporee.org/maps/{在线听到世界各地的声音{娱乐&音乐
+行业报告	http://report.seedsufe.com/#/report{轻量级行研数据工具{工具&信息
+世界之声（外）	https://aporee.org/maps/{全球声音地图，致力于现场录音、声学和收听艺术{娱乐&音乐
 商用图片	https://www.pexels.com/zh-cn/{才华横溢的摄影作者在这里免费分享最精彩的素材图片和视频{实用&图片			强推
-抠图	https://www.remove.bg/{消除图片中的背景，细节处理完美{工具&图片
-抠视频	https://www.unscreen.com/{逐帧消除视频中的背景{工具&视频
-打字比赛	https://play.typeracer.com/{和陌生人匹配，比赛打字速度{娱乐
-空投	https://airportal.cn/{临时网盘共享文件，使用快速便捷{实用&工具			强推
-宝贝DJ	http://www.bbdj.com/{土嗨DJ，有内味儿了{娱乐&音乐
-色彩	https://color.adobe.com/zh/create/color-wheel{Adobe Color，色彩配色，专业的调色参考{工具&图片
-3D模型	https://sketchfab.com/{收集了众多设计师的3D模型设计作品，可在线购买，可白嫖浏览{工具&设计
-3D模型	https://www.thingiverse.com/{粉丝推荐3D模型网站{工具&设计
-核爆	https://nuclearsecrecy.com/nukemap/{模拟核武器爆炸，愿世界和平{娱乐
-约稿	https://www.mihuashi.com/artists{购物平台，在线买画，约画师定制画，二次元为主{实用&图片
-虚拟博物馆	https://virtual.mauritshuis.nl/index.html?lang=en&startscene=21{在线超高清虚拟游馆，可选导游，可自行游览，画质分辨率极高{娱乐&图片
-尺寸	https://www.dimensions.com/{一个尺寸参考网站，记录了构成日常物体的标准尺寸{工具
+抠图	https://www.remove.bg/{从图像中消除背景{工具&图片
+抠视频	https://www.unscreen.com/{逐帧消除视频背景{工具&视频
+打字比赛	https://play.typeracer.com/{屡获殊荣的在线打字比赛，这是网络上的第一个多人打字游戏{游戏
+空投	https://airportal.cn/{只要您的设备联网，您就可以通过它在任意系统、任意设备间传输文件{实用&工具			强推
+宝贝DJ	http://www.bbdj.com/{无损高品质DJ舞曲分享，音质最好的DJ免费下载网站{娱乐&音乐
+色彩	https://color.adobe.com/zh/create/color-wheel{Adobe Color-一个调色板生成器{工具&图片
+3D模型	https://sketchfab.com/{Sketchfab-网络上最好的3D查看器{工具&设计
+3D模型	https://www.thingiverse.com/{Thingiverse-3D实物的数字设计{工具&设计
+核爆	https://nuclearsecrecy.com/nukemap/{模拟核武器爆炸-愿世界和平{娱乐
+约稿	https://www.mihuashi.com/artists{米画师美术外包交易平台，带给你自由、高效、专业的美术工作体验{实用&图片
+虚拟博物馆	https://virtual.mauritshuis.nl/index.html?lang=en&startscene=21{线上超高清虚拟游馆{娱乐&图片
+尺寸	https://www.dimensions.com/{尺寸参考网站，记录了构成日常物体的标准尺寸{工具
 迪士尼化	https://toonme.com/{生成迪士尼画风的头像{娱乐&图片
-动态图表	https://hanabi.data-viz.cn/index?lang=zh-CN{数据可视化，生成动态图表超级简单，高清需付费，不过价格合理{实用&工具			强推
-中国营养	https://www.fatsecret.cn/%E7%83%AD%E9%87%8F%E8%90%A5%E5%85%BB/{记录每天摄入食物的热量{工具&生活
-发现	https://www.producthunt.com/{收集了世界上最新的最有趣的互联网产品{信息&娱乐
-找音乐	https://www.tunefind.com/{找到各种美剧、电影的背景音乐{工具&音乐
+动态图表	https://hanabi.data-viz.cn/index?lang=zh-CN{好看的图标形态各异，制作的工具简单如一{实用&工具			强推
+中国营养	https://www.fatsecret.cn/%E7%83%AD%E9%87%8F%E8%90%A5%E5%85%BB/{中国的各种食物和品牌{工具&生活
+发现	https://www.producthunt.com/{发现技术领域最好的新产品{信息&娱乐
+找音乐	https://www.tunefind.com/{寻找电视和电影中的音乐{工具&音乐
 996身临其境	https://imisstheoffice.eu/{闭上眼睛想象你还在办公室，很美妙，不是吗{娱乐&工具
-这个不存在	https://thisxdoesnotexist.com/{AI生成各种各样不存在的东西{娱乐
-森林之声	https://www.tree.fm/{听到全世界森林的声音{娱乐&音乐
-西方电音	https://www.traxsource.com/dj-top-10s{宝贝DJ的西方版{音乐
-猜真假	https://landing.adobe.com/en/na/products/creative-cloud/69308-real-or-photoshop/index.html{一个猜真假的游戏{游戏
-魔性（外）	https://patatap.com/{一个非常魔性的点击网站{娱乐
-中华珍宝馆	https://www.ltfc.net/exhibit/recent{在线观看各种中国珍贵字画{娱乐&图片
-英语游戏	https://www.merriam-webster.com/{聚合了很多学习英文单词的小游戏{学习&游戏
-防疫政策	https://i.snssdk.com/feoffline/ugc_activities/html/epidemic-prevention-sftr/index.html?style_id=30044{在最新的政策下，出入各个省市是否需要隔离{工具
+这个不存在	https://thisxdoesnotexist.com/{使用生成对抗网络，我们可以学习如何创建几乎任何东西的逼真的假版本{娱乐
+森林之声	https://www.tree.fm/{收听来自世界各地森林的声音{娱乐&音乐
+西方电音	https://www.traxsource.com/dj-top-10s{不是每个人都懂House Music...但我们懂{音乐
+猜真假	https://landing.adobe.com/en/na/products/creative-cloud/69308-real-or-photoshop/index.html{有些图片是如此惊人，我们不确定它们是真实的还是PS的，你能分辨吗{游戏
+魔性（外）	https://patatap.com/{一个非常魔性的网站{娱乐&音乐
+中华珍宝馆	https://www.ltfc.net/exhibit/recent{中华书法、绘画欣赏，高清下载{娱乐&图片
+英语游戏	https://www.merriam-webster.com/{单词游戏和测验{学习&游戏
+防疫政策	https://i.snssdk.com/feoffline/ugc_activities/html/epidemic-prevention-sftr/index.html?style_id=30044{出行防疫政策查询{工具

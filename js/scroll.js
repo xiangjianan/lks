@@ -502,9 +502,18 @@ if ($scroll_to_top.length) {
 function resize() {
     if ($(window).width() >= 768) {
         $('.web-menu button.active').click();
+    } else {
+        $('.services-inner-box').unbind('mouseenter').unbind('mouseleave'); 
     }
 }
 window.onresize = resize;
+
+// 取消移动端bootstrap hover效果
+if ($(window).width() < 768) {
+    setTimeout(function name(params) {
+        $('.services-inner-box').unbind('mouseenter').unbind('mouseleave'); 
+    },300);
+}
 
 // 搜索功能
 new Vue({
@@ -670,3 +679,4 @@ $('[data-toggle="popover"]').popover({
     placement: 'top',
     trigger: 'hover',
 })
+

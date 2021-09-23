@@ -1,29 +1,29 @@
-捏脸|https://picrew.me/
-追踪热点后续|https://houxu.app/*$$$$
-人生重开模拟器|http://liferestart.syaro.io/view/index.html
-生成背景图|https://cn.pattern.monster/
-神器聚合站|https://uiiiuiii.com/tools
-5000兆円生成器|http://yurafuca.com/5000choyen/
-在线Winamp|https://webamp.org/
-油画转换器|https://fotosketcher.com/
-令咒icon|https://shindanmaker.com/1064580
-历年电影海报|http://www.impawards.com/
-选电影|https://datenightmovies.com/
-选电影|https://autum.com/
-人工智障写作|http://if.caiyunai.com/dream/#/
-书法生成器|http://www.ziticq.com/shufa/
-健身百科|https://musclewiki.com/
-世界语言学习 <span class='iconfont'>&#xe64b;</span>|https://www.zerotohero.ca/*$$$$
-全球食物地图|https://www.tasteatlas.com/search
-地图生成器|https://azgaar.github.io/Fantasy-Map-Generator/
-随机生成器|https://sharkle.com/
-买星星|https://osr.org/
-噪音生成器|https://29a.ch/noise-generator/
-音轨分离(中文)|https://dango.ai/
-NCM转换|https://ncm.worthsee.com/site/index
-中小学网课|https://ykt.eduyun.cn/ykt/sjykt/index.html?from=timeline&isappinstalled=0
-鼠标测试|https://cps-check.com/cn/polling-rate-check
-索尼の一天风景|https://www.sony.net/united/clock/
-国际空间站对接|https://iss-sim.spacex.com/
-抠图(中文)|http://www.picup.shop/currencyBatch.html
-万能法律咨询|https://ai.12348.gov.cn/pc/*$$$$
+捏脸|https://picrew.me/{用自己的设计，制作你的专属头像{娱乐&图片
+追踪热点后续|https://houxu.app/{有记忆的新闻，持续追踪社会热点{实用*$$$$
+人生重开模拟器|http://liferestart.syaro.io/view/index.html{这垃圾的人生一点也不想呆了{游戏
+生成背景图|https://cn.pattern.monster/{一个简单的重复性SVG图案在线生成器{工具&图片
+神器聚合站|https://uiiiuiii.com/tools{聚合了各种各样的在线神器{实用
+5000兆円生成器|http://yurafuca.com/5000choyen/{生成一种特效字体{工具&图片
+在线Winamp|https://webamp.org/{复古音乐播放器{音乐
+油画转换器|https://fotosketcher.com/{用你的数码照片创造美丽的艺术作品{工具&图片
+令咒icon|https://shindanmaker.com/1064580{输入你的名字，帮你生成一个令咒画风的图标{娱乐&图片
+历年电影海报|http://www.impawards.com/{所有最新的电影海报{视频
+选电影|https://datenightmovies.com/{选择两部电影，我们将把它们结合起来，展示你会喜欢的推荐{工具&视频
+选电影|https://autum.com/{我们将分析您看过的所有电影和电视节目，并生成您的统计数据{工具&视频
+人工智障写作|http://if.caiyunai.com/dream/#/{彩云小梦尝鲜版 - AI续写{工具
+书法生成器|http://www.ziticq.com/shufa/{在线书法字体生成，AI矢量书法字体{工具&图片
+健身百科|https://musclewiki.com/{肌肉维基百科，简化你的锻炼{生活&学习
+世界语言学习 <span class='iconfont'>&#xe64b;</span>|https://www.zerotohero.ca/{这是语言爱好者的天堂，提供数万个视频，包括数百种语言的字幕和字典工具{实用&学习*$$$$
+全球食物地图|https://www.tasteatlas.com/search{发现14716种当地菜肴和食材{生活
+地图生成器|https://azgaar.github.io/Fantasy-Map-Generator/{Azgaar的幻想地图生成器{工具
+随机生成器|https://sharkle.com/{随机生成一个3D视效网页{娱乐
+买星星|https://osr.org/{命名一个星星，为希望和欢乐送上光芒{艺术&娱乐
+噪音生成器|https://29a.ch/noise-generator/{噪声发生器，在线白噪声{音乐
+音轨分离(中文)|https://dango.ai/{借助我们音质至上的AI技术，您可以从任何音频中分离出伴奏，人声，和声，鼓点，贝斯等轨道{工具&音乐
+NCM转换|https://ncm.worthsee.com/site/index{网易云NCM格式在线转换为MP3格式{工具&音乐
+中小学网课|https://ykt.eduyun.cn/ykt/sjykt/index.html?from=timeline&isappinstalled=0{国家中小学网络云平台{学习
+鼠标测试|https://cps-check.com/cn/polling-rate-check{鼠标轮询率检查器{工具
+索尼の一天风景|https://www.sony.net/united/clock/{索尼全球 - α时钟：世界时间，由α捕获{艺术&图片
+国际空间站对接|https://iss-sim.spacex.com/{SpaceX - 国际空间站对接模拟器{游戏
+抠图(中文)|http://www.picup.shop/currencyBatch.html{皮卡智能一键抠图{工具&图片
+万能法律咨询|https://ai.12348.gov.cn/pc/{根据问卷提示填写相关信息，在线为您免费出具法律意见书，供您参考{实用&学习*$$$$

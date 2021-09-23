@@ -1,19 +1,20 @@
-封面下载|https://cover.olook.me/
-医学微视|https://www.mvyxws.com/*$$$$
-仿知网|https://www.cn-ki.net/
-自动加字幕|https://2zimu.com/#/
-N卡深度学习|https://www.nvidia.com/en-us/research/ai-playground/?fbclid=IwAR2QEjuH4aCYP3SycnKwa_LO36rfmDhulB4WCeY1plGCfofwIU-qf1anBTY
-渐变图|https://www.ls.graphics/meshgradients
-时差|https://everytimezone.com/
-双色 <span class='iconfont'>&#xe64b;</span>|https://duotone.shapefactory.co/?f=f56468&t=27184f&q=_
-亚塞|https://wangyasai.github.io/
-listen 1|http://listen1.github.io/listen1/*$$$$
-音乐 <span class='iconfont'>&#xe64b;</span>|https://www.youtube.com/channel/UCht8qITGkBvXKsR1Byln-wA/videos
-电音风格|http://music.ishkur.com/
-创意|https://creativemass.cn/#/
-up主排名|https://leptc.github.io/bili/
-yuzhua|https://mj.yuzhua.com/search/3.html
-日麻|https://www.maj-soul.com/#/home*$$$$
-？|https://resn.co.nz/#
-Grammarly|https://app.grammarly.com/
-机酒|https://www.tianxun.com/ 
+封面下载|https://cover.olook.me/{网易云音乐封面下载{工具&图片
+小工具合集|https://tools.miku.ac/{目前共开发了数十款有趣的小功能，数量还在持续增加中{实用&工具
+医学微视|https://www.mvyxws.com/{医学微视 - 看看专家怎么说{生活*$$$$
+仿知网|https://www.cn-ki.net/{iData知识检索 - 免费下载学术文献，免费论文下载{工具&学习
+自动加字幕|https://2zimu.com/#/{上传视频，几分钟内得到字幕{工具&视频
+N卡深度学习|https://www.nvidia.com/en-us/research/ai-playground/?fbclid=IwAR2QEjuH4aCYP3SycnKwa_LO36rfmDhulB4WCeY1plGCfofwIU-qf1anBTY{实时播放人工智能演示，参观人工智能艺术馆{娱乐&图片
+渐变图|https://www.ls.graphics/meshgradients{免费下载渐变素材图{图片
+时差|https://everytimezone.com/{时区转换器，比较时区差异，一键找到会议的最佳时间{生活&工具
+双色 <span class='iconfont'>&#xe64b;</span>|https://duotone.shapefactory.co/?f=f56468&t=27184f&q=_{上传你自己的图片并在几秒钟内应用双色效果来制作自定义双色图片{图片
+亚塞|https://wangyasai.github.io/{点开菜单栏，发现“设计工具”{工具&图片
+listen 1|http://listen1.github.io/listen1/{搜索和播放各大音乐网站的歌曲，让你的曲库更全面{工具&音乐*$$$$
+音乐 <span class='iconfont'>&#xe64b;</span>|https://www.youtube.com/channel/UCht8qITGkBvXKsR1Byln-wA/videos{无版权音乐提供频道{音乐
+电音风格|http://music.ishkur.com/{电音风格科普网站{音乐
+创意|https://creativemass.cn/#/{我们在全世界精挑细选，希望成为你最有价值的灵感来源{实用&工具
+up主排名|https://leptc.github.io/bili/{B站up主排行榜{娱乐
+yuzhua|https://mj.yuzhua.com/search/3.html{新媒体数据在线查询{工具&视频
+日麻|https://www.maj-soul.com/#/home{雀魂 - 随时随地，轻松麻将{游戏*$$$$
+？|https://resn.co.nz/#{渲染屏幕，供您享受{娱乐
+Grammarly|https://app.grammarly.com/{使用Grammarly的人工智能写作助理编写大胆、清晰、无错误的写作{工具
+机酒|https://www.tianxun.com/{出差机票酒店价格查询网站{生活&工具

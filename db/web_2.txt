@@ -1,23 +1,21 @@
-世界数据统计	http://www.everysecond.io/
-五花肉	https://eitheryoulikebaconoryourewrong.com/
-免费游戏音效	http://www.sonniss.com/gameaudiogdc2017/
-adobe全系	http://adobe.v404.cn/adobe/
-艺术字	http://www.akuziti.com/yw/
-2倍老婆	http://waifu2x.udp.jp/
-截图搜新番	https://whatanime.ga/#
-自动上色	http://paintschainer.preferred.tech/index_zh.html
-自动生成女朋友（外）	https://hiroshiba.github.io/girl_friend_factory/index.html		强推
-设计	https://www.chuangkit.com/dc.html
-简笔画（外）	https://aiexperiments.withgoogle.com/autodraw
-wuxiaworld	http://www.wuxiaworld.com/
-gif	https://giphy.com/
-秘密	http://soulapartment.net/bin/index.php
-背景音合成器	http://asoftmurmur.com/
-illegal	http://isnowillegal.com/?plus%201s
-全球电台	http://radio.garden/live/tokyo/j-idols-project-radio/  http://www.ostagram.ru/lenta?locale=en
-世界飞机	https://www.flightradar24.com/PRBGT/d0da2bf
-png	http://www.pngall.com/thug-life-png
-空当接龙	http://mrdoob.com/lab/javascript/effects/solitaire/?url_type=39&object_type=webpage&pos=1&url_type=39&object_type=webpage&pos=1
-
-
-
+世界数据统计	http://www.everysecond.io/{时间每过一秒，这个世界都发生了什么{信息
+五花肉	https://eitheryoulikebaconoryourewrong.com/{烤五花肉，全屏观看更佳{娱乐
+免费游戏音效	http://www.sonniss.com/gameaudiogdc2017/{免费下载游戏音效{音乐
+adobe全系	http://adobe.v404.cn/adobe/{adobe全系软件下载{工具
+艺术字	http://www.akuziti.com/yw/{透明背景艺术字{图片
+2倍老婆	http://waifu2x.udp.jp/{无损放大图片{图片
+截图搜新番	https://trace.moe/{通过截图在线搜索番剧{工具&图片
+自动上色	http://paintschainer.preferred.tech/index_zh.html{自动给线稿图片上色{工具&图片
+自动生成女朋友（外）	https://hiroshiba.github.io/girl_friend_factory/index.html{生成二次元女朋友照片{娱乐&图片		强推
+设计	https://www.chuangkit.com/dc.html{快速制作封面图{工具&图片
+简笔画（外）	https://aiexperiments.withgoogle.com/autodraw{没什么意思，不介绍了{娱乐
+wuxiaworld	http://www.wuxiaworld.com/{海外版起点小说网，看小说学英文？{娱乐&学习
+gif	https://giphy.com/{海外版动图表情包{图片
+秘密	http://soulapartment.net/bin/index.php{世界各地的人在这里分享秘密{娱乐
+背景音合成器	http://asoftmurmur.com/{在线白噪音网站{音乐
+illegal	http://isnowillegal.com/?plus%201s{如何让一件事变违法{娱乐
+全球电台	http://radio.garden/live/tokyo/j-idols-project-radio/{一个能接受全球电台的网站{音乐  
+图片合成 http://www.ostagram.ru/lenta?locale=en{AI合成两张不相干的图片{图片
+世界飞机	https://www.flightradar24.com/PRBGT/d0da2bf{全世界飞机实时飞行路线{工具
+png	http://www.pngall.com/thug-life-png{暴徒表情png{图片
+空当接龙	http://mrdoob.com/lab/javascript/effects/solitaire/?url_type=39&object_type=webpage&pos=1&url_type=39&object_type=webpage&pos=1{空当接龙{娱乐

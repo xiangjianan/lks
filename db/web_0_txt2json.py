@@ -38,18 +38,24 @@ for i in range(num, 0, -1):
         for line in f:
             if '*$$$$' in line:
                 line_list = line.strip('*$\n').split('|')
+                url_list = line_list[1].split('{')
                 web_list.append({
                     'kind': kind,
                     'title': line_list[0],
-                    'href': line_list[1],
+                    'href': url_list[0],
+                    'slogan': url_list[1],
+                    'kind_name': url_list[2].strip('\n'),
                     'star': 'star',
                 })
             else:
                 line_list = line.split('|')
+                url_list = line_list[1].split('{')
                 web_list.append({
                     'kind': kind,
                     'title': line_list[0],
-                    'href': line_list[1].strip('\n'),
+                    'href': url_list[0],
+                    'slogan': url_list[1],
+                    'kind_name': url_list[2].strip('\n'),
                     'star': None,
                 })
 

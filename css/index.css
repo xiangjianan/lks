@@ -136,6 +136,7 @@ ul, li, ol {
     width: 70%;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-align: right;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
@@ -431,6 +432,33 @@ ul, li, ol {
     color: #333333!important;
     box-shadow: .1rem .1rem .2rem var(--greyLight-2),-.1rem -.1rem .3rem var(--white)!important;
 }
+
+/* 弹出框 */
+.popover {
+    border: none;
+    top: 0px!important;
+    background-color: #dee5fa;
+    background-color: var(--greyLight-1);
+    box-shadow: .1rem .1rem .2rem var(--greyLight-2),-.1rem -.1rem .3rem var(--white)!important;
+}
+.popover-body {
+    color: #555;
+}
+/* .arrow{
+    display: none!important;
+} */
+.bs-popover-auto[x-placement^=top]>.arrow::before, .bs-popover-top>.arrow::before {
+    border-top-color: rgba(0, 0, 0, 0);
+}
+.bs-popover-auto[x-placement^=bottom]>.arrow::before, .bs-popover-bottom>.arrow::before {
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+.bs-popover-auto[x-placement^=top]>.arrow::after, .bs-popover-top>.arrow::after {
+    border-top-color: var(--greyLight-1)!important;
+}
+.bs-popover-auto[x-placement^=bottom]>.arrow::after, .bs-popover-bottom>.arrow::after {
+    border-bottom-color: var(--greyLight-1)!important;
+} 
 
 /* 移动端响应式布局 */
 @media (min-width: 768px) and (max-width: 991px) {

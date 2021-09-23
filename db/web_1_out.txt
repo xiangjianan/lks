@@ -1,42 +1,41 @@
-The Internet map|http://internet-map.net/
-钢琴|http://touchpianist.com/
-搜图|http://iqdb.org/
-搜图|http://saucenao.com/index.php
-环境|http://www.rainymood.com/
-环境|http://www.ambient-mixer.com/
-不明觉厉|http://mrdoob.com/#/157/spin_painter
-不明觉厉|http://www.ro.me/
-不明觉厉|http://fff.cmiscm.com/#!/section/planttrees
-不明觉厉|http://weavesilk.com/
-噫|http://www.theuselessweb.com/
-风景|http://www.airpano.com/?n=10&sort_by=&page=1
-miku <span class='iconfont'>&#xe64b;</span>|http://johnsu.deviantart.com/art/Halfne-Miku-Studio-396850314
-miku <span class='iconfont'>&#xe64b;</span>|https://www.youtube.com/watch?v=1szQ7YDGdXw&feature=youtu.be
-音游|http://www.beatstage.com/
-水效果|http://watereffect.net/index.php
-猜地点|https://geoguessr.com/
-2ch|http://kanquwen.com/
-音乐素材|http://www.hmix.net/music_gallery/music_top.htm
-画 <span class='iconfont'>&#xe64b;</span>|http://en.gallerix.ru/
-制服|http://www.seihuku-zukan.com/index.htm
-制服|http://uniform.wingzero.tw/
-学英语|http://www.wuxiaworld.com/cdindex-html/*$$$$
-剁手|https://fancy.com/
-剁手|http://www.chiphell.com/
-电音|http://techno.org/electronic-music-guide/
-电音|https://the.wubmachine.com/
-搬砖|http://www.fotojet.com/
-搬砖|https://habitica.com/static/front
-聊天|http://drrr.com/lounge
-图站|https://anime-pictures.net/
-与佛论禅|http://www.ptxz.com/fo/
-音乐|http://haru.ocv.me/
-学习|http://www.wolframalpha.com/
-不明觉厉|https://dribbble.com/wagerfield
-手机|http://mowned.com/
-GPS|http://www.flashearth.com/
-北方 <span class='iconfont'>&#xe64b;</span>|http://wiki.joyme.com/jc/%E5%8C%97%E6%96%B9%E9%85%B1%E8%A1%A8%E6%83%85
-剁手|http://www.smzdm.com/
-剁手|http://www.iliangcang.com/i/home/
-菜板狂魔|http://mtmwood.com/en
-菜板狂魔|http://youquhome.com/page/3
+The Internet map|http://internet-map.net/{全球互联网活跃地图{信息
+钢琴|http://touchpianist.com/{傻瓜式弹钢琴{音乐
+搜图|http://iqdb.org/{搜索二次元图片{图片
+搜图|http://saucenao.com/index.php{搜索二次元图片{图片
+环境|http://www.rainymood.com/{白噪音，模拟下雨天{音乐
+环境|http://www.ambient-mixer.com/{环境白噪音{音乐
+不明觉厉|http://mrdoob.com/#/157/spin_painter{不明觉厉{娱乐
+不明觉厉|http://www.ro.me/{不明觉厉{娱乐
+不明觉厉|http://fff.cmiscm.com/#!/section/planttrees{不明觉厉{娱乐
+不明觉厉|http://weavesilk.com/{不明觉厉{娱乐
+噫|http://www.theuselessweb.com/{随机跳出一个无用网站{娱乐
+风景|http://www.airpano.com/?n=10&sort_by=&page=1{世界景点全景图{娱乐&图片
+miku <span class='iconfont'>&#xe64b;</span>|http://johnsu.deviantart.com/art/Halfne-Miku-Studio-396850314{消磨时间的网站{娱乐
+miku <span class='iconfont'>&#xe64b;</span>|https://www.youtube.com/watch?v=1szQ7YDGdXw&feature=youtu.be{上一个网站的视频示例{娱乐
+音游|http://www.beatstage.com/{国产在线音游{游戏&音乐
+水效果|http://watereffect.net/index.php{图片加水上倒影效果{工具&图片
+猜地点|https://geoguessr.com/{看实景猜地点{娱乐
+2ch|http://kanquwen.com/{看趣闻{信息
+音乐素材|http://www.hmix.net/music_gallery/music_top.htm{免费下载音乐素材{音乐
+画 <span class='iconfont'>&#xe64b;</span>|http://en.gallerix.ru/{17万张高分辨率世界名画{图片
+制服|http://www.seihuku-zukan.com/index.htm{日本各学校制服{娱乐
+制服|http://uniform.wingzero.tw/{亚洲各学校制服{娱乐
+学英语|http://www.wuxiaworld.com/cdindex-html/{wuxiaworld{学习*$$$$
+剁手|https://fancy.com/{海外版淘宝{生活
+剁手|http://www.chiphell.com/{国内剁手论坛{生活
+电音|http://techno.org/electronic-music-guide/{试听不同年代电音{音乐
+电音|https://the.wubmachine.com/{在线改变音乐风格{音乐
+搬砖|http://www.fotojet.com/{封面图资源{工具
+搬砖|https://habitica.com/static/front{把待办事项游戏化{工具&游戏
+聊天|http://drrr.com/lounge{复古聊天室{娱乐
+图站|https://anime-pictures.net/{二次元图片站{图片
+与佛论禅|http://www.ptxz.com/fo/{与佛论禅{娱乐
+音乐|http://haru.ocv.me/{音乐素材，免费下载{音乐
+学习|http://www.wolframalpha.com/{数学、科学、社会学等等{学习
+不明觉厉|https://dribbble.com/wagerfield{不明觉厉{娱乐
+手机|http://mowned.com/{各品牌历代手机{信息
+GPS|http://www.flashearth.com/{实时气象卫星图片{信息}
+剁手|http://www.smzdm.com/{什么值得买{生活
+剁手|http://www.iliangcang.com/i/home/{良仓{生活
+菜板狂魔|http://mtmwood.com/en{定制各种烹饪杰作的切菜板{生活
+有趣网址|http://youquhome.com/page/3/{收藏全球最有趣的网站{信息

@@ -1,19 +1,21 @@
-封面下载	https://cover.olook.me/		
-医学微视	https://www.mvyxws.com/		强推
-仿知网	https://www.cn-ki.net/		
-自动加字幕	https://2zimu.com/#/		
-N卡深度学习	https://www.nvidia.com/en-us/research/ai-playground/?fbclid=IwAR2QEjuH4aCYP3SycnKwa_LO36rfmDhulB4WCeY1plGCfofwIU-qf1anBTY		
-渐变图	https://www.ls.graphics/meshgradients		
-时差	https://everytimezone.com/		
-双色（外）	https://duotone.shapefactory.co/?f=f56468&t=27184f&q=_
-亚塞	https://wangyasai.github.io/
-listen 1	http://listen1.github.io/listen1/		强推
-音乐（外）	https://www.youtube.com/channel/UCht8qITGkBvXKsR1Byln-wA/videos
-电音风格	http://music.ishkur.com/		
-创意	https://creativemass.cn/#/
-up主排名	https://leptc.github.io/bili/		
-yuzhua	https://mj.yuzhua.com/search/3.html		
-日麻	https://www.maj-soul.com/#/home	强推
-？	https://resn.co.nz/#
-Grammarly	https://app.grammarly.com/
-机酒	https://www.tianxun.com/		
+封面下载	https://cover.olook.me/{网易云音乐封面下载{工具		
+小工具合集	https://tools.miku.ac/{常用小工具合集站，总有一个能用得到{工具		
+医学微视	https://www.mvyxws.com/{身体有问题看看专家怎么说，不要再百度求医了{生活		强推
+仿知网	https://www.cn-ki.net/{用户体验更好的知网{工具&学习		
+自动加字幕	https://2zimu.com/#/{在线自动给视频加字幕{工具		
+N卡深度学习	https://www.nvidia.com/en-us/research/ai-playground/?fbclid=IwAR2QEjuH4aCYP3SycnKwa_LO36rfmDhulB4WCeY1plGCfofwIU-qf1anBTY{英伟达炫技人工智能网站{图片		
+渐变图	https://www.ls.graphics/meshgradients{在线下载超高分辨率素材图{图片		
+时差	https://everytimezone.com/{超级直观的世界时差图{工具		
+双色（外）	https://duotone.shapefactory.co/?f=f56468&t=27184f&q=_{把图片转换成双色风格{图片
+亚塞	https://wangyasai.github.io/{点开菜单栏，看看“设计神器”，你会感谢我的{工具
+listen 1	http://listen1.github.io/listen1/{搜索和播放各大音乐网站的歌曲，让你的曲库更全面{工具&音乐		强推
+音乐（外）	https://www.youtube.com/channel/UCht8qITGkBvXKsR1Byln-wA/videos{无版权音乐提供频道{音乐
+电音风格	http://music.ishkur.com/{电音风格科普网站{音乐		
+创意	https://creativemass.cn/#/{我们在全世界精挑细选，希望成为你最有价值的灵感来源{实用
+up主排名	https://leptc.github.io/bili/{B站up主排行榜{信息		
+yuzhua	https://mj.yuzhua.com/search/3.html{新媒体数据在线查询{信息		
+日麻	https://www.maj-soul.com/#/home{雀魂{游戏	强推
+？	https://resn.co.nz/#{水滴{娱乐
+Grammarly	https://app.grammarly.com/{人工智能写作，海外版的彩云小译{工具
+机酒	https://www.tianxun.com/{出差机票酒店价格查询网站{生活&工具	
+	

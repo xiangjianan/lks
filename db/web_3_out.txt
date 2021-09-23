@@ -1,16 +1,16 @@
-重力|https://codepen.io/akm2/full/rHIsa
-反向|http://www.ilidilid.com/
-成为批发商|https://www.1688.com/
-龋齿一号|http://www.gfxcamp.com/
-摄影老法师必读|https://www.dxomark.com/
-表情包gif|https://sorry.xuty.tk/sorry/
-学说话|https://zh.forvo.com/user/hikari1/pronounced-words/page-2/
-做网站|https://www.wix.com/
-在线效果|https://photomosh.com/
-学英语|https://nexus.leagueoflegends.com/en-us/
-音游|http://ddrkirby.com/games/melody-muncher/melody-muncher.html*$$$$
-f**king eat <span class='iconfont'>&#xe64b;</span>|https://wtfsigfd.com/#location
-真实大小 <span class='iconfont'>&#xe64b;</span>|https://thetruesize.com
-游戏|https://pos.biborg.com/fr/
-拍卖|https://sf.taobao.com/?spm=a213w.7398504.sfhead2014.2.9vuB5l&current=index
-拍卖|http://auction.jd.com/haiguan.htm
+重力|https://codepen.io/akm2/full/rHIsa{简单模拟天体运动{娱乐
+反向|http://www.ilidilid.com/{这个网站是镜像的，对着镜子访问吧{娱乐
+成为批发商|https://www.1688.com/{打工是不可能的，我要自己做老板{工具
+龋齿一号|http://www.gfxcamp.com/{实用类大杂烩，总有一个是你需要的{实用&工具
+摄影老法师必读|https://www.dxomark.com/{收集各种数码产品客观参数，专业权威{工具
+表情包gif|https://sorry.xuty.tk/sorry/{给动图表情包插入字幕{工具&图片
+学说话|https://zh.forvo.com/user/hikari1/pronounced-words/page-2/{世界各地的母语者教你正确发音，网站的正确用法请找LKs学习{学习
+做网站|https://www.wix.com/{不需要任何编程基础，创建出自己的网站{工具
+在线效果|https://photomosh.com/{给图片添加各种各样的效果{工具&图片
+学英语|https://nexus.leagueoflegends.com/en-us/{英雄联盟美服官网，在这里看你感兴趣的英文文章{学习
+音游|http://ddrkirby.com/games/melody-muncher/melody-muncher.html{音乐节奏游戏，作者是一个大佬，有很多独立游戏作品{游戏&音乐*$$$$
+f**king eat <span class='iconfont'>&#xe64b;</span>|https://wtfsigfd.com/#location{在当地不知道吃什么，让这个网站帮你做决定{生活
+真实大小 <span class='iconfont'>&#xe64b;</span>|https://thetruesize.com{平面世界地图中一个国家的真实大小{工具
+游戏|https://pos.biborg.com/fr/{网页版神庙逃亡{游戏
+拍卖|https://sf.taobao.com/?spm=a213w.7398504.sfhead2014.2.9vuB5l&current=index{淘宝拍卖{工具
+拍卖|http://auction.jd.com/haiguan.html{京东拍卖{工具

@@ -516,9 +516,9 @@ new Vue({
                 $('#search').val('');
                 $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
                 $('.web-list .web-grid').each(function (event) {
-                    if ($(this).find('.web-single h2').text().toUpperCase().search(inp.toUpperCase()) != -1) {
+                    if ($(this).find('.web-single h2').text().toUpperCase().search(inp.toUpperCase()) != -1 || $(this).find('.web-single p').text().toUpperCase().search(inp.toUpperCase()) != -1) {
                         $(this).addClass('filter_web');
-                    }
+                    } 
                 });
                 $('.web-list').isotope({
                     itemSelector: '.web-grid',
@@ -662,3 +662,11 @@ $name.keydown(function (event) {
         return false;
     }
 });
+
+// 弹出框
+$('[data-toggle="popover"]').popover({
+    container: 'body',
+    content: '暂无简介',
+    placement: 'top',
+    trigger: 'hover',
+})

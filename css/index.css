@@ -399,13 +399,20 @@ ul, li, ol {
     color: #a3a3a3;
 }
 
-/* 星标按钮 */
-.btn_star {
+/* 星标及切换按钮 */
+.btn_toogle, .btn_star {
     padding-left: 15px!important;
     padding-right: 15px!important;
 }
-.btn_star .iconfont {
+.btn_toogle .iconfont, .btn_star .iconfont {
     font-size: 14px!important;
+}
+.category {
+    display: none;
+}
+.btn_toogle:active {
+    color: darkorange!important;
+    box-shadow: inset .15rem .15rem .2rem var(--greyLight-2),inset -.15rem -.15rem .2rem #fff!important;
 }
 
 /* 自定义ele */

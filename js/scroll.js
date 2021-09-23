@@ -503,7 +503,7 @@ function resize() {
     if ($(window).width() >= 768) {
         $('.web-menu button.active').click();
     } else {
-        $('.services-inner-box').unbind('mouseenter').unbind('mouseleave'); 
+        $('.services-inner-box').unbind('mouseenter').unbind('mouseleave');
     }
 }
 window.onresize = resize;
@@ -511,8 +511,8 @@ window.onresize = resize;
 // 取消移动端bootstrap hover效果
 if ($(window).width() < 768) {
     setTimeout(function name(params) {
-        $('.services-inner-box').unbind('mouseenter').unbind('mouseleave'); 
-    },300);
+        $('.services-inner-box').unbind('mouseenter').unbind('mouseleave');
+    }, 300);
 }
 
 // 搜索功能
@@ -527,13 +527,15 @@ new Vue({
                 $('.web-list .web-grid').each(function (event) {
                     if ($(this).find('.web-single h2').text().toUpperCase().search(inp.toUpperCase()) != -1 || $(this).find('.web-single p').text().toUpperCase().search(inp.toUpperCase()) != -1) {
                         $(this).addClass('filter_web');
-                    } 
+                    }
                 });
                 $('.web-list').isotope({
                     itemSelector: '.web-grid',
                     filter: '.filter_web'
                 });
-                $('.web-list .web-grid').removeClass('filter_web');
+                setTimeout(function name(params) {
+                    $('.web-list .web-grid').removeClass('filter_web');
+                }, 10);
             } else {
                 this.ele_message('请输入关键词', 'info')
             }
@@ -680,3 +682,39 @@ $('[data-toggle="popover"]').popover({
     trigger: 'hover',
 })
 
+// 标签分类切换
+$('.btn_toogle').click(function name(params) {
+    $('.web-menu button:eq(0)').click();
+    
+    if ($(this).hasClass('is_period')) {
+        $(this).removeClass('is_period');
+        $('.period').css('display', 'none');
+        $('.category').css('display', 'inline-block');
+    } else {
+        $(this).addClass('is_period');
+        $('.period').css('display', 'inline-block');
+        $('.category').css('display', 'none');
+    }
+    setTimeout(function name(params) {
+        
+        $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
+    },10)
+})
+
+// 分类实现
+$('.category').click(function name(params) {
+    let category_name = $(this).text();
+    $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
+    $('.web-list .web-grid').each(function (event) {
+        if ($(this).find('.web-single p').text().toUpperCase().search(category_name) != -1) {
+            $(this).addClass('filter_web');
+        }
+    });
+    $('.web-list').isotope({
+        itemSelector: '.web-grid',
+        filter: '.filter_web'
+    });
+    setTimeout(function name(params) {
+        $('.web-list .web-grid').removeClass('filter_web');
+    }, 10);
+})

@@ -473,7 +473,7 @@
 let $grid = $('.web-list').isotope({
     itemSelector: '.web-grid',
 });
-$('.web-menu').on('click', 'button', function () {
+$('.web-menu').on('click', 'button:eq(0),.period,.btn_star', function () {
     $(this).addClass('active').siblings().removeClass('active');
     $grid.isotope({
         filter: $(this).attr('data-filter')
@@ -573,7 +573,6 @@ setTimeout(function name(params) {
 }, 300)
 
 // lks模态框
-$('.open_lks_btn').click(() => { window.open("https://xiangjianan.gitee.io/lks/") })
 $('.github_lks_btn').click(() => { window.open("https://github.com/xiangjianan/lks") })
 
 // 交个朋友
@@ -605,8 +604,10 @@ new Vue({
             let name_length = name.length;
             let content_length = content.length;
             this.send_flag = true;
-            if (!name) {
+            if (!name && !content) {
                 this.ele_message('请输入反馈内容', 'info');
+            } else if (!name) {
+                this.ele_message('请拟定一个标题', 'info');
             } else if (!content) {
                 content = '无';
             }
@@ -685,7 +686,6 @@ $('[data-toggle="popover"]').popover({
 // 标签分类切换
 $('.btn_toogle').click(function name(params) {
     $('.web-menu button:eq(0)').click();
-    
     if ($(this).hasClass('is_period')) {
         $(this).removeClass('is_period');
         $('.period').css('display', 'none');
@@ -696,15 +696,14 @@ $('.btn_toogle').click(function name(params) {
         $('.category').css('display', 'none');
     }
     setTimeout(function name(params) {
-        
         $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
-    },10)
+    }, 10);
 })
 
 // 分类实现
 $('.category').click(function name(params) {
     let category_name = $(this).text();
-    $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
+    $(this).addClass('active').siblings().removeClass('active');
     $('.web-list .web-grid').each(function (event) {
         if ($(this).find('.web-single p').text().toUpperCase().search(category_name) != -1) {
             $(this).addClass('filter_web');

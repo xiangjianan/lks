@@ -17,7 +17,7 @@ yes/no|https://yesno.wtf/{做出一个好的决定可能需要一些帮助{工�
 地球时间|http://timelineofearth.com/{地球历史的互动年表{娱乐
 猫|https://bongo.cat/{像邦戈猫一样击打邦戈鼓{娱乐&音乐
 大佬|https://neave.com/{来自Neave Interactive的应用程序{娱乐
-太鼓达人|https://tg.lv5.ac{适用于桌面和移动浏览器的太鼓达人节奏游戏模拟器{游戏*$$$$
+太鼓达人|https://tg.lv5.ac{适用于桌面和移动浏览器的太鼓达人节奏游戏模拟器{游戏&音乐*$$$$
 emm|http://www.shushubuyue.net/#{匿名聊天网{娱乐
 全网热门|https://tophub.today/{追踪全网热点、简单高效阅读{实用&工具
 数据表|https://www.visualcapitalist.com/{数据驱动的视觉效果，帮助解释复杂的世界{工具

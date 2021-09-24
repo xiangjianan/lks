@@ -278,7 +278,7 @@ ul, li, ol {
     width: 40px;
     display: inline;
     position: absolute;
-    top: 0;
+    top: 3px;
     right: 0;
     text-align: center;
 }
@@ -352,6 +352,31 @@ ul, li, ol {
 }
 
 /* 模态框 */
+#questionModal .modal-title {
+    color: #333333;
+    font-weight: bold;
+}
+#exampleModal .modal-body {
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+}
+#questionModal .modal-body {
+    padding: 1rem 2rem 0;
+}
+.modal-footer {
+    display: block;
+    padding-bottom: 1rem;
+}
+#questionModal .modal-footer {
+    padding-bottom: 1.5rem;
+}
+.modal-footer button {
+    width: 90%;
+    margin: 5px;
+}
+#questionModal .modal-content {
+    border-radius: 0.5rem;
+}
 .modal-content {
     background-color: var(--greyLight-1);
 }
@@ -365,7 +390,6 @@ ul, li, ol {
     box-shadow: inset .15rem .15rem .2rem var(--greyLight-2),inset -.15rem -.15rem .2rem #fff;
 }
 .modal-body textarea.form-control, .modal-body input.form-control {
-    margin-bottom: 30px;
     border: none;
     box-sizing: border-box;
     color: #333333;
@@ -471,6 +495,12 @@ ul, li, ol {
 }
 
 /* 移动端响应式布局 */
+@media (min-width: 992px) and (max-width: 1219px) {
+    .filter-button-group button {
+        padding: 8px 18px;
+        margin: 0 1px;
+    }
+}
 @media (min-width: 768px) and (max-width: 991px) {
     .filter-button-group button {
         padding: 5px 10px;

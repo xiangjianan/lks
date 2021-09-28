@@ -1,3 +1,4 @@
+// 自定义Isotope.js
 !function (t, i, s) {
     "use strict";
     var e, n = t.document, o = t.Modernizr, r = function (t) {
@@ -473,44 +474,41 @@
 let $grid = $('.web-list').isotope({
     itemSelector: '.web-grid',
 });
-$('.web-menu').on('click', 'button:eq(0),.period,.btn_star', function () {
+$('.web-menu').on('click', 'button:eq(0), .period, .btn_star', function () {
     $(this).addClass('active').siblings().removeClass('active');
     $grid.isotope({
-        filter: $(this).attr('data-filter')
+        filter: $(this).attr('data-filter'),
     });
 });
 
 // 滚动特效
 let $scroll_to_top = $("#scroll-to-top");
-$(window).scroll(function () {
+$(window).scroll(() => {
     if ($(window).scrollTop() < 100) {
         $scroll_to_top.removeClass('show');
     } else {
         $scroll_to_top.addClass('show');
     }
 });
-if ($scroll_to_top.length) {
-    $scroll_to_top.on('click', function (e) {
-        e.preventDefault();
-        $('html,body').animate({
-            scrollTop: 0
-        }, 700);
-    });
-}
+$scroll_to_top.click(function (e) {
+    e.preventDefault()
+    $('html,body').animate({
+        scrollTop: 0
+    }, 700);
+});
 
 // 桌面端窗口自适应
-function resize() {
+window.onresize = () => {
     if ($(window).width() >= 768) {
         $('.web-menu button.active').click();
     } else {
         $('.services-inner-box').unbind('mouseenter').unbind('mouseleave');
     }
-}
-window.onresize = resize;
+};
 
 // 取消移动端bootstrap hover效果
 if ($(window).width() < 768) {
-    setTimeout(function name(params) {
+    setTimeout(() => {
         $('.services-inner-box').unbind('mouseenter').unbind('mouseleave');
     }, 300);
 }
@@ -520,40 +518,38 @@ new Vue({
     el: '#submit',
     methods: {
         search_send() {
-            let inp = $('#search').val();
+            let $search = $('#search');
+            let inp = $search.val();
             if (inp) {
-                $('#search').val('');
+                $search.val('');
                 $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
-                $('.web-list .web-grid').each(function (event) {
+                $('.web-list .web-grid').each(function () {
                     if ($(this).find('.web-single h2').text().toUpperCase().search(inp.toUpperCase()) != -1 || $(this).find('.web-single').attr('data-content').toUpperCase().search(inp.toUpperCase()) != -1) {
                         $(this).addClass('filter_web');
                     }
                 });
                 $('.web-list').isotope({
                     itemSelector: '.web-grid',
-                    filter: '.filter_web'
+                    filter: '.filter_web',
                 });
-                setTimeout(function name(params) {
+                setTimeout(() => {
                     $('.web-list .web-grid').removeClass('filter_web');
                 }, 10);
             } else {
-                this.ele_message('请输入关键词', 'info')
+                $('.el-message__closeBtn').click();
+                this.$message({
+                    message: '请输入关键词',
+                    type: 'info',
+                    center: true,
+                    offset: -1,
+                    showClose: true,
+                });
             }
-        },
-        ele_message(msg, type) {
-            $('.el-message__closeBtn').click();
-            this.$message({
-                message: msg,
-                type: type,
-                center: true,
-                offset: -1,
-                showClose: true,
-            });
         },
     }
 })
-$('#search').keydown(function (event) {
-    if (event.keyCode === 13) {
+$('#search').keydown((e) => {
+    if (e.keyCode === 13) {
         $('#submit').click();
     }
 });
@@ -568,12 +564,12 @@ $.ajax({
 });
 
 // 图片懒加载
-setTimeout(function name(params) {
+setTimeout(() => {
     $('.modal-body img').attr('src', 'img/lks.png');
 }, 300)
 
 // lks模态框
-$('.github_lks_btn').click(() => { window.open("https://github.com/xiangjianan/lks") })
+$('.github_lks_btn').click(() => { window.open("https://github.com/xiangjianan/lks/") });
 
 // 交个朋友
 console.log(`
@@ -597,7 +593,6 @@ new Vue({
     },
     methods: {
         send() {
-            let res = this;
             let $send_msg = $('#send_msg');
             let name = $name.val().trim();
             let content = $content.val().trim();
@@ -630,10 +625,10 @@ new Vue({
                         "content": content,
                         "ip": 'lks网站反馈'
                     },
-                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    error: () => {
                         $send_msg.attr('disabled', false);
                         $send_msg.removeClass('send_disabled');
-                        res.$notify({
+                        this.$notify({
                             title: '发送失败',
                             message: `服务器出问题了，消息发送失败！`,
                             dangerouslyUseHTMLString: true,
@@ -641,10 +636,10 @@ new Vue({
                             center: true,
                         });
                     },
-                    success: function (msg) {
+                    success: () => {
                         $send_msg.attr('disabled', false);
                         $send_msg.removeClass('send_disabled');
-                        res.$notify({
+                        this.$notify({
                             title: '已发送',
                             message: `谢谢你的反馈，这将对我非常重要！`,
                             dangerouslyUseHTMLString: true,
@@ -668,14 +663,14 @@ new Vue({
         },
     }
 })
-$name.keydown(function (event) {
-    if (event.keyCode === 13) {
+$name.keydown((e) => {
+    if (e.keyCode === 13) {
         $content.focus();
         return false;
     }
 });
 
-// 弹出框
+// 简介弹出框
 $('[data-toggle="popover"]').popover({
     container: 'body',
     content: '暂无简介',
@@ -684,7 +679,7 @@ $('[data-toggle="popover"]').popover({
 })
 
 // 标签分类切换
-$('.btn_toogle').click(function name(params) {
+$('.btn_toogle').click(function () {
     $('.web-menu button:eq(0)').click();
     if ($(this).hasClass('is_period')) {
         $(this).removeClass('is_period');
@@ -695,25 +690,25 @@ $('.btn_toogle').click(function name(params) {
         $('.period').css('display', 'inline-block');
         $('.category').css('display', 'none');
     }
-    setTimeout(function name(params) {
+    setTimeout(() => {
         $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
     }, 10);
 })
 
 // 分类实现
-$('.category').click(function name(params) {
+$('.category').click(function () {
     let category_name = $(this).text();
     $(this).addClass('active').siblings().removeClass('active');
-    $('.web-list .web-grid').each(function (event) {
+    $('.web-list .web-grid').each(function () {
         if ($(this).find('.web-single p').text().toUpperCase().search(category_name) != -1) {
             $(this).addClass('filter_web');
         }
     });
     $('.web-list').isotope({
         itemSelector: '.web-grid',
-        filter: '.filter_web'
+        filter: '.filter_web',
     });
-    setTimeout(function name(params) {
+    setTimeout(() => {
         $('.web-list .web-grid').removeClass('filter_web');
     }, 10);
 })

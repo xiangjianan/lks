@@ -124,7 +124,7 @@ ul, li, ol {
     letter-spacing: 0.015em;
 }
 
-.services-inner-box:active > h2, .services-inner-box:active > .flag {
+.services-inner-box:active > h2, .services-inner-box:active > span {
     color: darkorange;
 }
 
@@ -268,13 +268,13 @@ ul, li, ol {
 }
 
 /* 星标 */
-.flag {
+.services-inner-box span {
     display: none;
     color: #333333;
     font-weight: 600;
 }
 
-.star {
+.services-inner-box .star {
     width: 40px;
     display: inline;
     position: absolute;
@@ -373,11 +373,11 @@ ul, li, ol {
 .modal-footer button {
     width: 90%;
     margin: 5px;
-}
-#questionModal .modal-content {
-    border-radius: 0.5rem;
+    height: 55px;
+    border-radius: 0.8em;
 }
 .modal-content {
+    border-radius: 1em;
     background-color: var(--greyLight-1);
 }
 .modal-content button {

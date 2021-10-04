@@ -225,9 +225,12 @@ ul, li, ol {
 
 /* top按钮 */
 #scroll-to-top.show {
-    bottom: 145px;
+    bottom: 85px;
 }
 #scroll-to-question.show {
+    bottom: 145px;
+}
+#scroll-to-question {
     bottom: 85px;
 }
 .dmtop span {
@@ -683,13 +686,15 @@ ul, li, ol {
         padding-right: 10px!important;
     }
     #scroll-to-top.show {
-        bottom: 110px;
+        bottom: 50px;
     }
     #scroll-to-question.show {
+        bottom: 110px;
+    }
+    #scroll-to-question {
         bottom: 50px;
     }
     .dmtop {
         right: 20px;
     }
 }
-

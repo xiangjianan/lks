@@ -25,7 +25,7 @@ p.group-video .iconfont{
 }
 
 /* 鼠标不可选中的标签 */
-.web-menu, .web-list, #scroll-to-top, #submit, .modal-content {
+.web-menu, .web-list, .dmtop, #submit, .modal-content {
     -o-user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -213,33 +213,25 @@ ul, li, ol {
 
 /* 页脚 */
 .footer-links {
-    list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.footer-links a {
-    color: #777;
-}
-
-.footer-links a:hover {
-    color: darkorange !important;
-}
-
 .copyrights {
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
     padding: 25px 0 !important;
-    overflow: hidden;
     box-shadow: -0.1rem -2px 0 #f1f5fc; 
 }
 
 /* top按钮 */
-.dmtop.show {
-    bottom: 80px;
+#scroll-to-top.show {
+    bottom: 145px;
 }
-
+#scroll-to-question.show {
+    bottom: 85px;
+}
+.dmtop span {
+    font-size: 23px;
+}
 .dmtop {
     background-color: var(--greyLight-1);
     z-index: 100;
@@ -251,7 +243,6 @@ ul, li, ol {
     border-radius: 3px;
     right: 50px;
     text-align: center;
-    font-size: 28px;
     color: #777777 !important;
     cursor: pointer;
     -webkit-transition: all .5s ease-in-out;
@@ -689,6 +680,15 @@ ul, li, ol {
     .btn_star {
         padding-left: 10px!important;
         padding-right: 10px!important;
+    }
+    #scroll-to-top.show {
+        bottom: 110px;
+    }
+    #scroll-to-question.show {
+        bottom: 50px;
+    }
+    .dmtop {
+        right: 20px;
     }
 }
 

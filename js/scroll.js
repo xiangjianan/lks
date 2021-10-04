@@ -483,11 +483,12 @@ $('.web-menu').on('click', 'button:eq(0), .period, .btn_star', function () {
 
 // 滚动特效
 let $scroll_to_top = $("#scroll-to-top");
+let $dmtop = $('.dmtop');
 $(window).scroll(() => {
     if ($(window).scrollTop() < 100) {
-        $scroll_to_top.removeClass('show');
+        $dmtop.removeClass('show');
     } else {
-        $scroll_to_top.addClass('show');
+        $dmtop.addClass('show');
     }
 });
 $scroll_to_top.click(function (e) {

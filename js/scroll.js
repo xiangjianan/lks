@@ -542,7 +542,7 @@ new Vue({
     methods: {
         search_send() {
             let $search = $('#search');
-            let inp = $search.val();
+            let inp = $search.val().trim();
             if (inp) {
                 $search.val('');
                 $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');

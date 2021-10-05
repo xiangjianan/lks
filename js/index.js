@@ -8,23 +8,3 @@ for (i in web_list) {
 }
 $('.web-list').html(web_list_html);
 $('.copyrights').removeClass('hide');
-
-// 渲染头部信息
-let video_list = [
-  ['第一期 av3743771', 'https://www.bilibili.com/video/av3743771/'],
-  ['第二期 av9856372', 'https://www.bilibili.com/video/av9856372/'],
-  ['第三期 av27234784', 'https://www.bilibili.com/video/av27234784/'],
-  ['第四期 av66209341', 'https://www.bilibili.com/video/av66209341/'],
-  ['第五期 BV1a741137NS', 'https://www.bilibili.com/video/BV1a741137NS/'],
-  ['第六期 BV1wv411y7L6', 'https://www.bilibili.com/video/BV1wv411y7L6/'],
-  ['第七期 BV1bU4y1x7A1', 'https://www.bilibili.com/video/BV1bU4y1x7A1/'],
-  ['第八期 BV1qQ4y1r7ty', 'https://www.bilibili.com/video/BV1qQ4y1r7ty/'],
-];
-$('.web-menu button').click(function () {
-  let num = $(this).attr('num');
-  if (num === '0') {
-    $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
-  } else {
-    $('.group-video').html(`视频传送门：<a href="${video_list[Number(num) - 1][1]}" rel="nofollow noreferrer" target="_blank"><span class="iconfont">&#xe6b4; </span>${video_list[Number(num) - 1][0]}</a>`);
-  }
-});

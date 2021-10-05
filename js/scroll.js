@@ -470,15 +470,37 @@
     }
 }(window, jQuery);
 
-// 卡片动效
+// 网站卡片动效
 let $grid = $('.web-list').isotope({
     itemSelector: '.web-grid',
 });
+let video_list = [
+    ['第一期 av3743771', 'https://www.bilibili.com/video/av3743771/'],
+    ['第二期 av9856372', 'https://www.bilibili.com/video/av9856372/'],
+    ['第三期 av27234784', 'https://www.bilibili.com/video/av27234784/'],
+    ['第四期 av66209341', 'https://www.bilibili.com/video/av66209341/'],
+    ['第五期 BV1a741137NS', 'https://www.bilibili.com/video/BV1a741137NS/'],
+    ['第六期 BV1wv411y7L6', 'https://www.bilibili.com/video/BV1wv411y7L6/'],
+    ['第七期 BV1bU4y1x7A1', 'https://www.bilibili.com/video/BV1bU4y1x7A1/'],
+    ['第八期 BV1qQ4y1r7ty', 'https://www.bilibili.com/video/BV1qQ4y1r7ty/'],
+];
 $('.web-menu').on('click', 'button:eq(0), .period, .btn_star', function () {
+    // 更新简介
+    let num = $(this).attr('num');
+    if (num === '0') {
+        $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
+    } else {
+        $('.group-video').html(`视频传送门：<a href="${video_list[Number(num) - 1][1]}" rel="nofollow noreferrer" target="_blank"><span class="iconfont">&#xe6b4; </span>${video_list[Number(num) - 1][0]}</a>`);
+    }
+    // 卡片filter
     $(this).addClass('active').siblings().removeClass('active');
     $grid.isotope({
         filter: $(this).attr('data-filter'),
     });
+    // 控制页脚位置
+    setTimeout(() => {
+        $('.copyrights').css('position', 'relative');
+    }, 10);
 });
 
 // 滚动特效
@@ -534,6 +556,7 @@ new Vue({
                     filter: '.filter_web',
                 });
                 setTimeout(() => {
+                    set_footer();
                     $('.web-list .web-grid').removeClass('filter_web');
                 }, 10);
             } else {
@@ -671,7 +694,7 @@ $name.keydown((e) => {
     }
 });
 
-// 简介弹出框
+// bootstrap弹出框配置（网站简介）
 $('[data-toggle="popover"]').popover({
     container: 'body',
     content: '暂无简介',
@@ -691,7 +714,9 @@ $('.btn_toogle').click(function () {
         $('.period').css('display', 'inline-block');
         $('.category').css('display', 'none');
     }
+    // 控制页脚位置
     setTimeout(() => {
+        $('.copyrights').css('position', 'relative');
         $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
     }, 10);
 })
@@ -710,6 +735,16 @@ $('.category').click(function () {
         filter: '.filter_web',
     });
     setTimeout(() => {
+        set_footer();
         $('.web-list .web-grid').removeClass('filter_web');
     }, 10);
 })
+
+// 控制页脚位置
+let set_footer = () => {
+    if ($('.web-list .web-grid.filter_web').length <= 9) {
+        $('.copyrights').css('position', 'absolute');
+    } else {
+        $('.copyrights').css('position', 'relative');
+    }
+}

@@ -1,8 +1,7 @@
 # coding: utf-8
 """
-将每一期网站数据
-    由txt文本格式 ==转换成==> JSON格式
-    JSON格式的数据可直接在js代码中使用
+解析原始网站数据
+    web_*.txt   ==转换==>   web_list.json
 """
 import json
 
@@ -16,14 +15,16 @@ for i in range(1, num + 1):
             for line in f:
                 if len(line) < 3:
                     continue
+                # 减少空格
                 if '	' in line:
                     line = line.replace('	', ' ')
                 line = line.replace('    ', ' ').replace('   ', ' ').replace('  ', ' ')
+                # 行尾去除空格
                 if line[-2] == ' ':
                     line = line[:-2] + '\n'
-                line = line.replace(' http', '|http')
-                line = line.replace(' 强推', '*$$$$')
-                line = line.replace('（外）', " <span class='iconfont'>&#xe64b;</span>")
+                # 替换关键词
+                line = line.replace(' http', '|http').replace(' 强推', '*$$$$').replace('（外）', " <span class='iconfont'>&#xe64b;</span>")
+                # 处理多链接
                 if line.count('|http') > 1:
                     line_list = line[:-1].split('|')
                     for ll in line_list[1:]:
@@ -36,6 +37,7 @@ for i in range(num, 0, -1):
     kind = f'web_{i}'
     with open(f'./web_{i}_out.txt', 'r') as f:
         for line in f:
+            # 星标
             if '*$$$$' in line:
                 line_list = line.strip('*$\n').split('|')
                 url_list = line_list[1].split('{')
@@ -47,6 +49,7 @@ for i in range(num, 0, -1):
                     'kind_name': url_list[2].strip('\n'),
                     'star': 'star',
                 })
+            # 非星标
             else:
                 line_list = line.split('|')
                 url_list = line_list[1].split('{')
@@ -59,6 +62,6 @@ for i in range(num, 0, -1):
                     'star': None,
                 })
 
-# 生成web_list.json文件，即本地数据库，内容可直接拷贝到js代码中
+# 生成web_list.json文件，做为本地数据库，可直在js代码中使用
 with open(f'web_list.json', 'w')as fp:
     json.dump(web_list, fp)

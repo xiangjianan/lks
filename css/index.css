@@ -221,6 +221,8 @@ ul, li, ol {
 .copyrights {
     padding: 25px 0 !important;
     box-shadow: -0.1rem -2px 0 #f1f5fc; 
+    width: 100%;
+    bottom: 0;
 }
 
 /* top按钮 */
@@ -614,6 +616,9 @@ ul, li, ol {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
+    .copyrights{
+        position: relative!important;
+    }
 }
 
 @media only screen and (min-width: 280px) and (max-width: 599px) {
@@ -696,5 +701,8 @@ ul, li, ol {
     }
     .dmtop {
         right: 20px;
+    }
+    .copyrights{
+        position: relative!important;
     }
 }

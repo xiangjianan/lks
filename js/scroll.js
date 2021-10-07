@@ -489,8 +489,7 @@ let video_list = [
     ['BV1bU4y1x7A1', 'https://www.bilibili.com/video/BV1bU4y1x7A1/', '//player.bilibili.com/player.html?aid=671597785&bvid=BV1bU4y1x7A1&cid=293053800&page=1'],
     ['BV1qQ4y1r7ty', 'https://www.bilibili.com/video/BV1qQ4y1r7ty/', '//player.bilibili.com/player.html?aid=720562882&bvid=BV1qQ4y1r7ty&cid=409952044&page=1'],
 ];
-let is_show_bilibili = true;
-
+let is_show_bilibili = false;
 $('.web-menu').on('click', 'button:eq(0), .period, .btn_star', function () {
     // 更新简介
     let num = $(this).attr('num');

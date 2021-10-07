@@ -27,7 +27,7 @@ p.group-video .iconfont {
 
 /* 鼠标不可选中的标签 */
 
-.web-menu, .web-list, .dmtop, #submit, .modal-content, .show_bilibili {
+.web-menu, .web-list, .dmtop, #submit, .modal-content {
     -o-user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -36,7 +36,7 @@ p.group-video .iconfont {
     user-select: none;
 }
 
-a, a:hover, .filter-button-group button {
+a, a:hover, .filter-button-group button, .show_bilibili, .show_bilibili:hover {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
@@ -553,16 +553,11 @@ iframe {
 
 .show_bilibili {
     color: #333333;
-    font-size: 12px;
     cursor: pointer;
-    padding: 2px 5px;
-    border-radius: 0.2rem;
-    box-shadow: .02rem .02rem .04rem var(--greyLight-2),-.02rem -.02rem .04rem var(--white);
 }
 
-.show_bilibili:active {
+.show_bilibili:hover {
     color: #ff8c00;
-    box-shadow: inset .1rem .1rem .2rem var(--greyLight-2),inset -.1rem -.1rem .2rem #fff;
 }
 
 .web-list {

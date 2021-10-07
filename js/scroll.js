@@ -470,27 +470,61 @@
     }
 }(window, jQuery);
 
+// 标题
+$('.section-title a').click(() => {
+    window.location.reload()
+})
+
 // 网站卡片动效
 let $grid = $('.web-list').isotope({
     itemSelector: '.web-grid',
 });
 let video_list = [
-    ['第一期 av3743771', 'https://www.bilibili.com/video/av3743771/'],
-    ['第二期 av9856372', 'https://www.bilibili.com/video/av9856372/'],
-    ['第三期 av27234784', 'https://www.bilibili.com/video/av27234784/'],
-    ['第四期 av66209341', 'https://www.bilibili.com/video/av66209341/'],
-    ['第五期 BV1a741137NS', 'https://www.bilibili.com/video/BV1a741137NS/'],
-    ['第六期 BV1wv411y7L6', 'https://www.bilibili.com/video/BV1wv411y7L6/'],
-    ['第七期 BV1bU4y1x7A1', 'https://www.bilibili.com/video/BV1bU4y1x7A1/'],
-    ['第八期 BV1qQ4y1r7ty', 'https://www.bilibili.com/video/BV1qQ4y1r7ty/'],
+    ['av3743771', 'https://www.bilibili.com/video/av3743771/', '//player.bilibili.com/player.html?aid=671597785&bvid=BV1bU4y1x7A1&cid=293053800&page=1'],
+    ['av9856372', 'https://www.bilibili.com/video/av9856372/', '//player.bilibili.com/player.html?aid=9856372&bvid=BV1Nx411D78D&cid=16294903&page=1'],
+    ['av27234784', 'https://www.bilibili.com/video/av27234784/', '//player.bilibili.com/player.html?aid=27234784&bvid=BV1fs411E7ht&cid=169520351&page=1'],
+    ['av66209341', 'https://www.bilibili.com/video/av66209341/', '//player.bilibili.com/player.html?aid=66209341&bvid=BV1M4411m7Mz&cid=114833286&page=1'],
+    ['BV1a741137NS', 'https://www.bilibili.com/video/BV1a741137NS/', '//player.bilibili.com/player.html?aid=88646573&bvid=BV1a741137NS&cid=153840196&page=1'],
+    ['BV1wv411y7L6', 'https://www.bilibili.com/video/BV1wv411y7L6/', '//player.bilibili.com/player.html?aid=244743030&bvid=BV1wv411y7L6&cid=237959150&page=1'],
+    ['BV1bU4y1x7A1', 'https://www.bilibili.com/video/BV1bU4y1x7A1/', '//player.bilibili.com/player.html?aid=671597785&bvid=BV1bU4y1x7A1&cid=293053800&page=1'],
+    ['BV1qQ4y1r7ty', 'https://www.bilibili.com/video/BV1qQ4y1r7ty/', '//player.bilibili.com/player.html?aid=720562882&bvid=BV1qQ4y1r7ty&cid=409952044&page=1'],
 ];
+let is_show_bilibili = true;
+
 $('.web-menu').on('click', 'button:eq(0), .period, .btn_star', function () {
     // 更新简介
     let num = $(this).attr('num');
     if (num === '0') {
+        $('.bilibili_iframe').css('display', 'none');
+        $('iframe').attr('src', '');
         $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
-    } else {
-        $('.group-video').html(`视频传送门：<a href="${video_list[Number(num) - 1][1]}" rel="nofollow noreferrer" target="_blank"><span class="iconfont">&#xe6b4; </span>${video_list[Number(num) - 1][0]}</a>`);
+    } else if (num != '0' && !$(this).hasClass('active')) {
+        // 视频预览开关
+        $('.group-video').html(`视频传送门：<a href="${video_list[Number(num) - 1][1]}" target="_blank"><span class="iconfont">&#xe6b4; ${video_list[Number(num) - 1][0]}</span></a>&nbsp;&nbsp;<span class="show_bilibili" src="${video_list[Number(num) - 1][2]}"></span>`);
+        let func_show_bilibili = () => {
+            $('.bilibili_iframe').css('display', 'block');
+            $('.show_bilibili').html('隐藏预览');
+            $('iframe').attr('src', video_list[Number(num) - 1][2]);
+        }
+        let func_hide_bilibili = () => {
+            $('.bilibili_iframe').css('display', 'none');
+            $('.show_bilibili').html('显示预览');
+            $('iframe').attr('src', '');
+        }
+        if (is_show_bilibili) {
+            func_show_bilibili();
+        } else {
+            func_hide_bilibili();
+        }
+        $('.show_bilibili').click(() => {
+            if (is_show_bilibili) {
+                is_show_bilibili = false;
+                func_hide_bilibili();
+            } else {
+                is_show_bilibili = true;
+                func_show_bilibili();
+            }
+        })
     }
     // 卡片filter
     $(this).addClass('active').siblings().removeClass('active');
@@ -523,7 +557,9 @@ $scroll_to_top.click(function (e) {
 // 桌面端窗口自适应
 window.onresize = () => {
     if ($(window).width() >= 768) {
-        $('.web-menu button.active').click();
+        $grid.isotope({
+            filter: $('.web-menu button.active').attr('data-filter'),
+        });
     } else {
         $('.services-inner-box').unbind('mouseenter').unbind('mouseleave');
     }

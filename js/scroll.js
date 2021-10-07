@@ -581,10 +581,10 @@ new Vue({
             let inp = $search.val().trim();
             if (inp) {
                 $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
-                if ($('.bilibili_iframe').css('display') === 'block'){
+                $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
+                if ($('.bilibili_iframe').css('display') === 'block') {
                     $('.bilibili_iframe').css('display', 'none');
                     $('iframe').attr('src', '');
-                    $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
                 }
                 $('.web-list .web-grid').each(function () {
                     if ($(this).find('.web-single h2').text().toUpperCase().search(inp.toUpperCase()) != -1 || $(this).find('.web-single').attr('data-content').toUpperCase().search(inp.toUpperCase()) != -1) {

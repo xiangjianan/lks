@@ -480,7 +480,7 @@ let $grid = $('.web-list').isotope({
     itemSelector: '.web-grid',
 });
 let video_list = [
-    ['av3743771', 'https://www.bilibili.com/video/av3743771/', '//player.bilibili.com/player.html?aid=671597785&bvid=BV1bU4y1x7A1&cid=293053800&page=1'],
+    ['av3743771', 'https://www.bilibili.com/video/av3743771/', '//player.bilibili.com/player.html?aid=3743771&bvid=BV11s411X7u5&cid=6002978&page=1'],
     ['av9856372', 'https://www.bilibili.com/video/av9856372/', '//player.bilibili.com/player.html?aid=9856372&bvid=BV1Nx411D78D&cid=16294903&page=1'],
     ['av27234784', 'https://www.bilibili.com/video/av27234784/', '//player.bilibili.com/player.html?aid=27234784&bvid=BV1fs411E7ht&cid=169520351&page=1'],
     ['av66209341', 'https://www.bilibili.com/video/av66209341/', '//player.bilibili.com/player.html?aid=66209341&bvid=BV1M4411m7Mz&cid=114833286&page=1'],
@@ -497,10 +497,10 @@ $('.web-menu').on('click', 'button:eq(0), .period, .btn_star', function () {
     if (num === '0') {
         $('.bilibili_iframe').css('display', 'none');
         $('iframe').attr('src', '');
-        $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
+        $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" rel="nofollow noreferrer" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
     } else if (num != '0' && !$(this).hasClass('active')) {
         // 视频预览开关
-        $('.group-video').html(`视频传送门：<a href="${video_list[Number(num) - 1][1]}" target="_blank"><span class="iconfont">&#xe6b4; ${video_list[Number(num) - 1][0]}</span></a>&nbsp;&nbsp;预览：<span class="show_bilibili" src="${video_list[Number(num) - 1][2]}" ontouchstart=""></span>`);
+        $('.group-video').html(`视频传送门：<a href="${video_list[Number(num) - 1][1]}" rel="nofollow noreferrer" target="_blank"><span class="iconfont">&#xe6b4; ${video_list[Number(num) - 1][0]}</span></a>&nbsp;&nbsp;预览：<span class="show_bilibili" src="${video_list[Number(num) - 1][2]}" ontouchstart=""></span>`);
         let func_show_bilibili = () => {
             $('.bilibili_iframe').css('display', 'block');
             $('.show_bilibili').html('打开');

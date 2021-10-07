@@ -499,7 +499,7 @@ $('.web-menu').on('click', 'button:eq(0), .period, .btn_star', function () {
         $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" rel="nofollow noreferrer" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
     } else if (num != '0' && !$(this).hasClass('active')) {
         // 视频预览开关
-        $('.group-video').html(`视频传送门：<a href="${video_list[Number(num) - 1][1]}" rel="nofollow noreferrer" target="_blank"><span class="iconfont">&#xe6b4; ${video_list[Number(num) - 1][0]}</span></a>&nbsp;&nbsp;预览：<span class="show_bilibili" src="${video_list[Number(num) - 1][2]}" ontouchstart=""></span>`);
+        $('.group-video').html(`视频传送门：<a href="${video_list[Number(num) - 1][1]}" rel="nofollow noreferrer" target="_blank"><span class="iconfont">&#xe6b4; </span>${video_list[Number(num) - 1][0]}</a>&nbsp;&nbsp;预览：<span class="show_bilibili" src="${video_list[Number(num) - 1][2]}" ontouchstart=""></span>`);
         let func_show_bilibili = () => {
             $('.bilibili_iframe').css('display', 'block');
             $('.show_bilibili').html('打开');

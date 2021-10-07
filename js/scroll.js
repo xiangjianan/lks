@@ -503,12 +503,12 @@ $('.web-menu').on('click', 'button:eq(0), .period, .btn_star', function () {
         $('.group-video').html(`视频传送门：<a href="${video_list[Number(num) - 1][1]}" target="_blank"><span class="iconfont">&#xe6b4; ${video_list[Number(num) - 1][0]}</span></a>&nbsp;&nbsp;<span class="show_bilibili" src="${video_list[Number(num) - 1][2]}"></span>`);
         let func_show_bilibili = () => {
             $('.bilibili_iframe').css('display', 'block');
-            $('.show_bilibili').html('隐藏预览');
+            $('.show_bilibili').html('隐藏视频');
             $('iframe').attr('src', video_list[Number(num) - 1][2]);
         }
         let func_hide_bilibili = () => {
             $('.bilibili_iframe').css('display', 'none');
-            $('.show_bilibili').html('显示预览');
+            $('.show_bilibili').html('显示视频');
             $('iframe').attr('src', '');
         }
         if (is_show_bilibili) {

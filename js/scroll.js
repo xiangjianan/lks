@@ -581,6 +581,9 @@ new Vue({
             let inp = $search.val().trim();
             if (inp) {
                 $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
+                if ($('.bilibili_iframe').css('display') === 'block'){
+                    $('.bilibili_iframe').css('display', 'none');
+                }
                 $('.web-list .web-grid').each(function () {
                     if ($(this).find('.web-single h2').text().toUpperCase().search(inp.toUpperCase()) != -1 || $(this).find('.web-single').attr('data-content').toUpperCase().search(inp.toUpperCase()) != -1) {
                         $(this).addClass('filter_web');

@@ -36,7 +36,7 @@ p.group-video .iconfont {
     user-select: none;
 }
 
-a, a:hover, .filter-button-group button, .show_bilibili, .show_bilibili:hover {
+a, a:hover, .filter-button-group button, .show_bilibili, .show_bilibili:hover, .section-title h3, .section-title h3:hover {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
@@ -107,6 +107,10 @@ ul, li, ol {
     color: #222222;
     text-transform: none;
     letter-spacing: 0.015em;
+}
+
+.section-title h3:hover {
+    color: darkorange;
 }
 
 .services-inner-box {
@@ -244,6 +248,10 @@ ul, li, ol {
     bottom: 85px;
 }
 
+#scroll-to-top:active span, #scroll-to-question:active span {
+    color: darkorange;
+}
+
 .dmtop span {
     font-size: 23px;
 }
@@ -270,7 +278,6 @@ ul, li, ol {
 }
 
 .services-inner-box:active, .dmtop:active {
-    -webkit-box-shadow: inset 0.2rem 0.2rem 0.4rem var(--greyLight-2), inset -0.2rem -0.2rem 0.4rem white;
     box-shadow: inset 0.2rem 0.2rem 0.4rem var(--greyLight-2), inset -0.2rem -0.2rem 0.4rem white;
 }
 
@@ -768,5 +775,8 @@ iframe {
     }
     .copyrights {
         position: relative!important;
+    }
+    .my_span {
+        display: none;
     }
 }

@@ -504,7 +504,9 @@ let video_list = [
   ['BV1bU4y1x7A1', 'https://www.bilibili.com/video/BV1bU4y1x7A1/', '//player.bilibili.com/player.html?aid=671597785&bvid=BV1bU4y1x7A1&cid=293053800&page=1'],
   ['BV1qQ4y1r7ty', 'https://www.bilibili.com/video/BV1qQ4y1r7ty/', '//player.bilibili.com/player.html?aid=720562882&bvid=BV1qQ4y1r7ty&cid=409952044&page=1'],
 ];
-let is_show_bilibili = false;
+if (!localStorage.getItem('is_show_bilibili')){
+    localStorage.setItem('is_show_bilibili', 0);
+}
 $('.web-menu').on('click', 'button:eq(0), .period, .btn_star', function () {
   // 更新简介
   let num = $(this).attr('num');
@@ -525,17 +527,17 @@ $('.web-menu').on('click', 'button:eq(0), .period, .btn_star', function () {
           $('.show_bilibili').html('已关闭');
           $('iframe').attr('src', '');
       }
-      if (is_show_bilibili) {
+      if (localStorage.getItem('is_show_bilibili') == 1) {
           func_show_bilibili();
       } else {
           func_hide_bilibili();
       }
       $('.show_bilibili').click(() => {
-          if (is_show_bilibili) {
-              is_show_bilibili = false;
+          if (localStorage.getItem('is_show_bilibili') == 1) {
+              localStorage.setItem('is_show_bilibili', 0);;
               func_hide_bilibili();
           } else {
-              is_show_bilibili = true;
+              localStorage.setItem('is_show_bilibili', 1);;
               func_show_bilibili();
           }
       })

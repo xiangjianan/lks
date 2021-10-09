@@ -13,7 +13,7 @@ wuxiaworld	http://www.wuxiaworld.com/{海外版的起点小说网，看小说的
 gif	https://giphy.com/{寻找GIF、剪辑和贴纸，使你的对话更积极，更有表现力，更做你自己{图片
 秘密	http://soulapartment.net/bin/index.php{世界各地的人在这里分享秘密{艺术&游戏
 背景音合成器	http://asoftmurmur.com/{环境声音可以洗去分心{音乐
-illegal	http://isnowillegal.com/?plus%201s{如何让一件事变的违法{娱乐
+#illegal	http://isnowillegal.com/?plus%201s{如何让一件事变的违法{娱乐
 全球电台	http://radio.garden/live/tokyo/j-idols-project-radio/{通过旋转地球来探索现场广播电台{娱乐&音乐  
 图片合成 http://www.ostagram.ru/lenta?locale=en{AI合成两张不相干的图片{娱乐&图片
 世界飞机	https://www.flightradar24.com/PRBGT/d0da2bf{提供全球数千架飞机的实时信息{工具

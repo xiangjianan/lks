@@ -13,7 +13,7 @@ for i in range(1, num + 1):
     with open(f'./web_{i}_out.txt', 'w') as fo:
         with open(f'./web_{i}.txt', 'r') as f:
             for line in f:
-                if len(line) < 3:
+                if len(line) < 3  or line[0] == '#':
                     continue
                 # 减少空格
                 if '	' in line:

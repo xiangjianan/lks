@@ -107,6 +107,7 @@ ul, li, ol {
     color: #222222;
     text-transform: none;
     letter-spacing: 0.015em;
+    cursor: pointer;
 }
 
 .section-title h3:hover {
@@ -423,7 +424,7 @@ ul, li, ol {
     background-color: rgba(0, 0, 0, 0);
     font-size: 16px;
     outline: none;
-    padding: 10px 25px;
+    padding: 10px 24px;
     height: 55px;
     resize: none;
     width: 100%;
@@ -431,9 +432,13 @@ ul, li, ol {
     box-shadow: inset .15rem .15rem .2rem var(--greyLight-2), inset -.15rem -.15rem .2rem #fff;
 }
 
+.modal-body input.form-control {
+    color: blue;
+}
+
 .modal-body textarea.form-control {
     outline: none;
-    padding: 20px 25px !important;
+    padding: 20px 24px !important;
     height: 170px !important;
 }
 
@@ -479,7 +484,6 @@ ul, li, ol {
 
 .el-notification.right {
     background-color: var(--greyLight-1) !important;
-    width: 333px;
 }
 
 .modal-footer .btn-primary {
@@ -534,13 +538,6 @@ ul, li, ol {
 
 .bs-popover-auto[x-placement^=bottom]>.arrow::after, .bs-popover-bottom>.arrow::after {
     border-bottom-color: var(--greyLight-1)!important;
-}
-
-/* 致谢 */
-
-#exampleModal .modal-body p {
-    text-align: center;
-    margin: 0;
 }
 
 /* 视频 */
@@ -775,8 +772,5 @@ iframe {
     }
     .copyrights {
         position: relative!important;
-    }
-    .my_span {
-        display: none;
     }
 }

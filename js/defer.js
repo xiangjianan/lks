@@ -45,8 +45,8 @@ $('#search').keydown((e) => {
     }
 });
 
-// 问题反馈
-let $name = $('#recipient-name');
+// 推荐网站
+let $href = $('#recipient-name');
 let $content = $('#message-text');
 new Vue({
     el: '#send_msg',
@@ -58,44 +58,46 @@ new Vue({
     methods: {
         send() {
             let $send_msg = $('#send_msg');
-            let name = $name.val().trim();
+            let href = $href.val().trim();
             let content = $content.val().trim();
-            let name_length = name.length;
+            let href_length = href.length;
             let content_length = content.length;
             this.send_flag = true;
-            if (!name && !content) {
-                this.ele_message('请输入反馈内容', 'info');
-            } else if (!name) {
-                this.ele_message('请拟定一个标题', 'info');
+            if (!content && !href) {
+                $href.val('');
+                $content.val('');
+                this.ele_message('请输入链接、网站简介', 'info');
+            } else if (!href) {
+                $href.val('');
+                this.ele_message('请输入链接', 'info');
             } else if (!content) {
-                content = '无';
+                $content.val('');
+                this.ele_message('请输入网站简介', 'info');
             }
-            if (name_length > 32) {
-                this.ele_message('标题太长了，已超出32个字符的限制', 'warning');
-            } else if (content_length > 1024) {
-                this.ele_message(`你一共写了${content_length}个字，已超出1024个字符的限制`, 'warning');
+            if (href_length > 256) {
+                this.ele_message('链接太长了，已超出256个字符的限制', 'warning');
+            } else if (content_length > 256) {
+                this.ele_message(`你一共写了${content_length}个字，已超出256个字符的限制`, 'warning');
             }
             if (this.send_flag) {
-                $name.val('');
+                $href.val('');
                 $content.val('');
                 $send_msg.attr('disabled', true);
                 $send_msg.addClass('send_disabled');
                 $.ajax({
                     type: "POST",
                     dataType: "text",
-                    url: 'https://www.helloxjn.com/api/db_content',
+                    url: 'https://api.lks.helloxjn.com/api/web_reveive',
                     data: {
-                        "name": name,
+                        "href": href,
                         "content": content,
-                        "ip": 'lks网站反馈'
                     },
                     error: () => {
                         $send_msg.attr('disabled', false);
                         $send_msg.removeClass('send_disabled');
                         this.$notify({
                             title: '发送失败',
-                            message: `服务器出问题了，消息发送失败！`,
-                            dangerouslyUseHTMLString: true,
+                            message: `服务器在摸鱼！`,
                             type: 'error',
                             center: true,
                         });
@@ -105,8 +107,7 @@ new Vue({
                         $send_msg.removeClass('send_disabled');
                         this.$notify({
                             title: '已发送',
-                            message: `谢谢你的反馈，这将对我非常重要！`,
-                            dangerouslyUseHTMLString: true,
+                            message: `感谢分享 (゜-゜)つロ`,
                             type: 'success',
                             center: true,
                         });
@@ -127,7 +128,7 @@ new Vue({
         },
     }
 })
-$name.keydown((e) => {
+$href.keydown((e) => {
     if (e.keyCode === 13) {
         $content.focus();
         return false;
@@ -143,7 +144,7 @@ $.ajax({
     },
 });
 
-// 交个朋友
+// 控制台
 console.log(`
 GitHub: https://github.com/xiangjianan
 
@@ -153,7 +154,7 @@ Email: xiang9872@gmail.com
 
 `);
 
-// bootstrap弹出框配置（网站简介）
+// bootstrap弹框配置（网站简介）
 $('[data-toggle="popover"]').popover({
     container: 'body',
     content: '暂无简介',

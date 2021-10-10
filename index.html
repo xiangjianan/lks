@@ -11,7 +11,7 @@
     <link rel="apple-touch-icon" href="https://github.githubassets.com/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="https://github.githubassets.com/apple-touch-icon-180x180.png">
     <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/index.1.2.0.min.css">
+    <link rel="stylesheet" href="css/index.1.2.1.min.css">
     <link rel="stylesheet" href="font/iconfont.1.2.1.css">
     <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/element-ui/2.15.0/theme-chalk/index.min.css">
 </head>
@@ -20,13 +20,13 @@
     <div id="web" class="section lb ">
         <div class="container">
             <div class="section-title text-left">
-                <a href="javascript:void(0)" style="display: inline-block;"><h3 class="">网站推荐</h3></a>
+                <span style="display: inline-block;"><h3>网站推荐</h3></span>
                 <div class="row">
                     <div class="col-md-8">
                         <p class="group-video">B站博主<a href="https://space.bilibili.com/125526/" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》</p>
                     </div>
                     <div class="col-md-3 resize-col-md-3">
-                        <input id="search" placeholder="输入关键词">
+                        <input id="search" placeholder="关键词...">
                     </div>
                     <div class="col-md-1 resize-col-md-1">
                         <span id="submit" class="iconfont" ontouchstart="" @click="search_send">&#xe6d9;</span>
@@ -100,7 +100,7 @@
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">反馈与建议</h5>
+              <h5 class="modal-title" id="exampleModalLabel">推荐网站</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -108,24 +108,24 @@
             <div class="modal-body">
               <form>
                 <div class="form-group">
-                  <input type="text" class="form-control" id="recipient-name" placeholder="标题">
+                  <input type="text" class="form-control" id="recipient-name" placeholder="链接">
                 </div>
                 <div class="form-group" style="height: 170px;">
-                  <textarea class="form-control" id="message-text" placeholder="详细描述（可选）"></textarea>
+                  <textarea class="form-control" id="message-text" placeholder="网站简介..."></textarea>
                 </div>
               </form>
             </div>
             <div class="modal-footer col-md-12 text-center">
-              <button id="send_msg" ontouchstart="" type="button" class="btn btn-primary" @click="send">发送</button>
+              <button id="send_msg" ontouchstart="" type="button" class="btn btn-primary" @click="send">推荐</button>
             </div>
           </div>
         </div>
       </div>
 </body>
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="js/index.1.2.2.min.js"></script>
+<script src="js/index.1.2.4.min.js"></script>
 <script defer src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 <script defer src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.12/vue.min.js"></script>
 <script defer src="https://cdn.bootcdn.net/ajax/libs/element-ui/2.15.0/index.min.js"></script>
-<script defer src="js/defer.1.2.0.min.js"></script>
+<script defer src="js/defer.1.2.2.min.js"></script>
 </html>

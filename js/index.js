@@ -495,14 +495,14 @@ let $grid = $('.web-list').isotope({
     itemSelector: '.web-grid',
 });
 let video_list = [
-    ['av3743771', 'https://www.bilibili.com/video/av3743771/', '//player.bilibili.com/player.html?aid=3743771&bvid=BV11s411X7u5&cid=6002978&page=1'],
-    ['av9856372', 'https://www.bilibili.com/video/av9856372/', '//player.bilibili.com/player.html?aid=9856372&bvid=BV1Nx411D78D&cid=16294903&page=1'],
-    ['av27234784', 'https://www.bilibili.com/video/av27234784/', '//player.bilibili.com/player.html?aid=27234784&bvid=BV1fs411E7ht&cid=169520351&page=1'],
-    ['av66209341', 'https://www.bilibili.com/video/av66209341/', '//player.bilibili.com/player.html?aid=66209341&bvid=BV1M4411m7Mz&cid=114833286&page=1'],
-    ['BV1a741137NS', 'https://www.bilibili.com/video/BV1a741137NS/', '//player.bilibili.com/player.html?aid=88646573&bvid=BV1a741137NS&cid=153840196&page=1'],
-    ['BV1wv411y7L6', 'https://www.bilibili.com/video/BV1wv411y7L6/', '//player.bilibili.com/player.html?aid=244743030&bvid=BV1wv411y7L6&cid=237959150&page=1'],
-    ['BV1bU4y1x7A1', 'https://www.bilibili.com/video/BV1bU4y1x7A1/', '//player.bilibili.com/player.html?aid=671597785&bvid=BV1bU4y1x7A1&cid=293053800&page=1'],
-    ['BV1qQ4y1r7ty', 'https://www.bilibili.com/video/BV1qQ4y1r7ty/', '//player.bilibili.com/player.html?aid=720562882&bvid=BV1qQ4y1r7ty&cid=409952044&page=1'],
+    ['av3743771', 'aid=3743771&bvid=BV11s411X7u5&cid=6002978'],
+    ['av9856372', 'aid=9856372&bvid=BV1Nx411D78D&cid=16294903'],
+    ['av27234784', 'aid=27234784&bvid=BV1fs411E7ht&cid=169520351'],
+    ['av66209341', 'aid=66209341&bvid=BV1M4411m7Mz&cid=114833286'],
+    ['BV1a741137NS', 'aid=88646573&bvid=BV1a741137NS&cid=153840196'],
+    ['BV1wv411y7L6', 'aid=244743030&bvid=BV1wv411y7L6&cid=237959150'],
+    ['BV1bU4y1x7A1', 'aid=671597785&bvid=BV1bU4y1x7A1&cid=293053800'],
+    ['BV1qQ4y1r7ty', 'aid=720562882&bvid=BV1qQ4y1r7ty&cid=409952044'],
 ];
 // 默认关闭视频预览
 if (!localStorage.getItem('is_show_bilibili')) {
@@ -517,11 +517,11 @@ $('.web-menu').on('click', 'button:eq(0), .period, .btn_star', function () {
         $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" rel="nofollow noreferrer" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
     } else if (num != '0' && !$(this).hasClass('active')) {
         // 视频预览开关
-        $('.group-video').html(`视频传送门：<a href="${video_list[Number(num) - 1][1]}" rel="nofollow noreferrer" target="_blank"><span class="iconfont" style="margin-right:3px">&#xe6b4;</span>${video_list[Number(num) - 1][0]}</a>&nbsp;&nbsp;&nbsp;<span class="show_bilibili" src="${video_list[Number(num) - 1][2]}" ontouchstart=""></span>`);
+        $('.group-video').html(`视频传送门：<a href="https://www.bilibili.com/video/${video_list[Number(num) - 1][0]}/" rel="nofollow noreferrer" target="_blank"><span class="iconfont" style="margin-right:3px">&#xe6b4;</span>${video_list[Number(num) - 1][0]}</a>&nbsp;&nbsp;&nbsp;<span class="show_bilibili" ontouchstart=""></span>`);
         let func_show_bilibili = () => {
             $('.bilibili_iframe').css('display', 'block');
             $('.show_bilibili').html('<span class="iconfont" style="margin-right:2px">&#xe7fb;</span>关闭');
-            $('iframe').attr('src', video_list[Number(num) - 1][2]);
+            $('iframe').attr('src', `//player.bilibili.com/player.html?${video_list[Number(num) - 1][1]}&page=1`);
         }
         let func_hide_bilibili = () => {
             $('.bilibili_iframe').css('display', 'none');

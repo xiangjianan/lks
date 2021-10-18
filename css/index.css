@@ -284,7 +284,7 @@ ul, li, ol {
 
 /* 星标 */
 
-.services-inner-box span {
+.services-inner-box>span {
     display: none;
     color: #333333;
     font-weight: 600;

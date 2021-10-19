@@ -510,6 +510,14 @@ ul, li, ol {
     box-shadow: .1rem .1rem .2rem var(--greyLight-2), -.1rem -.1rem .3rem var(--white)!important;
 }
 
+/* 留言接口 */
+
+.api_lks {
+    display: block;
+    margin-top: 0.45rem;
+    font-size: 12px;
+}
+
 /* 弹出框 */
 
 .popover {

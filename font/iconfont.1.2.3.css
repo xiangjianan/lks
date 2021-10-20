@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2437672 */
-  src: url('iconfont.1.2.2.woff2?t=1634549522074') format('woff2'),
-       url('iconfont.1.2.2.woff?t=1634549522074') format('woff'),
-       url('iconfont.1.2.2.ttf?t=1634549522074') format('truetype');
+  src: url('iconfont.1.2.3.woff2?t=1634748944725') format('woff2'),
+       url('iconfont.1.2.3.woff?t=1634748944725') format('woff'),
+       url('iconfont.1.2.3.ttf?t=1634748944725') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,10 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jilu:before {
+  content: "\e66b";
 }
 
 .icon-Interface-55:before {

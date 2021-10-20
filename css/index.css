@@ -36,7 +36,7 @@ p.group-video .iconfont {
     user-select: none;
 }
 
-a, a:hover, .filter-button-group button, .show_bilibili, .show_bilibili:hover, .section-title h3, .section-title h3:hover {
+.api_lks span, .api_lks span:hover, a, a:hover, .filter-button-group button, .show_bilibili, .show_bilibili:hover, .section-title h3, .section-title h3:hover {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
@@ -512,10 +512,15 @@ ul, li, ol {
 
 /* 留言接口 */
 
-.api_lks {
+.api_lks span {
     display: block;
+    color: #888888;
     margin-top: 0.45rem;
     font-size: 12px;
+}
+
+.api_lks span:hover {
+    color: darkorange;
 }
 
 /* 弹出框 */

@@ -13,7 +13,7 @@ new Vue({
                     $('iframe').attr('src', '');
                 }
                 $('.web-list .web-grid').each(function () {
-                    if ($(this).find('.web-single h2').text().toUpperCase().search(inp.toUpperCase()) != -1 || $(this).find('.web-single').attr('data-content').toUpperCase().search(inp.toUpperCase()) != -1) {
+                    if (($(this).find('.web-single h2').text() + $(this).find('.web-single p').text()).toUpperCase().search(inp.toUpperCase()) != -1 || $(this).find('.web-single').attr('data-content').toUpperCase().search(inp.toUpperCase()) != -1) {
                         $(this).addClass('filter_web');
                     }
                 });

@@ -119,9 +119,9 @@ new Vue({
                         res = $.parseJSON(res);
                         if (res.code == 1040){
                             this.$notify({
-                                title: '提醒',
-                                message: `你已被屏蔽 (￣^￣)ゞ`,
-                                type: 'warning',
+                                title: '发送失败',
+                                message: `你的请求已被过滤 (￣^￣)ゞ`,
+                                type: 'error',
                                 center: true,
                             });
                         }else if(res.code == 1000){

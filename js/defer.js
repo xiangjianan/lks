@@ -79,6 +79,7 @@ new Vue({
             } else if (content_length > 256) {
                 this.ele_message(`你一共写了${content_length}个字，已超出256个字符的限制`, 'warning');
             }
+            let ip = returnCitySN["cip"];
             if (this.send_flag) {
                 $href.val('');
                 $content.val('');
@@ -91,26 +92,46 @@ new Vue({
                     data: {
                         "href": href,
                         "content": content,
+                        "ip": ip,
                     },
-                    error: () => {
+                    error: (res) => {
                         $send_msg.attr('disabled', false);
                         $send_msg.removeClass('send_disabled');
-                        this.$notify({
-                            title: '发送失败',
-                            message: `服务器在摸鱼！`,
-                            type: 'error',
-                            center: true,
-                        });
+                        if(res.status == 429){
+                            this.$notify({
+                                title: '发送失败',
+                                message: `发送频率过高，请稍后再试！`,
+                                type: 'warning',
+                                center: true,
+                            });
+                        }else{
+                            this.$notify({
+                                title: '发送失败',
+                                message: `服务器在摸鱼！`,
+                                type: 'error',
+                                center: true,
+                            });
+                        }     
                     },
-                    success: () => {
+                    success: (res) => {
                         $send_msg.attr('disabled', false);
                         $send_msg.removeClass('send_disabled');
-                        this.$notify({
-                            title: '已发送',
-                            message: `感谢分享 (゜-゜)つロ`,
-                            type: 'success',
-                            center: true,
-                        });
+                        res = $.parseJSON(res);
+                        if (res.code == 1040){
+                            this.$notify({
+                                title: '提醒',
+                                message: `你已被屏蔽 (￣^￣)ゞ`,
+                                type: 'warning',
+                                center: true,
+                            });
+                        }else if(res.code == 1000){
+                            this.$notify({
+                                title: '已发送',
+                                message: `感谢分享 (゜-゜)つロ`,
+                                type: 'success',
+                                center: true,
+                            });
+                        } 
                     }
                 });
             }

@@ -81,8 +81,6 @@ new Vue({
             }
             let ip = returnCitySN["cip"];
             if (this.send_flag) {
-                $href.val('');
-                $content.val('');
                 $send_msg.attr('disabled', true);
                 $send_msg.addClass('send_disabled');
                 $.ajax({
@@ -125,6 +123,8 @@ new Vue({
                                 center: true,
                             });
                         }else if(res.code == 1000){
+                            $href.val('');
+                            $content.val('');
                             this.$notify({
                                 title: '已发送',
                                 message: `感谢分享 (゜-゜)つロ`,

@@ -79,7 +79,7 @@ new Vue({
             } else if (content_length > 256) {
                 this.ele_message(`你一共写了${content_length}个字，已超出256个字符的限制`, 'warning');
             }
-            let ip = returnCitySN["cip"];
+            let ip = '0.0.0.0';
             if (this.send_flag) {
                 $send_msg.attr('disabled', true);
                 $send_msg.addClass('send_disabled');

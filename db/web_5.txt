@@ -8,10 +8,10 @@ PPT	https://slidesgo.com/theme/isometric-proposal{免费谷歌幻灯片主题和
 新媒体导航	https://www.kaolamedia.com/{新媒体人每天打开的第一个网站{工具&视频
 AI捏人	https://artbreeder.com/{只需不断选择最有趣的图像，即可发现全新的图像{工具&图片		强推
 数据	https://ncov.dxy.cn/ncovh5/view/pneumonia{丁香医生 - 全球新冠肺炎疫情地图{生活
-人类测试	https://humanbenchmark.com/{通过脑力游戏和认知测试来衡量你的能力{工具&游戏
+测试	https://humanbenchmark.com/{通过脑力游戏和认知测试来衡量你的能力{工具&游戏
 物流	https://logisticsartproject.com/{从斯德哥尔摩到深圳宝安，37天，一个集装箱和拍摄它的人的故事{艺术&视频
 慕课	https://www.icourse163.org/{国家精品课程在线学习平台{学习
-人类UI	https://userinyerface.com/game.html{最差的用户界面实验{娱乐
+人UI	https://userinyerface.com/game.html{最差的用户界面实验{娱乐
 yes/no	https://yesno.wtf/{做出一个好的决定可能需要一些帮助{工具
 老照片上色	https://colourise.sg/{给你的黑白照片上色{工具&图片
 地球时间	http://timelineofearth.com/{地球历史的互动年表{娱乐

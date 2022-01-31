@@ -11,7 +11,7 @@ AI捏人|https://artbreeder.com/{只需不断选择最有趣的图像，即可�
 人类测试|https://humanbenchmark.com/{通过脑力游戏和认知测试来衡量你的能力{工具&游戏
 物流|https://logisticsartproject.com/{从斯德哥尔摩到深圳宝安，37天，一个集装箱和拍摄它的人的故事{艺术&视频
 慕课|https://www.icourse163.org/{国家精品课程在线学习平台{学习
-反人类UI|https://userinyerface.com/game.html{最差的用户界面实验{娱乐
+fǎn人类UI|https://userinyerface.com/game.html{最差的用户界面实验{娱乐
 yes/no|https://yesno.wtf/{做出一个好的决定可能需要一些帮助{工具
 老照片上色|https://colourise.sg/{给你的黑白照片上色{工具&图片
 地球时间|http://timelineofearth.com/{地球历史的互动年表{娱乐
@@ -26,4 +26,4 @@ emm|http://www.shushubuyue.net/#{匿名聊天网{娱乐
 词云|https://www.weiciyun.com/{简单强大的文字云艺术生成器{工具
 探月|http://moon.bao.ac.cn/mul/index/list{月球与行星数据发布系统{工具
 中国地图|https://www.ageeye.cn/{知识地图制作分享平台，它将地图和文字结合，反映中国历史、军事、地理、文化等方面的知识{工具&学习
-解谜|http://nazo.one-story.cn/{一个脑洞大开的游戏{游戏
+解谜|http://nazo.one-story.cn/{一个脑洞大开的游戏{游戏gl

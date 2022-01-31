@@ -13,17 +13,3 @@ AI捏人|https://artbreeder.com/{只需不断选择最有趣的图像，即可�
 慕课|https://www.icourse163.org/{国家精品课程在线学习平台{学习
 反人类UI|https://userinyerface.com/game.html{最差的用户界面实验{娱乐
 yes/no|https://yesno.wtf/{做出一个好的决定可能需要一些帮助{工具
-老照片上色|https://colourise.sg/{给你的黑白照片上色{工具&图片
-地球时间|http://timelineofearth.com/{地球历史的互动年表{娱乐
-猫|https://bongo.cat/{像邦戈猫一样击打邦戈鼓{娱乐&音乐
-大佬|https://neave.com/{来自Neave Interactive的应用程序{娱乐
-太鼓达人|https://tg.lv5.ac{适用于桌面和移动浏览器的太鼓达人节奏游戏模拟器{游戏&音乐*$$$$
-emm|http://www.shushubuyue.net/#{匿名聊天网{娱乐
-全网热门|https://tophub.today/{追踪全网热点、简单高效阅读{实用&工具
-数据表|https://www.visualcapitalist.com/{数据驱动的视觉效果，帮助解释复杂的世界{工具
-医疗|https://www.msdmanuals.com/zh#mission{默沙东诊疗手册{生活&工具
-临时验证码|https://temp-mail.org/zh/{提供临时邮箱接收烦人的验证码，使用时注意个人信息安全{工具*$$$$
-词云|https://www.weiciyun.com/{简单强大的文字云艺术生成器{工具
-探月|http://moon.bao.ac.cn/mul/index/list{月球与行星数据发布系统{工具
-中国地图|https://www.ageeye.cn/{知识地图制作分享平台，它将地图和文字结合，反映历史、军事、地理、文化等方面的知识{工具&学习
-解谜|http://nazo.one-story.cn/{一个脑洞大开的游戏{游戏

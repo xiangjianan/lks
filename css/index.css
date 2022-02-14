@@ -488,6 +488,10 @@ ul, li, ol {
 .phone-modal hr {
     margin: 0.3em;
 }
+.phone-modal h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
 .phone-modal .slogan {
     width: 100%;
     height: 50%;
@@ -498,24 +502,23 @@ ul, li, ol {
 }
 .phone-modal .go-url div {
     float: left;
+}
+.phone-modal .hide-modal {
+    float: right; 
+}
+.phone-modal .go-url div, .phone-modal .hide-modal {
+    color: #333333;
     width: 47.5%;
-    color: darkorange;
     height: 40px;
+    font-size: 14px;
+    font-weight: 600;
     border-radius: 0.8em;
     text-align: center;
     box-shadow: .1rem .1rem .2rem var(--greyLight-2), -.1rem -.1rem .3rem var(--white);
 }
 .phone-modal .go-url div:active, .phone-modal .hide-modal:active {
+    color: darkorange;
     box-shadow: inset 0.2rem 0.2rem 0.3rem var(--greyLight-2), inset -0.1rem -0.1rem 0.3rem var(--white);
-}
-.phone-modal .hide-modal {
-    float: right;
-    color: #888888;
-    width: 47.5%;
-    height: 40px;
-    border-radius: 0.8em;
-    text-align: center;
-    box-shadow: .1rem .1rem .2rem var(--greyLight-2), -.1rem -.1rem .3rem var(--white);
 }
 .phone-modal .go-url div span, .phone-modal .hide-modal span {
     line-height: 40px;

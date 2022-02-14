@@ -44,6 +44,10 @@ $('.phone-modal .go-url').click(() => {
     $('.phone-modal').stop().fadeOut(300);
     $('.back-modal').stop().fadeOut(300);
 });
+$('.back-modal').click(() => {
+    $('.phone-modal').stop().fadeOut(300);
+    $('.back-modal').stop().fadeOut(300);
+});
 
 // 网站卡片动效
 let $grid = $('.web-list').isotope({

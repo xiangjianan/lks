@@ -14,15 +14,36 @@ for (i in web_list) {
     if (web_list[i].title == '捏脸'){
         web_list_html +=  `<div class="col-md-4 web-grid web_8 is_star" data-toggle="modal" data-target="#exampleModal"><span style="cursor:pointer"><div data-toggle="popover" data-content="良心到难以置信的网站推荐" class="services-inner-box web-single clearfix" ontouchstart=""><span class="star iconfont">&#xe639;</span><h2>LKs网页推荐站</h2><p>实用</p></div></span></div>`;
     }
-    web_list_html += `<div class="col-md-4 web-grid ${web_list[i].kind} is_${web_list[i].star}"><a href="${web_list[i].href}" target="_blank"><div data-toggle="popover" data-content="${web_list[i].slogan}" class="services-inner-box web-single clearfix" ontouchstart=""><span class="${web_list[i].star} iconfont">&#xe639;</span><h2>${web_list[i].title}</h2><p>${web_list[i].kind_name}</p></div></a></div>`
+    if ($(window).width() >= 768) {
+        web_list_html += `<div class="col-md-4 web-grid ${web_list[i].kind} is_${web_list[i].star}"><a href="${web_list[i].href}" target="_blank"><div data-toggle="popover" data-content="${web_list[i].slogan}" class="services-inner-box web-single clearfix" ontouchstart=""><span class="${web_list[i].star} iconfont">&#xe639;</span><h2>${web_list[i].title}</h2><p>${web_list[i].kind_name}</p></div></a></div>`;
+    } else {
+        web_list_html += `<div class="col-md-4 web-grid web-grid-phone ${web_list[i].kind} is_${web_list[i].star}"><span href="${web_list[i].href}"><div data-content="${web_list[i].slogan}" class="services-inner-box web-single clearfix" ontouchstart=""><span class="${web_list[i].star} iconfont">&#xe639;</span><h2>${web_list[i].title}</h2><p>${web_list[i].kind_name}</p></div></span></div>`;
+    }
 }
 $('.web-list').html(web_list_html);
 $('.copyrights').removeClass('hide');
 
 // 标题
 $('.section-title>span').click(() => {
-    window.location.reload()
-})
+    window.location.reload();
+});
+
+// 移动端弹框
+$('.web-grid-phone').click(function() {
+    $('.back-modal').stop().fadeIn(300);
+    $('.phone-modal').stop().fadeIn(300);
+    $('.phone-modal').find('h3').text($(this).find('span div h2').text());
+    $('.phone-modal').find('.slogan span').text($(this).find('span div').attr('data-content'));
+    $('.phone-modal').find('.go-url').attr('href', $(this).find('span').attr('href'));
+});
+$('.phone-modal .hide-modal').click(() => {
+    $('.phone-modal').stop().fadeOut(300);
+    $('.back-modal').stop().fadeOut(300);
+});
+$('.phone-modal .go-url').click(() => {
+    $('.phone-modal').stop().fadeOut(300);
+    $('.back-modal').stop().fadeOut(300);
+});
 
 // 网站卡片动效
 let $grid = $('.web-list').isotope({

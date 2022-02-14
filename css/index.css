@@ -314,6 +314,7 @@ ul, li, ol {
     border-radius: 0.8em;
     outline: none;
     box-shadow: inset .15rem .15rem .2rem var(--greyLight-2), inset -.15rem -.15rem .2rem #fff;
+    -webkit-appearance: none;
 }
 
 #search::-webkit-input-placeholder {
@@ -458,6 +459,66 @@ ul, li, ol {
 
 .form-control::-ms-input-placeholder {
     color: #a3a3a3;
+}
+
+/* 移动端弹框 */
+.back-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+.phone-modal {
+    width: 80%;
+    height: auto;
+    padding: 5%;
+    background-color: var(--greyLight-1);
+    border-radius: 10px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    transform : translate(-50%, -50%);
+}
+.phone-modal hr {
+    margin: 0.3em;
+}
+.phone-modal .slogan {
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+}
+.phone-modal .slogan span {
+    font-size: 15px;
+}
+.phone-modal .go-url div {
+    float: left;
+    width: 47.5%;
+    color: darkorange;
+    height: 40px;
+    border-radius: 0.8em;
+    text-align: center;
+    box-shadow: .1rem .1rem .2rem var(--greyLight-2), -.1rem -.1rem .3rem var(--white);
+}
+.phone-modal .go-url div:active, .phone-modal .hide-modal:active {
+    box-shadow: inset 0.2rem 0.2rem 0.3rem var(--greyLight-2), inset -0.1rem -0.1rem 0.3rem var(--white);
+}
+.phone-modal .hide-modal {
+    float: right;
+    color: #888888;
+    width: 47.5%;
+    height: 40px;
+    border-radius: 0.8em;
+    text-align: center;
+    box-shadow: .1rem .1rem .2rem var(--greyLight-2), -.1rem -.1rem .3rem var(--white);
+}
+.phone-modal .go-url div span, .phone-modal .hide-modal span {
+    line-height: 40px;
 }
 
 /* 星标及切换按钮 */

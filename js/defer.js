@@ -156,15 +156,6 @@ $href.keydown((e) => {
     }
 });
 
-// 日访问量统计接口
-$.ajax({
-    type: "POST",
-    url: "https://www.helloxjn.com/log/",
-    data: {
-        'web': 'lks',
-    },
-});
-
 // 控制台
 console.log(`
 GitHub: https://github.com/xiangjianan
@@ -181,4 +172,13 @@ $('[data-toggle="popover"]').popover({
     content: '暂无简介',
     placement: 'top',
     trigger: 'hover',
+});
+
+// 日访问量统计接口
+$.ajax({
+    type: "POST",
+    url: "https://www.helloxjn.com/log/",
+    data: {
+        'web': 'lks',
+    },
 });

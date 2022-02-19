@@ -36,7 +36,7 @@ p.group-video .iconfont {
     user-select: none;
 }
 
-.api_lks span, .api_lks span:hover, a, a:hover, .filter-button-group button, .show_bilibili, .show_bilibili:hover, .section-title h3, .section-title h3:hover {
+#clickDisclaimer, #clickDisclaimer:hover, .api_lks span, .api_lks span:hover, a, a:hover, .filter-button-group button, .show_bilibili, .show_bilibili:hover, .section-title h3, .section-title h3:hover {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
@@ -471,8 +471,11 @@ ul, li, ol {
 #Disclaimer .modal-body p>a{
     color: #515151;
 }
-#Disclaimer .modal-body p>a:hover{
+#Disclaimer .modal-body p>a:hover, #clickDisclaimer:hover{
     color: darkorange;
+}
+#clickDisclaimer{
+    cursor: pointer;
 }
 
 /* 移动端弹框 */

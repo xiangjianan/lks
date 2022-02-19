@@ -372,7 +372,7 @@ ul, li, ol {
 
 /* 模态框 */
 
-#questionModal .modal-title {
+#questionModal .modal-title, #Disclaimer .modal-title {
     color: #333333;
     font-weight: bold;
 }
@@ -459,6 +459,20 @@ ul, li, ol {
 
 .form-control::-ms-input-placeholder {
     color: #a3a3a3;
+}
+
+/* 免责声明 */
+#Disclaimer .modal-body {
+    padding: 1rem 1.2rem;
+}
+#Disclaimer .modal-body p{
+    color: #888;
+}
+#Disclaimer .modal-body p>a{
+    color: #515151;
+}
+#Disclaimer .modal-body p>a:hover{
+    color: darkorange;
 }
 
 /* 移动端弹框 */

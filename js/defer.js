@@ -182,3 +182,16 @@ $.ajax({
         'web': 'lks',
     },
 });
+
+// 免责声明
+if (!localStorage.getItem('is_show_disclaimer')) {
+    localStorage.setItem('is_show_disclaimer', 1);
+}
+if (localStorage.getItem('is_show_disclaimer') == 1) {
+    setTimeout(() => {
+        $('#clickDisclaimer').click();
+    }, 300);
+}
+$('#DisclaimerClose').click(() => {
+    localStorage.setItem('is_show_disclaimer', 0);
+});

@@ -62,7 +62,7 @@ let video_list = [
     ['BV1wv411y7L6', 'aid=244743030&bvid=BV1wv411y7L6&cid=237959150'],
     ['BV1bU4y1x7A1', 'aid=671597785&bvid=BV1bU4y1x7A1&cid=293053800'],
     ['BV1qQ4y1r7ty', 'aid=720562882&bvid=BV1qQ4y1r7ty&cid=409952044'],
-    ['待更新', ''],
+    ['BV1ju411X7Zm', 'aid=509194109&bvid=BV1ju411X7Zm&cid=511741753'],
 ];
 // 默认关闭视频预览
 if (!localStorage.getItem('is_show_bilibili')) {

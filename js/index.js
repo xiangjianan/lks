@@ -151,7 +151,7 @@ if ($(window).width() < 768) {
 
 // 图片懒加载
 setTimeout(() => {
-    $('.modal-body img').attr('src', 'img/lks.png');
+    $('.modal-body img').attr('src', 'https://cdn.helloxjn.com/lks/lks.png');
 }, 300)
 
 // lks模态框

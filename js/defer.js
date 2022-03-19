@@ -95,34 +95,34 @@ new Vue({
                     error: (res) => {
                         $send_msg.attr('disabled', false);
                         $send_msg.removeClass('send_disabled');
-                        if(res.status == 429){
+                        if (res.status == 429) {
                             this.$notify({
                                 title: '发送失败',
                                 message: `发送频率过高，请稍后再试！`,
                                 type: 'warning',
                                 center: true,
                             });
-                        }else{
+                        } else {
                             this.$notify({
                                 title: '发送失败',
                                 message: `服务器在摸鱼！`,
                                 type: 'error',
                                 center: true,
                             });
-                        }     
+                        }
                     },
                     success: (res) => {
                         $send_msg.attr('disabled', false);
                         $send_msg.removeClass('send_disabled');
                         res = $.parseJSON(res);
-                        if (res.code == 1040){
+                        if (res.code == 1040) {
                             this.$notify({
                                 title: '发送失败',
                                 message: `你的请求已被过滤 (￣^￣)ゞ`,
                                 type: 'error',
                                 center: true,
                             });
-                        }else if(res.code == 1000){
+                        } else if (res.code == 1000) {
                             $href.val('');
                             $content.val('');
                             this.$notify({
@@ -131,7 +131,7 @@ new Vue({
                                 type: 'success',
                                 center: true,
                             });
-                        } 
+                        }
                     }
                 });
             }
@@ -175,20 +175,15 @@ $('[data-toggle="popover"]').popover({
 });
 
 // 日访问量统计接口
-$.ajax({
-    type: "POST",
-    url: "https://www.helloxjn.com/log/",
-    data: {
-        'web': 'lks',
-    },
-});
-$.ajax({
-    type: "POST",
-    url: "https://api.lks.helloxjn.com/share/v1/log/",
-    data: {
-        'web': 'lks',
-    },
-});
+setTimeout(() => {
+    $.ajax({
+        type: "POST",
+        url: "https://api.lks.helloxjn.com/share/v1/log/",
+        data: {
+            'web': 'lks',
+        },
+    });
+}, 2000);
 
 // 免责声明
 $('#Disclaimer .modal-body').html(`<p>*本网站由<a href="https://space.bilibili.com/125526/" rel="nofollow noreferrer" target="_blank">LKs</a>和<a href="https://github.com/xiangjianan/" rel="nofollow noreferrer" target="_blank">xiang9872</a>共同制作，展示的所有网站均为个人兴趣收集，不含任何商业推广成分，仅供交流学习。如有网站违反国家政策法规或链接已失效请联系(<a href="mailto:xiang9872@126.com">xiang9872@126.com</a>)，我们会尽快修改。</p>`)

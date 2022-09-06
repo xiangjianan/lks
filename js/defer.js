@@ -86,7 +86,7 @@ new Vue({
                 $.ajax({
                     type: "POST",
                     dataType: "text",
-                    url: 'https://api.lks.helloxjn.com/api/web_reveive',
+                    url: 'https://lks.helloxjn.com/api/web_reveive',
                     data: {
                         "href": href,
                         "content": content,
@@ -178,7 +178,7 @@ $('[data-toggle="popover"]').popover({
 setTimeout(() => {
     $.ajax({
         type: "POST",
-        url: "https://api.lks.helloxjn.com/share/v1/log/",
+        url: "https://lks.helloxjn.com/share/v1/log/",
         data: {
             'web': 'lks',
         },

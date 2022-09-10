@@ -16,7 +16,7 @@ $.ajax({
     dataType: "text",
     async: false,
     // url: 'http://0.0.0.0:8001/api/get_like_num',
-    url: 'https://lks.helloxjn.com/api/get_like_num',
+    url: 'https://lkszj.info/api/get_like_num',
     error: (res) => {
     },
     success: (res) => {
@@ -29,9 +29,9 @@ for (i in web_list) {
     }
     let like_num_id = `${web_list[i].kind}_${web_list[i].id}`;
     if ($(window).width() >= 768) {
-        web_list_html += `<div id="${like_num_id}" class="col-md-4 web-grid web-grid-web ${web_list[i].kind} is_${web_list[i].star}"><mya href="${web_list[i].href}"><div data-toggle="popover" data-content="${web_list[i].slogan}" class="services-inner-box web-single clearfix" ontouchstart=""><span class="${web_list[i].star} iconfont">&#xe639;</span><h2>${web_list[i].title}</h2><p><span class="web-kind">${web_list[i].kind_name}</span><span class="iconfont ${localStorage.getItem(like_num_id)}">&#xe603;</span><span class="like-num ${localStorage.getItem(like_num_id)}">${like_num_dic[like_num_id]?like_num_dic[like_num_id]:0}</span></p></div></mya></div>`;
+        web_list_html += `<div id="${like_num_id}" class="col-md-4 web-grid web-grid-web ${web_list[i].kind} is_${web_list[i].star}"><mya href="${web_list[i].href}"><div data-toggle="popover" data-content="${web_list[i].slogan}" class="services-inner-box web-single clearfix" ontouchstart=""><span class="${web_list[i].star} iconfont">&#xe639;</span><h2>${web_list[i].title}</h2><p><span class="web-kind">${web_list[i].kind_name}</span><span class="iconfont ${localStorage.getItem(like_num_id)}">&#xe603;</span><span class="like-num ${localStorage.getItem(like_num_id)}">${like_num_dic[like_num_id] ? like_num_dic[like_num_id] : 0}</span></p></div></mya></div>`;
     } else {
-        web_list_html += `<div id="${web_list[i].kind}_${web_list[i].id}" class="col-md-4 web-grid web-grid-phone ${web_list[i].kind} is_${web_list[i].star}"><span href="${web_list[i].href}"><div data-content="${web_list[i].slogan}" class="services-inner-box web-single clearfix" ontouchstart=""><span class="${web_list[i].star} iconfont">&#xe639;</span><h2>${web_list[i].title}</h2><p>${web_list[i].kind_name}</p></div></span></div>`;
+        web_list_html += `<div id="${like_num_id}" class="col-md-4 web-grid web-grid-phone ${web_list[i].kind} is_${web_list[i].star}"><span href="${web_list[i].href}"><div data-content="${web_list[i].slogan}" class="services-inner-box web-single clearfix" ontouchstart=""><span class="${web_list[i].star} iconfont">&#xe639;</span><h2>${web_list[i].title}</h2><p><span class="web-kind">${web_list[i].kind_name}</span><span class="iconfont ${localStorage.getItem(like_num_id)}">&#xe603;</span><span class="like-num ${localStorage.getItem(like_num_id)}">${like_num_dic[like_num_id] ? like_num_dic[like_num_id] : 0}</span></p></div></span></div>`;
     }
 }
 $('.web-list').html(web_list_html);
@@ -49,10 +49,36 @@ $('.web-grid-phone').click(function () {
     $('.phone-modal').find('h3').text($(this).find('span div h2').text());
     $('.phone-modal').find('.slogan span').text($(this).find('span div').attr('data-content'));
     $('.phone-modal').find('.go-url').attr('href', $(this).find('span').attr('href'));
+    $('.phone-modal .hide-modal').attr('web_grid', $(this).attr('id'));
 });
-$('.phone-modal .hide-modal').click(() => {
-    $('.phone-modal').stop().fadeOut(300);
-    $('.back-modal').stop().fadeOut(300);
+$('.phone-modal .hide-modal').click(function name(params) {
+    // $('.phone-modal').stop().fadeOut(300);
+    // $('.back-modal').stop().fadeOut(300);
+    let $this = $(this);
+    let web_grid = $this.attr('web_grid');
+    let $web_grid = $(`#${web_grid}`);
+    console.log(web_grid);
+    if (localStorage.getItem(web_grid) == 'like_flag') {
+        console.log('已赞');
+    } else {
+        $.ajax({
+            type: "POST",
+            // url: 'http://0.0.0.0:8001/api/set_like_num',
+            url: 'https://lkszj.info/api/set_like_num',
+            data: {
+                'web_grid': web_grid,
+            },
+            error: (res) => {
+            },
+            success: (res) => {
+                console.log(res);
+                $web_grid.find('p>.like-num').text(res[web_grid]);
+                $web_grid.find('p>.like-num').addClass('like_flag');
+                $web_grid.find('p>.iconfont').addClass('like_flag');
+                localStorage.setItem(web_grid, 'like_flag');
+            }
+        });
+    }
 });
 $('.phone-modal .go-url').click(() => {
     $('.phone-modal').stop().fadeOut(300);

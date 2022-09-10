@@ -73,7 +73,6 @@ $web_grid_mya.mousedown(function name(params) {
         $this.find('p>.iconfont').addClass('like_flag');
 
     }, 1000)
-    params.stopPropagation;
 });
 $web_grid_mya.mouseup(() => {
     clearTimeout(t);
@@ -106,7 +105,7 @@ $(".web-grid-web mya").on({
                 $.ajax({
                     type: "POST",
                     // url: 'http://0.0.0.0:8001/api/set_like_num',
-                    url: 'https://lks.helloxjn.com/api/set_like_num',
+                    url: 'https://lkszj.info/api/set_like_num',
                     data: {
                         'web_grid': web_grid,
                     },

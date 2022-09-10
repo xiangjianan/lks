@@ -100,14 +100,15 @@ ul, li, ol {
 
 .section-title h3 {
     font-size: 38px;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 62px;
     margin: 0 0 15px;
     padding: 0;
     color: #222222;
     text-transform: none;
-    letter-spacing: 0.015em;
+    letter-spacing: 0em;
     cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Liberation Sans", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, SimSun, "WenQuanYi Zen Hei Sharp", sans-serif;
 }
 
 .section-title h3:hover {
@@ -137,11 +138,11 @@ ul, li, ol {
 }
 
 .services-inner-box p {
-    color: #999999;
+    color: #666666;
     position: absolute;
     right: 20px;
     bottom: 0;
-    width: 70%;
+    width: 85%;
     overflow: hidden;
     text-overflow: ellipsis;
     text-align: right;
@@ -149,6 +150,11 @@ ul, li, ol {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
 }
+.services-inner-box p .web-kind{
+    display: none;
+}
+
+
 
 .web-single {
     margin: 20px 0 20px;
@@ -241,15 +247,15 @@ ul, li, ol {
     bottom: 85px;
 }
 
-#scroll-to-question.show {
+#scroll-to-hot.show {
     bottom: 145px;
 }
 
-#scroll-to-question {
+#scroll-to-hot {
     bottom: 85px;
 }
 
-#scroll-to-top:active span, #scroll-to-question:active span {
+#scroll-to-top:active span, #scroll-to-hot:active span {
     color: darkorange;
 }
 
@@ -855,10 +861,10 @@ iframe {
     #scroll-to-top.show {
         bottom: 50px;
     }
-    #scroll-to-question.show {
+    #scroll-to-hot.show {
         bottom: 110px;
     }
-    #scroll-to-question {
+    #scroll-to-hot {
         bottom: 50px;
     }
     .dmtop {

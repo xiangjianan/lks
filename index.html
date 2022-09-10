@@ -11,8 +11,9 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="https://cdn.helloxjn.com/lks/apple-touch-icon.jpg">
     <link rel="stylesheet" href="https://cdn.helloxjn.com/cdn/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.helloxjn.com/lks/index.1.9.8.min.css">
-    <link rel="stylesheet" href="font/iconfont.1.2.3.css">
+    <!-- <link rel="stylesheet" href="https://cdn.helloxjn.com/lks/index.1.9.8.min.css"> -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="font/iconfont.css">
     <link rel="stylesheet" href="https://cdn.helloxjn.com/cdn/index.min.css">
 </head>
 
@@ -20,7 +21,7 @@
   <div id="web" class="section lb ">
     <div class="container">
       <div class="section-title text-left">
-        <span style="display: inline-block;"><h3>网站推荐</h3></span>
+        <span style="display: inline-block;"><h3>LKs Site</h3></span>
         <div class="row">
           <div class="col-md-8">
             <p class="group-video">B站博主<a href="https://space.bilibili.com/125526/" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》</p>
@@ -77,7 +78,7 @@
     </div>
   </div>
   <a href="#web" id="scroll-to-top" class="dmtop global-radius" ontouchstart=""><span class="icon iconfont">&#xe626;</span></a>
-  <a href="javascript:0" data-toggle="modal" data-target="#questionModal" id="scroll-to-question" class="dmtop global-radius" ontouchstart=""><span class="icon iconfont">&#xe610;</span></a>
+  <a href="javascript:0" id="scroll-to-hot" class="dmtop global-radius" ontouchstart=""><span class="icon iconfont">&#xe600;</span></a>
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
@@ -113,32 +114,6 @@
       </div>
     </div>
   </div>
-  <div class="modal fade" id="questionModal" data-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">推荐网站</h5>
-          <!-- <a href="https://lks.helloxjn.com" rel="nofollow noreferrer" target="_blank" class="api_lks"><span class="iconfont">&nbsp;&nbsp;&#xe66b;查看记录</span></a> -->
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" id="recipient-name" placeholder="链接">
-            </div>
-            <div class="form-group" style="height: 170px;">
-              <textarea class="form-control" id="message-text" placeholder="网站简介..."></textarea>
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer col-md-12 text-center">
-          <button id="send_msg" ontouchstart="" type="button" class="btn btn-primary" @click="send">推荐</button>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="phone-modal">
     <h3>简介</h3>
     <hr>
@@ -150,9 +125,11 @@
   <div class="back-modal"></div>
 </body>
 <script src="https://cdn.helloxjn.com/cdn/jquery.min.js"></script>
-<script src="https://cdn.helloxjn.com/lks/index.1.9.10.min.js"></script>
+<!-- <script src="https://cdn.helloxjn.com/lks/index.1.9.10.min.js"></script> -->
+<script src="js/index.js"></script>
 <script defer src="https://cdn.helloxjn.com/cdn/bootstrap.min.js"></script>
 <script defer src="https://cdn.helloxjn.com/cdn/vue.min.js"></script>
 <script defer src="https://cdn.helloxjn.com/cdn/index.min.js"></script>
-<script defer src="https://cdn.helloxjn.com/lks/defer.1.9.11.min.js"></script>
+<!-- <script defer src="https://cdn.helloxjn.com/lks/defer.1.9.11.min.js"></script> -->
+<script defer src="js/defer.js"></script>
 </html>

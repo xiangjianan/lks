@@ -36,7 +36,7 @@ p.group-video .iconfont {
     user-select: none;
 }
 
-#clickDisclaimer, #clickDisclaimer:hover, .api_lks span, .api_lks span:hover, a, a:hover, .filter-button-group button, .show_bilibili, .show_bilibili:hover, .section-title h3, .section-title h3:hover {
+.like_flag, #clickDisclaimer, #clickDisclaimer:hover, .api_lks span, .api_lks span:hover, a, a:hover, .filter-button-group button, .show_bilibili, .show_bilibili:hover, .section-title h3, .section-title h3:hover {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
@@ -113,6 +113,17 @@ ul, li, ol {
 
 .section-title h3:hover {
     color: darkorange;
+}
+
+mya {
+    cursor: pointer;
+}
+.like_flag {
+    color: darkorange;
+}
+mya p>.iconfont {
+    font-size: 16px;
+    margin-right: 2px;
 }
 
 .services-inner-box {

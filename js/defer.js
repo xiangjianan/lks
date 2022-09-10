@@ -49,19 +49,88 @@ $('#search').keydown((e) => {
 localStorage.setItem('is_sort_like_num', 1);
 $('#scroll-to-hot').click(function name(params) {
     if (localStorage.getItem('is_sort_like_num') == 1) {
-        $grid.isotope({ 
+        $grid.isotope({
             sortBy: 'like_num',
-            sortAscending: false, 
+            sortAscending: false,
         });
         localStorage.setItem('is_sort_like_num', 0);
     } else {
-        $grid.isotope({ 
+        $grid.isotope({
             sortBy: 'original-order',
-            sortAscending: true, 
+            sortAscending: true,
         });
         localStorage.setItem('is_sort_like_num', 1);
     }
 });
+
+// 长按点赞
+let t = null;
+let s = null;
+let $web_grid_mya = $('.web-grid-web mya')
+$web_grid_mya.mousedown(function name(params) {
+    let $this = $(this);
+    t = setTimeout(function name(params) {
+        $this.find('p>.iconfont').addClass('like_flag');
+
+    }, 1000)
+    params.stopPropagation;
+});
+$web_grid_mya.mouseup(() => {
+    clearTimeout(t);
+    clearInterval(s);
+});
+
+
+// 鼠标点击事件
+let timeOutEvent = 0;
+$(".web-grid-web mya").on({
+    mousedown: function (e) {
+        timeOutEvent = setTimeout(() => {
+            timeOutEvent = 0;
+        }, 500);
+        e.preventDefault();
+    },
+    mousemove: function () {
+        clearTimeout(timeOutEvent);
+        timeOutEvent = 0;
+    },
+    mouseup: function () {
+        let $this = $(this);
+        // 长按点赞
+        if (timeOutEvent == 0) {
+            let web_grid = $this.parent().attr('id');
+            console.log(web_grid);
+            if (localStorage.getItem(web_grid) == 'like_flag') {
+                console.log('已赞');
+            } else {
+                $.ajax({
+                    type: "POST",
+                    // url: 'http://0.0.0.0:8001/api/set_like_num',
+                    url: 'https://lks.helloxjn.com/api/set_like_num',
+                    data: {
+                        'web_grid': web_grid,
+                    },
+                    error: (res) => {
+                    },
+                    success: (res) => {
+                        console.log(res);
+                        $this.find('p>.like-num').text(res[web_grid]);
+                        $this.find('p>.like-num').addClass('like_flag');
+                        $this.find('p>.iconfont').addClass('like_flag');
+                        localStorage.setItem(web_grid, 'like_flag');
+                    }
+                });
+            }
+        }
+        // 单击跳转
+        else {
+            clearTimeout(timeOutEvent);
+            window.open($(this).attr('href'));
+        }
+        return false;
+    }
+})
+
 
 // 控制台
 console.log(`

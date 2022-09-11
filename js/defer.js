@@ -63,12 +63,12 @@ $('#scroll-to-hot').click(function name(params) {
     }
 });
 
-// 跳转
+// web端跳转
 $('.web-grid-web mya').click(function name(params) {
     window.open($(this).attr('href'));
     return false;
 });
-// 点赞
+// web端点赞
 $('.web-grid-web mya p>.iconfont').click(function name(event) {
     console.log('点赞');
     $(this).css('font-size', '20px');
@@ -87,7 +87,6 @@ $('.web-grid-web mya p>.iconfont').click(function name(event) {
     } else {
         $.ajax({
             type: "POST",
-            // url: 'http://0.0.0.0:8001/api/set_like_num',
             url: 'https://lkszj.info/api/set_like_num',
             data: {
                 'web_grid': web_grid,
@@ -104,15 +103,46 @@ $('.web-grid-web mya p>.iconfont').click(function name(event) {
                 let web_grid_web_mya_div = $web_grid_web_mya_div.attr('data-content');
                 web_grid_web_mya_div = web_grid_web_mya_div.replace(/null/g, 'like_flag');
                 let web_grid_history = web_grid_web_mya_div.split('</span>')[1].split('>')[1];
-                web_grid_web_mya_div = web_grid_web_mya_div.replace(web_grid_history+'<', res[web_grid]+'<');
+                web_grid_web_mya_div = web_grid_web_mya_div.replace(web_grid_history + '<', res[web_grid] + '<');
                 $web_grid_web_mya_div.attr('data-content', web_grid_web_mya_div);
                 localStorage.setItem(web_grid, 'like_flag');
                 // 更新排序数据
-                $grid.isotope( 'updateSortData', $grid.children());
+                $grid.isotope('updateSortData', $grid.children());
             }
         });
     }
     event.stopPropagation();
+});
+// 移动端点赞
+$('.phone-modal .hide-modal').click(function name(params) {
+    let $this = $(this);
+    let web_grid = $this.attr('web_grid');
+    let $web_grid = $(`#${web_grid}`);
+    console.log(web_grid);
+    if (localStorage.getItem(web_grid) == 'like_flag') {
+        console.log('已赞');
+    } else {
+        $.ajax({
+            type: "POST",
+            url: 'https://lkszj.info/api/set_like_num',
+            data: {
+                'web_grid': web_grid,
+            },
+            error: (res) => {
+            },
+            success: (res) => {
+                $web_grid.find('p>.like-num').text(res[web_grid]);
+                $web_grid.find('p>.like-num').addClass('like_flag');
+                $web_grid.find('p>.iconfont').addClass('like_flag');
+                $('.phone-modal').find('.iconfont').addClass('like_flag');
+                $('.phone-modal').find('.like-num').addClass('like_flag');
+                $('.phone-modal').find('.like-num').text(res[web_grid]);
+                localStorage.setItem(web_grid, 'like_flag');
+                // 更新排序数据
+                $grid.isotope('updateSortData', $grid.children());
+            }
+        });
+    }
 });
 
 // 控制台
@@ -132,17 +162,6 @@ $('[data-toggle="popover"]').popover({
     placement: 'top',
     trigger: 'hover',
 });
-
-// 日访问量统计接口
-setTimeout(() => {
-    $.ajax({
-        type: "POST",
-        url: "https://lks.helloxjn.com/share/v1/log/",
-        data: {
-            'web': 'lks',
-        },
-    });
-}, 2000);
 
 // 免责声明
 $('#Disclaimer .modal-body').html(`<p>*本网站由<a href="https://space.bilibili.com/125526/" rel="nofollow noreferrer" target="_blank">LKs</a>和<a href="https://github.com/xiangjianan/" rel="nofollow noreferrer" target="_blank">xiang9872</a>共同制作，展示的所有网站均为个人兴趣收集，不含任何商业推广成分，仅供交流学习。如有网站违反国家政策法规或链接已失效请联系(<a href="mailto:xiang9872@126.com">xiang9872@126.com</a>)，我们会尽快修改。</p>`)

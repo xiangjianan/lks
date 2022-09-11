@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2437672 */
-  src: url('iconfont.woff2?t=1662806270707') format('woff2'),
-       url('iconfont.woff?t=1662806270707') format('woff'),
-       url('iconfont.ttf?t=1662806270707') format('truetype');
+  src: url('iconfont.2.0.0.woff2?t=1662913110851') format('woff2'),
+       url('iconfont.2.0.0.woff?t=1662913110851') format('woff'),
+       url('iconfont.2.0.0.ttf?t=1662913110851') format('truetype');
 }
 
 .iconfont {
@@ -17,48 +17,8 @@
   content: "\e603";
 }
 
-.icon-redupaixu:before {
-  content: "\e64a";
-}
-
-.icon--redu:before {
-  content: "\e602";
-}
-
-.icon--redu1:before {
-  content: "\e60e";
-}
-
-.icon-redu:before {
-  content: "\e619";
-}
-
-.icon-icon:before {
-  content: "\e68e";
-}
-
-.icon-redu1:before {
-  content: "\e6c6";
-}
-
 .icon-show_renqiredu:before {
   content: "\e600";
-}
-
-.icon-keliuredu:before {
-  content: "\e605";
-}
-
-.icon-redu2:before {
-  content: "\e607";
-}
-
-.icon-redu3:before {
-  content: "\e6ac";
-}
-
-.icon-redu4:before {
-  content: "\e617";
 }
 
 .icon-shangyiyehoutuifanhui:before {

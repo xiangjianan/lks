@@ -15,7 +15,6 @@ $.ajax({
     type: "POST",
     dataType: "text",
     async: false,
-    // url: 'http://0.0.0.0:8001/api/get_like_num',
     url: 'https://lkszj.info/api/get_like_num',
     error: (res) => {
     },
@@ -65,38 +64,6 @@ $('.web-grid-phone').click(function () {
     $('.phone-modal').find('.iconfont').addClass(localStorage.getItem(like_num_id));
     $('.phone-modal').find('.like-num').addClass(localStorage.getItem(like_num_id));
     $('.phone-modal .hide-modal').attr('web_grid', $(this).attr('id'));
-});
-$('.phone-modal .hide-modal').click(function name(params) {
-    let $this = $(this);
-    let web_grid = $this.attr('web_grid');
-    let $web_grid = $(`#${web_grid}`);
-    console.log(web_grid);
-    if (localStorage.getItem(web_grid) == 'like_flag') {
-        console.log('已赞');
-    } else {
-        $.ajax({
-            type: "POST",
-            // url: 'http://0.0.0.0:8001/api/set_like_num',
-            url: 'https://lkszj.info/api/set_like_num',
-            data: {
-                'web_grid': web_grid,
-            },
-            error: (res) => {
-            },
-            success: (res) => {
-                console.log(res);
-                $web_grid.find('p>.like-num').text(res[web_grid]);
-                $web_grid.find('p>.like-num').addClass('like_flag');
-                $web_grid.find('p>.iconfont').addClass('like_flag');
-                $('.phone-modal').find('.iconfont').addClass('like_flag');
-                $('.phone-modal').find('.like-num').addClass('like_flag');
-                $('.phone-modal').find('.like-num').text(res[web_grid]);
-                localStorage.setItem(web_grid, 'like_flag');
-                // 更新排序数据
-                $grid.isotope( 'updateSortData', $grid.children());
-            }
-        });
-    }
 });
 $('.phone-modal .go-url').click(() => {
     $('.phone-modal').stop().fadeOut(300);

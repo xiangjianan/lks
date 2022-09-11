@@ -37,6 +37,14 @@ for (i in web_list) {
 $('.web-list').html(web_list_html);
 $('.copyrights').removeClass('hide');
 
+// 网站卡片动效
+let $grid = $('.web-list').isotope({
+    itemSelector: '.web-grid',
+    getSortData: {
+        like_num: '.like-num parseInt',
+    }
+});
+
 // 标题
 $('.section-title>span').click(() => {
     window.location.reload();
@@ -84,6 +92,8 @@ $('.phone-modal .hide-modal').click(function name(params) {
                 $('.phone-modal').find('.like-num').addClass('like_flag');
                 $('.phone-modal').find('.like-num').text(res[web_grid]);
                 localStorage.setItem(web_grid, 'like_flag');
+                // 更新排序数据
+                $grid.isotope( 'updateSortData', $grid.children());
             }
         });
     }
@@ -97,13 +107,7 @@ $('.back-modal').click(() => {
     $('.back-modal').stop().fadeOut(300);
 });
 
-// 网站卡片动效
-let $grid = $('.web-list').isotope({
-    itemSelector: '.web-grid',
-    getSortData: {
-        like_num: '.like-num parseInt',
-    }
-});
+// 网站卡片
 let video_list = [
     ['av3743771', 'aid=3743771&bvid=BV11s411X7u5&cid=6002978'],
     ['av9856372', 'aid=9856372&bvid=BV1Nx411D78D&cid=16294903'],

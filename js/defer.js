@@ -107,6 +107,8 @@ $('.web-grid-web mya p>.iconfont').click(function name(event) {
                 web_grid_web_mya_div = web_grid_web_mya_div.replace(web_grid_history+'<', res[web_grid]+'<');
                 $web_grid_web_mya_div.attr('data-content', web_grid_web_mya_div);
                 localStorage.setItem(web_grid, 'like_flag');
+                // 更新排序数据
+                $grid.isotope( 'updateSortData', $grid.children());
             }
         });
     }

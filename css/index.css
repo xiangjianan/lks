@@ -634,6 +634,10 @@ mya {
     line-height: 40px;
 }
 
+.phone-modal .hide-modal .iconfont {
+    font-size: 16px;
+    margin-right: 2px;
+}
 /* 星标及切换按钮 */
 
 .btn_toogle,

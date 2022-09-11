@@ -263,7 +263,7 @@ mya {
 
 .filter-button-group {
     border-radius: 0px;
-    margin: 10px 0px;
+    margin: 4px 0px;
     display: inline-block;
 }
 
@@ -283,8 +283,8 @@ mya {
     font-size: 14px;
     cursor: pointer;
     background: rgba(0, 0, 0, 0) !important;
-    padding: 8px 20px;
-    margin: 0 3px;
+    padding: 8px 17px;
+    margin: 6px 3px;
     border-radius: 0.3em;
     outline: none !important;
     box-shadow: .1rem .1rem .2rem var(--greyLight-2), -.1rem -.1rem .2rem var(--white) !important;
@@ -782,7 +782,7 @@ iframe {
 
     .filter-button-group button {
         padding: 6px 15px;
-        margin: 0 1px;
+        margin: 6px 1px;
     }
 
     .web-list {

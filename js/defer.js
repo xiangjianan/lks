@@ -50,7 +50,7 @@ localStorage.setItem('is_sort_like_num', 1);
 $('#scroll-to-hot').click(function name(params) {
     if (localStorage.getItem('is_sort_like_num') == 1) {
         $grid.isotope({
-            sortBy: 'like_num',
+            sortBy: 'like-num-sort',
             sortAscending: false,
         });
         localStorage.setItem('is_sort_like_num', 0);

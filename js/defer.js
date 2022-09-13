@@ -106,6 +106,22 @@ $('.web-grid-web mya p>.iconfont').click(function name(event) {
     if (localStorage.getItem(web_grid) == 'like_flag') {
         console.log('已赞');
     } else {
+        let like_num_after = parseInt($this.find('p>.like-num').text()) + 1;
+        console.log(like_num_after);
+        $this.find('p>.like-num').text(like_num_after);
+        $('.popover-body span.like-num').text(like_num_after);
+        $this.find('p>.like-num').addClass('like_flag');
+        $this.find('p>.iconfont').addClass('like_flag');
+        $('.popover-body span').addClass('like_flag');
+        let s = $('.popover-body span.like-num').text(like_num_after);
+        let web_grid_web_mya_div = $web_grid_web_mya_div.attr('data-content');
+        web_grid_web_mya_div = web_grid_web_mya_div.replace(/null/g, 'like_flag');
+        let web_grid_history = web_grid_web_mya_div.split('</span>')[1].split('>')[1];
+        web_grid_web_mya_div = web_grid_web_mya_div.replace(web_grid_history + '<', like_num_after + '<');
+        $web_grid_web_mya_div.attr('data-content', web_grid_web_mya_div);
+        localStorage.setItem(web_grid, 'like_flag');
+        // 更新排序数据
+        $grid.isotope('updateSortData', $grid.children());
         $.ajax({
             type: "POST",
             url: 'https://lkszj.info/api/set_like_num',
@@ -115,20 +131,6 @@ $('.web-grid-web mya p>.iconfont').click(function name(event) {
             error: (res) => {
             },
             success: (res) => {
-                console.log(res);
-                $this.find('p>.like-num').text(res[web_grid]);
-                $this.find('p>.like-num').addClass('like_flag');
-                $this.find('p>.iconfont').addClass('like_flag');
-                $('.popover-body span.like-num').text(res[web_grid]);
-                $('.popover-body span').addClass('like_flag');
-                let web_grid_web_mya_div = $web_grid_web_mya_div.attr('data-content');
-                web_grid_web_mya_div = web_grid_web_mya_div.replace(/null/g, 'like_flag');
-                let web_grid_history = web_grid_web_mya_div.split('</span>')[1].split('>')[1];
-                web_grid_web_mya_div = web_grid_web_mya_div.replace(web_grid_history + '<', res[web_grid] + '<');
-                $web_grid_web_mya_div.attr('data-content', web_grid_web_mya_div);
-                localStorage.setItem(web_grid, 'like_flag');
-                // 更新排序数据
-                $grid.isotope('updateSortData', $grid.children());
             }
         });
     }
@@ -143,6 +145,16 @@ $('.phone-modal .hide-modal').click(function name(params) {
     if (localStorage.getItem(web_grid) == 'like_flag') {
         console.log('已赞');
     } else {
+        let like_num_after = parseInt($web_grid.find('p>.like-num').text()) + 1;
+        $web_grid.find('p>.like-num').text(like_num_after);
+        $web_grid.find('p>.like-num').addClass('like_flag');
+        $web_grid.find('p>.iconfont').addClass('like_flag');
+        $('.phone-modal').find('.iconfont').addClass('like_flag');
+        $('.phone-modal').find('.like-num').addClass('like_flag');
+        $('.phone-modal').find('.like-num').text(like_num_after);
+        localStorage.setItem(web_grid, 'like_flag');
+        // 更新排序数据
+        $grid.isotope('updateSortData', $grid.children());
         $.ajax({
             type: "POST",
             url: 'https://lkszj.info/api/set_like_num',
@@ -152,15 +164,6 @@ $('.phone-modal .hide-modal').click(function name(params) {
             error: (res) => {
             },
             success: (res) => {
-                $web_grid.find('p>.like-num').text(res[web_grid]);
-                $web_grid.find('p>.like-num').addClass('like_flag');
-                $web_grid.find('p>.iconfont').addClass('like_flag');
-                $('.phone-modal').find('.iconfont').addClass('like_flag');
-                $('.phone-modal').find('.like-num').addClass('like_flag');
-                $('.phone-modal').find('.like-num').text(res[web_grid]);
-                localStorage.setItem(web_grid, 'like_flag');
-                // 更新排序数据
-                $grid.isotope('updateSortData', $grid.children());
             }
         });
     }
@@ -185,7 +188,7 @@ $('[data-toggle="popover"]').popover({
 });
 
 // 免责声明
-$('#Disclaimer .modal-body').html(`<p>*本网站由<a href="https://space.bilibili.com/125526/" rel="nofollow noreferrer" target="_blank">LKs</a>和<a href="https://github.com/xiangjianan/" rel="nofollow noreferrer" target="_blank">xiang9872</a>共同制作，展示的所有网站均为个人兴趣收集，不含任何商业推广成分，仅供交流学习。如有网站违反国家政策法规或链接已失效请联系(<a href="mailto:xiang9872@126.com">xiang9872@126.com</a>)，我们会尽快修改。</p>`)
+$('#Disclaimer .modal-body').html(`<p>*本网站由<a href="https://space.bilibili.com/125526/" rel="nofollow noreferrer" target="_blank">LKs</a>和<a href="https://github.com/xiangjianan/" rel="nofollow noreferrer" target="_blank">xjn</a>共同制作，展示的所有网站均为个人兴趣收集，不含任何商业推广成分，仅供交流学习。如有网站违反国家政策法规或链接已失效请联系(<a href="mailto:xiang9872@126.com">xiang9872@126.com</a>)，我们会尽快修改。</p>`)
 if (!localStorage.getItem('is_show_disclaimer')) {
     localStorage.setItem('is_show_disclaimer', 1);
 }

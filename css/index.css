@@ -305,6 +305,13 @@ mya {
     bottom: 0;
 }
 
+.github {
+    color: #999999;
+}
+.github:hover {
+    color: darkorange;
+}
+
 /* top按钮 */
 
 #scroll-to-top.show {

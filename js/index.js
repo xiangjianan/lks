@@ -72,16 +72,16 @@ $('.back-modal').click(() => {
 
 // 网站卡片
 let video_list = [
-    ['av3743771', 'aid=3743771&bvid=BV11s411X7u5&cid=6002978'],
-    ['av9856372', 'aid=9856372&bvid=BV1Nx411D78D&cid=16294903'],
-    ['av27234784', 'aid=27234784&bvid=BV1fs411E7ht&cid=169520351'],
-    ['av66209341', 'aid=66209341&bvid=BV1M4411m7Mz&cid=114833286'],
-    ['BV1a741137NS', 'aid=88646573&bvid=BV1a741137NS&cid=153840196'],
-    ['BV1wv411y7L6', 'aid=244743030&bvid=BV1wv411y7L6&cid=237959150'],
-    ['BV1bU4y1x7A1', 'aid=671597785&bvid=BV1bU4y1x7A1&cid=293053800'],
-    ['BV1qQ4y1r7ty', 'aid=720562882&bvid=BV1qQ4y1r7ty&cid=409952044'],
-    ['BV1ju411X7Zm', 'aid=509194109&bvid=BV1ju411X7Zm&cid=511741753'],
-    ['BVxxxxxxxxxx', 'aid=BVxxxxxxxxxx&bvid=BVxxxxxxxxxx&cid=BVxxxxxxxxxx'],
+    ['av3743771', 'bvid=BV11s411X7u5'],
+    ['av9856372', 'bvid=BV1Nx411D78D'],
+    ['av27234784', 'bvid=BV1fs411E7ht'],
+    ['av66209341', 'bvid=BV1M4411m7Mz'],
+    ['BV1a741137NS', 'bvid=BV1a741137NS'],
+    ['BV1wv411y7L6', 'bvid=BV1wv411y7L6'],
+    ['BV1bU4y1x7A1', 'bvid=BV1bU4y1x7A1'],
+    ['BV1qQ4y1r7ty', 'bvid=BV1qQ4y1r7ty'],
+    ['BV1ju411X7Zm', 'bvid=BV1ju411X7Zm'],
+    ['BV1HB4y1n7nS', 'bvid=BV1ju411X7Zm'],
 ];
 // 默认关闭视频预览
 if (!localStorage.getItem('is_show_bilibili')) {

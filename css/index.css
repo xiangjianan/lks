@@ -1019,6 +1019,18 @@ iframe {
         padding-right: 10px !important;
     }
 
+    #scroll-to-top.show {
+        bottom: 50px;
+    }
+
+    #scroll-to-hot.show {
+        bottom: 110px;
+    }
+
+    #scroll-to-hot {
+        bottom: 50px;
+    }
+
     .dmtop {
         right: 20px;
     }

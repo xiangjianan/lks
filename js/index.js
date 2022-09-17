@@ -199,19 +199,16 @@ $('.btn_toogle').click(function () {
 $('.category').click(function () {
     let category_name = $(this).text();
     $(this).addClass('active').siblings().removeClass('active');
+    $('.web-list .web-grid').removeClass('filter_web');
     $('.web-list .web-grid').each(function () {
         if ($(this).find('.web-single p').text().toUpperCase().search(category_name) != -1) {
             $(this).addClass('filter_web');
         }
     });
-    $('.web-list').isotope({
-        itemSelector: '.web-grid',
+    $grid.isotope({
         filter: '.filter_web',
     });
-    setTimeout(() => {
-        set_footer();
-        $('.web-list .web-grid').removeClass('filter_web');
-    }, 10);
+    set_footer();
 })
 
 // 控制页脚位置

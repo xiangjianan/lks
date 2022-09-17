@@ -12,19 +12,16 @@ new Vue({
                     $('.bilibili_iframe').css('display', 'none');
                     $('iframe').attr('src', '');
                 }
+                $('.web-list .web-grid').removeClass('filter_web');
                 $('.web-list .web-grid').each(function () {
                     if (($(this).find('.web-single h2').text() + $(this).find('.web-single p').text()).toUpperCase().search(inp.toUpperCase()) != -1 || $(this).find('.web-single').attr('data-content').toUpperCase().search(inp.toUpperCase()) != -1) {
                         $(this).addClass('filter_web');
                     }
                 });
-                $('.web-list').isotope({
-                    itemSelector: '.web-grid',
+                $grid.isotope({
                     filter: '.filter_web',
                 });
-                setTimeout(() => {
-                    set_footer();
-                    $('.web-list .web-grid').removeClass('filter_web');
-                }, 10);
+                set_footer();
             } else {
                 $('.el-message__closeBtn').click();
                 this.$message({

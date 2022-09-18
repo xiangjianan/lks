@@ -1,41 +1,26 @@
 // 搜索功能
-new Vue({
-    el: '#submit',
-    methods: {
-        search_send() {
-            let $search = $('#search');
-            let inp = $search.val().trim();
-            if (inp) {
-                $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
-                $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
-                if ($('.bilibili_iframe').css('display') === 'block') {
-                    $('.bilibili_iframe').css('display', 'none');
-                    $('iframe').attr('src', '');
-                }
-                $('.web-list .web-grid').removeClass('filter_web');
-                $('.web-list .web-grid').each(function () {
-                    if (($(this).find('.web-single h2').text() + $(this).find('.web-single p').text()).toUpperCase().search(inp.toUpperCase()) != -1 || $(this).find('.web-single').attr('data-content').toUpperCase().search(inp.toUpperCase()) != -1) {
-                        $(this).addClass('filter_web');
-                    }
-                });
-                $grid.isotope({
-                    filter: '.filter_web',
-                });
-                set_footer();
-            } else {
-                $('.el-message__closeBtn').click();
-                this.$message({
-                    message: '请输入关键词',
-                    type: 'info',
-                    center: true,
-                    offset: -1,
-                    showClose: true,
-                });
+$('#submit').click(function name(params) {
+    let $search = $('#search');
+    let inp = $search.val().trim();
+    if (inp) {
+        $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
+        $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
+        if ($('.bilibili_iframe').css('display') === 'block') {
+            $('.bilibili_iframe').css('display', 'none');
+            $('iframe').attr('src', '');
+        }
+        $('.web-list .web-grid').removeClass('filter_web');
+        $('.web-list .web-grid').each(function () {
+            if (($(this).find('.web-single h2').text() + $(this).find('.web-single p>span:first').text()).toUpperCase().search(inp.toUpperCase()) != -1 || $(this).find('.web-single').attr('data-content').split('<span')[0].toUpperCase().search(inp.toUpperCase()) != -1) {
+                $(this).addClass('filter_web');
             }
-            $search.val('');
-        },
+        });
+        $grid.isotope({
+            filter: '.filter_web',
+        });
+        set_footer();
     }
-})
+});
 $('#search').keydown((e) => {
     if (e.keyCode === 13) {
         $('#submit').click();

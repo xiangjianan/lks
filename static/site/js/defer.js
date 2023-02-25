@@ -182,3 +182,18 @@ if (localStorage.getItem('is_show_disclaimer') == 1) {
 $('#DisclaimerClose').click(() => {
     localStorage.setItem('is_show_disclaimer', 0);
 });
+
+// MD5校验
+setTimeout(() => {
+    let local_web_list = localStorage.getItem('web_list');
+    let local_web_list_md5 = localStorage.getItem('web_list_md5');
+    // 后端接口获取最新MD5
+    let new_md5 = '';
+
+    if (local_web_list_md5 !== new_md5){
+        // 后端接口获取 web_list
+
+        localStorage.setItem('web_list', JSON.stringify(web_list));
+        localStorage.setItem('web_list_md5', JSON.stringify(new_md5));
+    }
+}, 666);

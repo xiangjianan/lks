@@ -6,12 +6,18 @@
 
 // json
 let web_list = [];
-
-$.getJSON("static/site/js/web.json", function (data) {
-    web_list = data;
-    console.log(data);
-});
-
+let local_web_list = localStorage.getItem('web_list');
+if (local_web_list) {
+    web_list = local_web_list;
+}
+else {
+    $.ajaxSettings.async = false;
+    $.getJSON("static/site/js/web.json", function (data) {
+        web_list = data;
+        localStorage.setItem('web_list', data);
+    });
+    $.ajaxSettings.async = true;
+}
 
 // 渲染所有网站卡片
 let i = 0;

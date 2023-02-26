@@ -31,7 +31,8 @@ $('#search').keydown((e) => {
 $.ajax({
     type: "POST",
     dataType: "text",
-    url: 'https://lkszj.info/api/get_like_num',
+    // url: 'https://lkszj.info/lks/get_like_num',
+    url: 'http://8.130.48.251:8081/lks/get_like_num',
     error: (res) => {
     },
     success: (res) => {
@@ -106,7 +107,8 @@ $('.web-grid-web mya p>.iconfont').click(function name(event) {
         $grid.isotope('updateSortData', $grid.children());
         $.ajax({
             type: "POST",
-            url: 'https://lkszj.info/api/set_like_num',
+            // url: 'https://lkszj.info/lks/set_like_num',
+            url: 'http://8.130.48.251:8081/lks/set_like_num',
             data: {
                 'web_grid': web_grid,
             },
@@ -139,7 +141,8 @@ $('.phone-modal .hide-modal').click(function name(params) {
         $grid.isotope('updateSortData', $grid.children());
         $.ajax({
             type: "POST",
-            url: 'https://lkszj.info/api/set_like_num',
+            // url: 'https://lkszj.info/lks/set_like_num',
+            url: 'http://8.130.48.251:8081/lks/set_like_num',
             data: {
                 'web_grid': web_grid,
             },
@@ -183,7 +186,7 @@ $('#DisclaimerClose').click(() => {
     localStorage.setItem('is_show_disclaimer', 0);
 });
 
-// MD5校验
+// MD5校验 & 通过后端API更新json
 setTimeout(() => {
     let local_web_list = localStorage.getItem('web_list');
     let local_web_list_md5 = localStorage.getItem('web_list_md5');

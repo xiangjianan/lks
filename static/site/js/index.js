@@ -8,20 +8,17 @@
 let web_list = null;
 let local_web_list = localStorage.getItem('web_list');
 let local_web_list_md5 = localStorage.getItem('web_list_md5');
+// 通过客户端浏览器localStorage获取json
 if (local_web_list_md5 && local_web_list){
     web_list = JSON.parse(local_web_list);
 }
+// 通过前端服务获取json
 else {
-    // 首次访问，后端接口获取 web_list 和 web_list_md5
-}
-// 后端接口异常时备用方案
-if (!web_list) {
-    console.log(1);
     $.ajaxSettings.async = false;
     $.getJSON("static/site/js/web.json", function (data) {
         web_list = data;
         localStorage.setItem('web_list', JSON.stringify(data));
-        localStorage.setItem('web_list_md5', JSON.stringify('1234567890'));
+        localStorage.setItem('web_list_md5', JSON.stringify('1234567890987654321'));
     });
     $.ajaxSettings.async = true;
 }

@@ -199,7 +199,7 @@ setTimeout(() => {
         error: (res) => {
         },
         success: (res) => {
-            new_md5 = $.parseJSON(res);
+            new_md5 = res;
         }
     });
     console.log(local_web_list_md5);
@@ -215,9 +215,8 @@ setTimeout(() => {
             error: (res) => {
             },
             success: (res) => {
-                let web_list = $.parseJSON(res);
-                localStorage.setItem('web_list', JSON.stringify(web_list));
-                localStorage.setItem('web_list_md5', JSON.stringify(new_md5));
+                localStorage.setItem('web_list', JSON.stringify(res));
+                localStorage.setItem('web_list_md5', new_md5);
             }
         });
     }

@@ -188,15 +188,37 @@ $('#DisclaimerClose').click(() => {
 
 // MD5校验 & 通过后端API更新json
 setTimeout(() => {
-    let local_web_list = localStorage.getItem('web_list');
     let local_web_list_md5 = localStorage.getItem('web_list_md5');
     // 后端接口获取最新MD5
     let new_md5 = '';
+    $.ajaxSettings.async = false;
+    $.ajax({
+        type: "POST",
+        // url: 'https://lkszj.info/lks/get_web_json_md5',
+        url: 'http://8.130.48.251:8081/lks/get_web_json_md5',
+        error: (res) => {
+        },
+        success: (res) => {
+            new_md5 = $.parseJSON(res);
+        }
+    });
+    console.log(local_web_list_md5);
+    console.log(new_md5);
+    $.ajaxSettings.async = true;
 
     if (local_web_list_md5 !== new_md5){
         // 后端接口获取 web_list
-
-        localStorage.setItem('web_list', JSON.stringify(web_list));
-        localStorage.setItem('web_list_md5', JSON.stringify(new_md5));
+        $.ajax({
+            type: "POST",
+            // url: 'https://lkszj.info/lks/get_web_json',
+            url: 'http://8.130.48.251:8081/lks/get_web_json',
+            error: (res) => {
+            },
+            success: (res) => {
+                let web_list = $.parseJSON(res);
+                localStorage.setItem('web_list', JSON.stringify(web_list));
+                localStorage.setItem('web_list_md5', JSON.stringify(new_md5));
+            }
+        });
     }
 }, 666);

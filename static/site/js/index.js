@@ -18,7 +18,7 @@ else {
     $.getJSON("static/site/js/web.json", function (data) {
         web_list = data;
         localStorage.setItem('web_list', JSON.stringify(data));
-        localStorage.setItem('web_list_md5', JSON.stringify('1234567890987654321'));
+        localStorage.setItem('web_list_md5', JSON.stringify('2020-01-01 00:00:00'));
     });
     $.ajaxSettings.async = true;
 }

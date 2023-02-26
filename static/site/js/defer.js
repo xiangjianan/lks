@@ -198,8 +198,6 @@ setTimeout(() => {
             new_md5 = res;
         }
     });
-    console.log(local_web_list_md5);
-    console.log(new_md5);
     $.ajaxSettings.async = true;
 
     if (local_web_list_md5 !== new_md5){

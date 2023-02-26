@@ -31,8 +31,8 @@ $('#search').keydown((e) => {
 $.ajax({
     type: "POST",
     dataType: "text",
-    // url: 'https://lkszj.info/lks/get_like_num',
-    url: 'http://8.130.48.251:8081/lks/get_like_num',
+    // url: 'https://lkszj.info/api/get_like_num',
+    url: 'http://8.130.48.251:8081/api/get_like_num',
     error: (res) => {
     },
     success: (res) => {
@@ -107,8 +107,8 @@ $('.web-grid-web mya p>.iconfont').click(function name(event) {
         $grid.isotope('updateSortData', $grid.children());
         $.ajax({
             type: "POST",
-            // url: 'https://lkszj.info/lks/set_like_num',
-            url: 'http://8.130.48.251:8081/lks/set_like_num',
+            // url: 'https://lkszj.info/api/set_like_num',
+            url: 'http://8.130.48.251:8081/api/set_like_num',
             data: {
                 'web_grid': web_grid,
             },
@@ -141,8 +141,8 @@ $('.phone-modal .hide-modal').click(function name(params) {
         $grid.isotope('updateSortData', $grid.children());
         $.ajax({
             type: "POST",
-            // url: 'https://lkszj.info/lks/set_like_num',
-            url: 'http://8.130.48.251:8081/lks/set_like_num',
+            // url: 'https://lkszj.info/api/set_like_num',
+            url: 'http://8.130.48.251:8081/api/set_like_num',
             data: {
                 'web_grid': web_grid,
             },
@@ -194,8 +194,8 @@ setTimeout(() => {
     $.ajaxSettings.async = false;
     $.ajax({
         type: "POST",
-        // url: 'https://lkszj.info/lks/get_web_json_md5',
-        url: 'http://8.130.48.251:8081/lks/get_web_json_md5',
+        // url: 'https://lkszj.info/api/get_web_json_md5',
+        url: 'http://8.130.48.251:8081/api/get_web_json_md5',
         error: (res) => {
         },
         success: (res) => {
@@ -210,8 +210,8 @@ setTimeout(() => {
         // 后端接口获取 web_list
         $.ajax({
             type: "POST",
-            // url: 'https://lkszj.info/lks/get_web_json',
-            url: 'http://8.130.48.251:8081/lks/get_web_json',
+            // url: 'https://lkszj.info/api/get_web_json',
+            url: 'http://8.130.48.251:8081/api/get_web_json',
             error: (res) => {
             },
             success: (res) => {

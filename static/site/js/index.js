@@ -98,6 +98,7 @@ let video_list = [
     ['BV1qQ4y1r7ty', 'bvid=BV1qQ4y1r7ty'],
     ['BV1ju411X7Zm', 'bvid=BV1ju411X7Zm'],
     ['BV1HB4y1n7nS', 'bvid=BV1HB4y1n7nS'],
+    ['BVxxxxxxxxxx', 'bvid=BVxxxxxxxxxx'],
 ];
 // 默认关闭视频预览
 if (!localStorage.getItem('is_show_bilibili')) {

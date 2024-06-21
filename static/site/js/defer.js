@@ -4,7 +4,7 @@ $('#submit').click(function name(params) {
     let inp = $search.val().trim();
     if (inp) {
         $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
-        $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
+        $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" target="_blank"> LKs </a>网站推荐合集`);
         if ($('.bilibili_iframe').css('display') === 'block') {
             $('.bilibili_iframe').css('display', 'none');
             $('iframe').attr('src', '');
@@ -31,7 +31,7 @@ $('#search').keydown((e) => {
 $.ajax({
     type: "POST",
     dataType: "text",
-    url: 'https://lkszj.info/api/get_like_num',
+    url: 'http://127.0.0.1:8001/api/get_like_num',
     error: (res) => {
     },
     success: (res) => {
@@ -106,7 +106,7 @@ $('.web-grid-web mya p>.iconfont').click(function name(event) {
         $grid.isotope('updateSortData', $grid.children());
         $.ajax({
             type: "POST",
-            url: 'https://lkszj.info/api/set_like_num',
+            url: 'http://127.0.0.1:8001/api/set_like_num',
             data: {
                 'web_grid': web_grid,
             },
@@ -139,7 +139,7 @@ $('.phone-modal .hide-modal').click(function name(params) {
         $grid.isotope('updateSortData', $grid.children());
         $.ajax({
             type: "POST",
-            url: 'https://lkszj.info/api/set_like_num',
+            url: 'http://127.0.0.1:8001/api/set_like_num',
             data: {
                 'web_grid': web_grid,
             },
@@ -170,7 +170,7 @@ $('[data-toggle="popover"]').popover({
 });
 
 // 免责声明
-$('#Disclaimer .modal-body').html(`<p>*本网站由<a href="https://space.bilibili.com/125526/" rel="nofollow noreferrer" target="_blank">-LKs-</a>和<a href="https://github.com/xiangjianan/" rel="nofollow noreferrer" target="_blank">xiangjianan</a>共同制作，展示的所有网站均为个人兴趣收集，不含任何商业推广成分，仅供交流学习。如有网站违反国家政策法规或链接已失效请联系(<a href="mailto:xiang9872@126.com">xiang9872@126.com</a>)，我们会尽快修改。</p>`)
+$('#Disclaimer .modal-body').html(`<p>*本网站由<a href="https://space.bilibili.com/125526/" rel="nofollow noreferrer" target="_blank">-LKs-</a>和<a href="https://github.com/xiangjianan/" rel="nofollow noreferrer" target="_blank">xiangjianan</a>共同制作，展示的所有网站均为个人兴趣收集，不含任何商业推广成分，仅供交流学习。如有网站违反国家政策法规或链接已失效请联系(<a href="mailto:xiang9872@126.com">xiang9872@126.com</a>)，我们会尽快修改。<br>所有网站使用前请仔细查阅授权许可，部分网站的产出不可用于商业用途，如错误使用产生的相关后果均与本站无关。</p>`)
 if (!localStorage.getItem('is_show_disclaimer')) {
     localStorage.setItem('is_show_disclaimer', 1);
 }
@@ -191,7 +191,7 @@ setTimeout(() => {
     $.ajaxSettings.async = false;
     $.ajax({
         type: "POST",
-        url: 'https://lkszj.info/api/get_web_json_md5',
+        url: 'http://127.0.0.1:8001/api/get_web_json_md5',
         error: (res) => {
         },
         success: (res) => {
@@ -204,7 +204,7 @@ setTimeout(() => {
         // 后端接口获取 web_list
         $.ajax({
             type: "POST",
-            url: 'https://lkszj.info/api/get_web_json',
+            url: 'http://127.0.0.1:8001/api/get_web_json',
             error: (res) => {
             },
             success: (res) => {

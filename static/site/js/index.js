@@ -110,7 +110,7 @@ $('.web-menu').on('click', 'button:eq(0), .period, .btn_star', function () {
     if (num === '0') {
         $('.bilibili_iframe').css('display', 'none');
         $('iframe').attr('src', '');
-        $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" rel="nofollow noreferrer" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
+        $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" rel="nofollow noreferrer" target="_blank"> LKs </a>网站推荐合集`);
     } else if (num != '0' && !$(this).hasClass('active')) {
         // 视频预览开关
         $('.group-video').html(`视频传送门：<a href="https://www.bilibili.com/video/${video_list[Number(num) - 1][0]}/" rel="nofollow noreferrer" target="_blank"><span class="iconfont" style="margin-right:3px">&#xe6b4;</span>${video_list[Number(num) - 1][0]}</a>&nbsp;&nbsp;&nbsp;<span class="show_bilibili" ontouchstart=""></span>`);

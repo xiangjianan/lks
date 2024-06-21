@@ -170,7 +170,7 @@ $('[data-toggle="popover"]').popover({
 });
 
 // 免责声明
-$('#Disclaimer .modal-body').html(`<p>*本网站由<a href="https://space.bilibili.com/125526/" rel="nofollow noreferrer" target="_blank">-LKs-</a>和<a href="https://github.com/xiangjianan/" rel="nofollow noreferrer" target="_blank">xiangjianan</a>共同制作，展示的所有网站均为个人兴趣收集，不含任何商业推广成分，仅供交流学习。如有网站违反国家政策法规或链接已失效请联系(<a href="mailto:xiang9872@126.com">xiang9872@126.com</a>)，我们会尽快修改。</p>`)
+$('#Disclaimer .modal-body').html(`<p>*本网站由<a href="https://space.bilibili.com/125526/" rel="nofollow noreferrer" target="_blank">-LKs-</a>和<a href="https://github.com/xiangjianan/" rel="nofollow noreferrer" target="_blank">xiangjianan</a>共同制作，展示的所有网站均为个人兴趣收集，不含任何商业推广成分，仅供交流学习。如有网站违反国家政策法规或链接已失效请联系(<a href="mailto:xiang9872@126.com">xiang9872@126.com</a>)，我们会尽快修改。<br>所有网站使用前请仔细查阅授权许可，部分网站的产出不可用于商业用途，如错误使用产生的相关后果均与本站无关。</p>`)
 if (!localStorage.getItem('is_show_disclaimer')) {
     localStorage.setItem('is_show_disclaimer', 1);
 }

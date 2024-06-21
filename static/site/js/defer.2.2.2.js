@@ -4,7 +4,7 @@ $('#submit').click(function name(params) {
     let inp = $search.val().trim();
     if (inp) {
         $('.web-menu button').eq(0).addClass('active').siblings().removeClass('active');
-        $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" target="_blank"> LKs </a>网站推荐合集`);
+        $('.group-video').html(`B站博主<a href="https://space.bilibili.com/125526/" target="_blank"> -LKs- </a>《良心到难以置信的网站推荐》`);
         if ($('.bilibili_iframe').css('display') === 'block') {
             $('.bilibili_iframe').css('display', 'none');
             $('iframe').attr('src', '');

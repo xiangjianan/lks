@@ -290,6 +290,10 @@ mya {
     box-shadow: .1rem .1rem .2rem var(--greyLight-2), -.1rem -.1rem .2rem var(--white) !important;
 }
 
+.filter-button-group button:last-child {
+    margin-right: 0;
+}
+
 /* 页脚 */
 
 .footer-links {
@@ -308,6 +312,7 @@ mya {
 .github {
     color: #999999;
 }
+
 .github:hover {
     color: darkorange;
 }
@@ -645,6 +650,7 @@ mya {
     font-size: 16px;
     margin-right: 2px;
 }
+
 /* 星标及切换按钮 */
 
 .btn_toogle,
@@ -935,6 +941,11 @@ iframe {
     .copyrights {
         position: relative !important;
     }
+
+    .section-title h3 {
+        font-size: 22px;
+        line-height: 45px !important;
+    }
 }
 
 @media only screen and (min-width: 280px) and (max-width: 599px) {
@@ -1037,5 +1048,10 @@ iframe {
 
     .copyrights {
         position: relative !important;
+    }
+
+    .section-title h3 {
+        font-size: 20px;
+        line-height: 45px !important;
     }
 }

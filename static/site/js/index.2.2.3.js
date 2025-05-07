@@ -15,7 +15,7 @@ if (local_web_list_md5 && local_web_list){
 // 通过前端服务获取json
 else {
     $.ajaxSettings.async = false;
-    $.getJSON("static/site/js/web.json", function (data) {
+    $.getJSON("static/site/js/web.v12.json", function (data) {
         web_list = data;
         localStorage.setItem('web_list', JSON.stringify(data));
         localStorage.setItem('web_list_md5', JSON.stringify('2020-01-01 00:00:00'));
@@ -99,6 +99,7 @@ let video_list = [
     ['BV1ju411X7Zm', 'bvid=BV1ju411X7Zm'],
     ['BV1HB4y1n7nS', 'bvid=BV1HB4y1n7nS'],
     ['BV1Jb421p795', 'bvid=BV1Jb421p795'],
+    ['BV14WV2z8E9n', 'bvid=BV14WV2z8E9n'],
 ];
 // 默认关闭视频预览
 if (!localStorage.getItem('is_show_bilibili')) {

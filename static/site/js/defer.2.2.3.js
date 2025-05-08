@@ -67,12 +67,16 @@ $('#scroll-to-hot').click(function name(params) {
 });
 
 // web端跳转
-$('.web-grid-web mya').click(function name(params) {
+$('.web-grid-web .mya').click(function name(params) {
     window.open($(this).attr('href'));
     return false;
 });
 // web端点赞
-$('.web-grid-web mya p>.iconfont').click(function name(event) {
+$('.web-grid-web .mya p>.iconfont').click(function name(event) {
+    // 阻止父元素<a>的点击事件
+    event.preventDefault();
+    event.stopPropagation();
+
     console.log('点赞');
     $(this).css('font-size', '20px');
     $(this).css('bottom', '-4px');
@@ -116,7 +120,6 @@ $('.web-grid-web mya p>.iconfont').click(function name(event) {
             }
         });
     }
-    event.stopPropagation();
 });
 // 移动端点赞
 $('.phone-modal .hide-modal').click(function name(params) {

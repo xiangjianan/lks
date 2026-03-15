@@ -1,0 +1,3032 @@
+[
+  {
+    "kind": "web_12",
+    "id": 1,
+    "title": "猜位置",
+    "href": "https://tuxun.fun/",
+    "slogan": "通过街景猜猜你在哪",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 2,
+    "title": "梦境记录",
+    "href": "http://yume.ly/",
+    "slogan": "无数人在此分享他们的梦境",
+    "kind_name": "生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 3,
+    "title": "听懂一切",
+    "href": "https://tingdong.cn/",
+    "slogan": "各种音频产品的云试听by LIKEMUSIC & LKs",
+    "kind_name": "实用&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 4,
+    "title": "赞美白云",
+    "href": "https://cloudappreciationsociety.org/",
+    "slogan": "全世界的i云人在这里集合！",
+    "kind_name": "生活&艺术&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 5,
+    "title": "赛博车景 \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://drivenlisten.com/city/#",
+    "slogan": "坐在各种各样的车里感受全世界的城市风光",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 6,
+    "title": "万维网",
+    "href": "https://vv.cicada000.work/",
+    "slogan": "AI检索并找到所有VV语录.jpg",
+    "kind_name": "图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 7,
+    "title": "高质量更新",
+    "href": "https://pudding.cool/",
+    "slogan": "各种有趣的可视化故事 视觉效果极佳 值得探索",
+    "kind_name": "娱乐&艺术",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 8,
+    "title": "修理手册",
+    "href": "https://zh.ifixit.com/",
+    "slogan": "一步步教你如何修好各种电子产品",
+    "kind_name": "工具&生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 9,
+    "title": "俄罗斯沙方块",
+    "href": "https://sandtris.com/",
+    "slogan": "俄罗斯方块 但是沙子版",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 10,
+    "title": "日语翻译建议 \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://tinyurl.com/j2ctranslation",
+    "slogan": "日翻中易错翻译对照表",
+    "kind_name": "工具&学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 11,
+    "title": "飓风素材库",
+    "href": "https://www.ysjf.com/material",
+    "slogan": "超高质量可商用视频log素材by 影视飓风",
+    "kind_name": "视频",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 12,
+    "title": "地图生成器",
+    "href": "https://watabou.github.io/",
+    "slogan": "基于6种模型生成虚拟地图并用于自己的项目",
+    "kind_name": "图片&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 13,
+    "title": "VI手册",
+    "href": "https://brandingstyleguides.com/",
+    "slogan": "各大品牌的官方VI视觉标准手册",
+    "kind_name": "实用&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 14,
+    "title": "AI地图 \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://www.smartmap.space/",
+    "slogan": "结合了AI的地图 可以对它提问并给你规划行程",
+    "kind_name": "实用&生活",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 15,
+    "title": "免费AI生成PPT",
+    "href": "https://www.aippt.cn/?utm_type=Navweb&utm_source=lks&utm_page=aippt&utm_plan=ppt&utm_unit=AIPPT&utm_keyword=40478267",
+    "slogan": "AI一键免费生成PPT，输入主题，3分钟完成PPT制作！",
+    "kind_name": "工具",
+    "star": "star",
+    "icon": "&#xe645;"
+  },
+  {
+    "kind": "web_12",
+    "id": 16,
+    "title": "制造字体",
+    "href": "https://www.grid-type.com/",
+    "slogan": "使用格子来打造独一无二的字体",
+    "kind_name": "工具&艺术",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 17,
+    "title": "Emoji大全",
+    "href": "https://www.emojiall.com/zh-hans",
+    "slogan": "可能是最全的emoji合集网站",
+    "kind_name": "图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 18,
+    "title": "千年调",
+    "href": "https://news.cgtn.com/event/2023/The-Song-Painted-Nature/index.html",
+    "slogan": "CGTN出品非常精致的宋代山水人物画线上展",
+    "kind_name": "艺术&图片",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 19,
+    "title": "怀旧声音",
+    "href": "https://www.conservethesound.de/",
+    "slogan": "收集各种老物件的声音",
+    "kind_name": "音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 21,
+    "title": "怎么看山",
+    "href": "https://peakjut.com/",
+    "slogan": "带你从绝对高度落差欣赏全球山峰的专题站",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 22,
+    "title": "沥青滴落实验",
+    "href": "http://thetenthwatch.com/feed/#",
+    "slogan": "开始于1927年的著名实验 现场直播第10滴沥青的滴落",
+    "kind_name": "学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 23,
+    "title": "手语词典 \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://www.spreadthesign.com/",
+    "slogan": "全世界不同国家的手语分别怎么打",
+    "kind_name": "学习&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 24,
+    "title": "500年技术进化图 \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://calculatingempires.net/",
+    "slogan": "1500~2025年各个领域的技术发展可视化",
+    "kind_name": "学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 25,
+    "title": "Nyan!",
+    "href": "https://www.nyan.cat/",
+    "slogan": "Nyan Nyan Nyan",
+    "kind_name": "娱乐&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 26,
+    "title": "国际象棋网",
+    "href": "https://www.chess.com/",
+    "slogan": "学习、练习国际象棋，并与全世界网友在线对战",
+    "kind_name": "游戏&学习",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 27,
+    "title": "猜密码",
+    "href": "https://www.guessthepin.com/",
+    "slogan": "全世界网友一起猜密码",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 28,
+    "title": "AI命书",
+    "href": "https://www.fatetell.com/",
+    "slogan": "当东方玄学遇到AI大模型(仅供图一乐)",
+    "kind_name": "娱乐&生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 29,
+    "title": "虚拟圣彼得大教堂",
+    "href": "https://virtual.basilicasanpietro.va/en",
+    "slogan": "3D赛博游览梵蒂冈的圣彼得大教堂",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_12",
+    "id": 30,
+    "title": "液态金属效果",
+    "href": "https://liquid.paper.design/",
+    "slogan": "为你的logo制作可动液态金属效果",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 1,
+    "title": "无尽道路",
+    "href": "https://slowroads.io/",
+    "slogan": "在可以无限实时生成的道路上驾驶的网页游戏，适合放空 \u003C\u003Cspan\u003E\u003C/span\u003ESlow Roads\u003E",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 2,
+    "title": "语气转换器",
+    "href": "https://goblin.tools/",
+    "slogan": "基于AI，把同一句话用各种不同情绪和态度表达",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 3,
+    "title": "水草造景大赛",
+    "href": "https://iaplc.com/c/",
+    "slogan": "IAPLC世界水草造景大赛官网，可以看到各国的获奖作品",
+    "kind_name": "艺术",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 4,
+    "title": "各类免费设计资源",
+    "href": "https://resourceboy.com/",
+    "slogan": "海量极高质量免费资源，涵盖材质、笔刷、图案、mockup、艺术字",
+    "kind_name": "实用",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 5,
+    "title": "圣地巡礼地图",
+    "href": "https://anitabi.cn/map",
+    "slogan": "用地图呈现二次元作品内场景的实际位置，可配合对比图生成器使用anitabi.cn",
+    "kind_name": "娱乐&生活",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 7,
+    "title": "永不锁屏",
+    "href": "https://www.keepscreenon.com/",
+    "slogan": "开着这个网页，让你的电脑永不锁屏",
+    "kind_name": "实用",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 8,
+    "title": "AI成分鉴别器",
+    "href": "https://illuminarty.ai/en/",
+    "slogan": "识别一张图片or文字有多大可能性是AI生成的",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 9,
+    "title": "颜色代码",
+    "href": "https://encycolorpedia.cn/named",
+    "slogan": "全球各种颜色的名称、参数、配色方案集合网站",
+    "kind_name": "工具&艺术",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 10,
+    "title": "强行对战!",
+    "href": "https://www.jazzvswaffles.com/",
+    "slogan": "基于AI生成，把任意两个角色放在一起的跨战力PK游戏",
+    "kind_name": "游戏",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 11,
+    "title": "AI音乐生成",
+    "href": "https://suno.com/",
+    "slogan": "可能是目前最好用的AI音乐生成器",
+    "kind_name": "音乐",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 12,
+    "title": "哄哄模拟器",
+    "href": "https://hong.greatdk.com/",
+    "slogan": "看看能否哄好生气的AI，高情商发言训练器",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 13,
+    "title": "扑克牌自定义器",
+    "href": "https://www.me.uk/cards/makeadeck.cgi",
+    "slogan": "生成一套专属于你的扑克牌！",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 14,
+    "title": "说的什么英语？",
+    "href": "http://archive.gameswithwords.org/WhichEnglish/",
+    "slogan": "通过一套问题，检测你说的英语属于哪里的风格",
+    "kind_name": "学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 15,
+    "title": "手写签名",
+    "href": "https://www.calligrapher.ai/",
+    "slogan": "随机生成手写风格的英文签名",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 16,
+    "title": "医药信息查询",
+    "href": "https://www.dayi.org.cn/",
+    "slogan": "由三甲医院副主任医师以上专家编写的医药信息查询平台",
+    "kind_name": "实用&学习",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 17,
+    "title": "三消大战",
+    "href": "https://guivo.io/#/play-tutorial",
+    "slogan": "基于elo的世界服三消排位上分游戏，紧张刺激",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 18,
+    "title": "做房子模拟器",
+    "href": "https://rooms.xyz/",
+    "slogan": "硬核从零开始打造属于自己的像素房子",
+    "kind_name": "艺术",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 19,
+    "title": "猜价格",
+    "href": "https://guesstheprice.net/",
+    "slogan": "猜各种商品的价格小挑战",
+    "kind_name": "娱乐&生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 20,
+    "title": "推活日记",
+    "href": "https://ievent.life/",
+    "slogan": "各种二次元live、活动、地下偶像表演的集合资讯站",
+    "kind_name": "生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 21,
+    "title": "电影静帧分析",
+    "href": "https://shotdeck.com/welcome/home",
+    "slogan": "上百万张影视剧集的静帧，配合构图分析和参数以便参考学习",
+    "kind_name": "图片&实用",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 22,
+    "title": "识典古籍",
+    "href": "https://www.shidianguji.com/?page_from=bookshelf",
+    "slogan": "涵盖众多古籍的免费线上文库，有AI问答和网友读书笔记功能",
+    "kind_name": "学习",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 23,
+    "title": "114514论证器",
+    "href": "https://lab.magiconch.com/homo/",
+    "slogan": "2024 = 11*(45+1)*4",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 24,
+    "title": "低价平替",
+    "href": "https://www.pingti.app/",
+    "slogan": "通过AI学习，对想买的东西提供一个平替关键词",
+    "kind_name": "生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 25,
+    "title": "初创公司追踪",
+    "href": "https://startzone.club/",
+    "slogan": "最近有哪些初创公司，以及它们的盈利情况统计",
+    "kind_name": "学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 26,
+    "title": "创意小游戏合集",
+    "href": "https://retryables.com/",
+    "slogan": "5款简单但别出心裁的小游戏",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 27,
+    "title": "全网APP图标",
+    "href": "https://pushkeen.ai/appstore-icons/8901",
+    "slogan": "快速获取所有app的高质量图标",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 28,
+    "title": "快捷键备忘录",
+    "href": "https://hotkeycheatsheet.com/zh",
+    "slogan": "常用软件的快捷键清单",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_11",
+    "id": 29,
+    "title": "历史车轮",
+    "href": "https://www.lishichelun.com/tool",
+    "slogan": "用时间轴的形式展示历史上的人物生平和事件",
+    "kind_name": "学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 1,
+    "title": "AI画图(中文)",
+    "href": "https://huggingface.co/spaces/PaddlePaddle/ERNIE-ViLG",
+    "slogan": "输入文字描述让AI画出来",
+    "kind_name": "艺术",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 2,
+    "title": "AI画图(英文)",
+    "href": "https://huggingface.co/spaces/stabilityai/stable-diffusion",
+    "slogan": "输入文字描述让AI画出来",
+    "kind_name": "艺术",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 3,
+    "title": "图片二次打光",
+    "href": "https://clipdrop.co/relight",
+    "slogan": "给你的画&照片二次打光",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 4,
+    "title": "找鼠标 \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://pointerpointer.com/",
+    "slogan": "用照片指出你现在鼠标的位置",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 5,
+    "title": "猜中国省份",
+    "href": "https://vultr.youmu.moe/quiz/",
+    "slogan": "看看你对中国地图有多了解",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 6,
+    "title": "离谱相关性",
+    "href": "http://tylervigen.com/spurious-correlations",
+    "slogan": "上千个毫无关系但又有相关性的数据",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 7,
+    "title": "综艺特效字1",
+    "href": "https://douga.work/free-distribution-psdfx-001/",
+    "slogan": "很有内味的综艺感字体1",
+    "kind_name": "视频",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 8,
+    "title": "综艺特效字2",
+    "href": "https://tvsozai.com/4639/",
+    "slogan": "很有内味的综艺感字体1",
+    "kind_name": "视频",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 9,
+    "title": "TABS",
+    "href": "https://www.songsterr.com/",
+    "slogan": "各种歌曲的乐器谱在线播放",
+    "kind_name": "音乐&实用",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 10,
+    "title": "星座识别",
+    "href": "https://nova.astrometry.net/",
+    "slogan": "试别照片里天空的星座",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 11,
+    "title": "播客搜索引擎",
+    "href": "https://pod.link/",
+    "slogan": "全球播客合集",
+    "kind_name": "实用",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 12,
+    "title": "死亡公司数据库",
+    "href": "https://www.itjuzi.com/deathCompany",
+    "slogan": "记录各种倒闭的公司以及倒闭原因",
+    "kind_name": "生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 13,
+    "title": "居家简易食谱",
+    "href": "https://cook.yunyoujun.cn/",
+    "slogan": "不会做饭又必须做饭时的福利",
+    "kind_name": "实用&生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 14,
+    "title": "擦除画面",
+    "href": "https://www.magiceraser.io/",
+    "slogan": "一键去掉照片里不想要的东西",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 15,
+    "title": "在线PS",
+    "href": "https://ps.gaoding.com/#/",
+    "slogan": "在线修图以及各种调节功能",
+    "kind_name": "工具&图片",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 16,
+    "title": "免费手绘插画",
+    "href": "https://www.irasutoya.com/",
+    "slogan": "很有内味的免费手绘素材",
+    "kind_name": "实用&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 17,
+    "title": "据意查句",
+    "href": "https://wantquotes.net/",
+    "slogan": "输入想表达的意思，找到对应的说法",
+    "kind_name": "知识&实用",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 19,
+    "title": "全球logo",
+    "href": "https://www.logonews.cn/",
+    "slogan": "收录全球的新logo和logo改动",
+    "kind_name": "知识&艺术",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 20,
+    "title": "耳机评测站",
+    "href": "https://www.woodenears.com/",
+    "slogan": "各种耳机参数对比及选购",
+    "kind_name": "音乐&实用",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 21,
+    "title": "免费素材合集",
+    "href": "http://veleap.com/console/works/material/nav",
+    "slogan": "几十款免费素材合集站",
+    "kind_name": "实用",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 22,
+    "title": "flash游戏库",
+    "href": "https://bluemaxima.org/flashpoint/",
+    "slogan": "几十万个flash游戏和动画",
+    "kind_name": "游戏",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 23,
+    "title": "游戏选购",
+    "href": "https://howlongtobeat.com/",
+    "slogan": "某款游戏需要玩多久",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 24,
+    "title": "日食查询",
+    "href": "https://nadc.china-vo.org/eclipse/",
+    "slogan": "查询几千年来和未来的日食信息",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 25,
+    "title": "高清世界名画",
+    "href": "https://www.nbfox.com/",
+    "slogan": "10w+张高清世界名画下载，无需注册",
+    "kind_name": "艺术",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 26,
+    "title": "中国庭审公开网",
+    "href": "http://tingshen.court.gov.cn/",
+    "slogan": "看看别人打官司是怎么打的现场直播",
+    "kind_name": "知识&生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 27,
+    "title": "中国裁判文书网",
+    "href": "https://wenshu.court.gov.cn/#",
+    "slogan": "看看别人官司是怎么判的",
+    "kind_name": "知识&生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 28,
+    "title": "哈利波特工具集",
+    "href": "https://wizard-tool.com/",
+    "slogan": "哈利波特同人站，可以做一些测试",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_10",
+    "id": 29,
+    "title": "游戏ui库",
+    "href": "https://www.gameuidatabase.com/",
+    "slogan": "很多款游戏的UI截图，可以作为参考",
+    "kind_name": "游戏&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 2,
+    "title": "真实人声生成",
+    "href": "https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/#overview",
+    "slogan": "微软黑科技文字转语音，非常真实",
+    "kind_name": "实用",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 3,
+    "title": "游戏地图博物馆",
+    "href": "https://noclip.website/",
+    "slogan": "各种经典游戏的关卡地图博物馆",
+    "kind_name": "艺术",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 4,
+    "title": "游戏音乐大全 \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://downloads.khinsider.com/",
+    "slogan": "非常全面的游戏音乐/ost下载站",
+    "kind_name": "音乐&游戏",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 5,
+    "title": "中华古籍资源库",
+    "href": "http://www.nlc.cn/dsb_zyyfw/gj/gjzyk/",
+    "slogan": "中国国家数字图书馆，海量古籍善本",
+    "kind_name": "艺术",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 6,
+    "title": "编程字体",
+    "href": "https://www.codingfont.com/",
+    "slogan": "帮你选择合适的写代码字体",
+    "kind_name": "实用",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 8,
+    "title": "vup大数据",
+    "href": "https://vtbs.moe/",
+    "slogan": "虚拟主播实时大数据",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 9,
+    "title": "书签地球",
+    "href": "https://www.bookmarkearth.cn/",
+    "slogan": "网友分享自己收藏过的网站",
+    "kind_name": "实用",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 11,
+    "title": "咖啡厅BGM",
+    "href": "https://bgmc-station.com/",
+    "slogan": "高品质背景音，可用于自家店铺或商场",
+    "kind_name": "音乐&实用",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 12,
+    "title": "英语口语能力测试",
+    "href": "https://www.speechace.com/",
+    "slogan": "测试&锻炼你的英语口语",
+    "kind_name": "学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 13,
+    "title": "免费学习",
+    "href": "https://www.coursera.org/",
+    "slogan": "来自全球顶级高校和公司的免费课程",
+    "kind_name": "学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 14,
+    "title": "蒸 気 機",
+    "href": "https://lab.magiconch.com/vaporwave/?from=home",
+    "slogan": "把照片变成复古蒸汽波风格",
+    "kind_name": "图片&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 15,
+    "title": "AI生成头像",
+    "href": "https://waifulabs.com/",
+    "slogan": "AI生成独一无二的原创头像",
+    "kind_name": "图片&娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 16,
+    "title": "AI生成头像",
+    "href": "https://crypko.ai/#/",
+    "slogan": "AI生成独一无二的原创头像",
+    "kind_name": "图片&娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 17,
+    "title": "万词王",
+    "href": "https://wantwords.net",
+    "slogan": "为你提供同义词的不同表述(中英文)",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 18,
+    "title": "背景音(室内)",
+    "href": "https://pluvior.com/index.html",
+    "slogan": "适合工作与休息的背景音 室内场景",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 19,
+    "title": "背景音(海滩)",
+    "href": "https://virtocean.com/#",
+    "slogan": "适合工作与休息的背景音 海边场景",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 21,
+    "title": "语音开黑",
+    "href": "https://www.kookapp.cn",
+    "slogan": "方便 免费 好用的多人语音连线网站",
+    "kind_name": "实用&游戏",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 22,
+    "title": "电子书&文章",
+    "href": "https://z-lib.org/",
+    "slogan": "全球最大的电子书与文章资源站",
+    "kind_name": "实用",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 23,
+    "title": "表情包混合",
+    "href": "https://tikolu.net/",
+    "slogan": "把两个表情包混合在一起",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 24,
+    "title": "论文阅读",
+    "href": "https://readpaper.com/",
+    "slogan": "科研学术必备在线论文阅读神器",
+    "kind_name": "学习",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 25,
+    "title": "各行业品牌大全",
+    "href": "https://www.maigoo.com/",
+    "slogan": "全行业品牌排行榜&购物知识",
+    "kind_name": "生活&实用",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 26,
+    "title": "吸血鬼幸存者",
+    "href": "https://poncle.itch.io/vampire-survivors",
+    "slogan": "刷怪升级roughlike游戏，非常上头，steam好评如潮",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 27,
+    "title": "200+种工具合集",
+    "href": "https://www.67tool.com/",
+    "slogan": "集合各种使用功能的在线工具箱，应有尽有",
+    "kind_name": "工具&实用",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 28,
+    "title": "让图动起来",
+    "href": "https://sketch.metademolab.com/canvas",
+    "slogan": "让静止的角色变得能动(整活向)",
+    "kind_name": "图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 29,
+    "title": "月幕galgame",
+    "href": "https://www.ymgal.games",
+    "slogan": "up主自制galgame交流点评站",
+    "kind_name": "娱乐&游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 30,
+    "title": "实用上网插件",
+    "href": "https://greasyfork.org/zh-CN",
+    "slogan": "提供各种实用的浏览器插件",
+    "kind_name": "工具&实用",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_9",
+    "id": 31,
+    "title": "旧书与老物件",
+    "href": "https://www.kongfz.com/",
+    "slogan": "老书，老物件二手交易网站",
+    "kind_name": "生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 1,
+    "title": "捏脸",
+    "href": "https://picrew.me/",
+    "slogan": "用自己的设计，制作你的专属头像",
+    "kind_name": "娱乐&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 2,
+    "title": "追踪热点后续",
+    "href": "https://houxu.app/",
+    "slogan": "有记忆的新闻，持续追踪社会热点",
+    "kind_name": "实用",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 3,
+    "title": "人生重开模拟器",
+    "href": "http://liferestart.syaro.io/view/index.html",
+    "slogan": "这垃圾的人生一点也不想呆了",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 4,
+    "title": "生成背景图",
+    "href": "https://cn.pattern.monster/",
+    "slogan": "一个简单的重复性SVG图案在线生成器",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 5,
+    "title": "神器聚合站",
+    "href": "https://uiiiuiii.com/tools",
+    "slogan": "聚合了各种各样的在线神器",
+    "kind_name": "实用",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 6,
+    "title": "5000兆円生成器",
+    "href": "http://yurafuca.com/5000choyen/",
+    "slogan": "生成一种特效字体",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 7,
+    "title": "在线Winamp",
+    "href": "https://webamp.org/",
+    "slogan": "复古音乐播放器",
+    "kind_name": "音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 8,
+    "title": "油画转换器",
+    "href": "https://fotosketcher.com/",
+    "slogan": "用你的数码照片创造美丽的艺术作品",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 9,
+    "title": "令咒icon",
+    "href": "https://shindanmaker.com/1064580",
+    "slogan": "输入你的名字，帮你生成一个令咒画风的图标",
+    "kind_name": "娱乐&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 10,
+    "title": "历年电影海报",
+    "href": "http://www.impawards.com/",
+    "slogan": "所有最新的电影海报",
+    "kind_name": "视频",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 11,
+    "title": "选电影",
+    "href": "https://datenightmovies.com/",
+    "slogan": "选择两部电影，我们将把它们结合起来，展示你会喜欢的推荐",
+    "kind_name": "工具&视频",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 12,
+    "title": "选电影",
+    "href": "https://autum.com/",
+    "slogan": "我们将分析您看过的所有电影和电视节目，并生成您的统计数据",
+    "kind_name": "工具&视频",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 13,
+    "title": "人工智障写作",
+    "href": "http://if.caiyunai.com/dream/#/",
+    "slogan": "彩云小梦尝鲜版 - AI续写",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 14,
+    "title": "书法生成器",
+    "href": "http://www.ziticq.com/shufa/",
+    "slogan": "在线书法字体生成，AI矢量书法字体",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 15,
+    "title": "健身百科",
+    "href": "https://musclewiki.com/",
+    "slogan": "肌肉维基百科，简化你的锻炼",
+    "kind_name": "生活&学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 16,
+    "title": "世界语言学习 \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://www.zerotohero.ca/",
+    "slogan": "这是语言爱好者的天堂，提供数万个视频，包括数百种语言的字幕和字典工具",
+    "kind_name": "实用&学习",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 18,
+    "title": "地图生成器",
+    "href": "https://azgaar.github.io/Fantasy-Map-Generator/",
+    "slogan": "Azgaar的幻想地图生成器",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 19,
+    "title": "随机生成器",
+    "href": "https://sharkle.com/",
+    "slogan": "随机生成一个3D视效网页",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 20,
+    "title": "买星星",
+    "href": "https://osr.org/",
+    "slogan": "命名一个星星，为希望和欢乐送上光芒",
+    "kind_name": "艺术&娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 21,
+    "title": "噪音生成器",
+    "href": "https://29a.ch/noise-generator/",
+    "slogan": "噪声发生器，在线白噪声",
+    "kind_name": "音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 22,
+    "title": "音轨分离(中文)",
+    "href": "https://dango.ai/",
+    "slogan": "借助我们音质至上的AI技术，您可以从任何音频中分离出伴奏，人声，和声，鼓点，贝斯等轨道",
+    "kind_name": "工具&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 23,
+    "title": "NCM转换",
+    "href": "https://ncm.worthsee.com/site/index",
+    "slogan": "网易云NCM格式在线转换为MP3格式",
+    "kind_name": "工具&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 24,
+    "title": "中小学网课",
+    "href": "https://ykt.eduyun.cn/ykt/sjykt/index.html?from=timeline&isappinstalled=0",
+    "slogan": "国家中小学网络云平台",
+    "kind_name": "学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 25,
+    "title": "鼠标测试",
+    "href": "https://cps-check.com/cn/polling-rate-check",
+    "slogan": "鼠标轮询率检查器",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 26,
+    "title": "索尼の一天风景",
+    "href": "https://www.sony.net/united/clock/",
+    "slogan": "索尼全球 - α时钟：世界时间，由α捕获",
+    "kind_name": "艺术&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 27,
+    "title": "国际空间站对接",
+    "href": "https://iss-sim.spacex.com/",
+    "slogan": "SpaceX - 国际空间站对接模拟器",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 28,
+    "title": "抠图(中文)",
+    "href": "http://www.picup.shop/currencyBatch.html",
+    "slogan": "皮卡智能一键抠图",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_8",
+    "id": 29,
+    "title": "万能法律咨询",
+    "href": "https://ai.12348.gov.cn/pc/",
+    "slogan": "根据问卷提示填写相关信息，在线为您免费出具法律意见书，供您参考",
+    "kind_name": "实用&学习",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 1,
+    "title": "行业报告",
+    "href": "http://report.seedsufe.com/#/report",
+    "slogan": "轻量级行研数据工具",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 2,
+    "title": "世界之声 \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://aporee.org/maps/",
+    "slogan": "全球声音地图，致力于现场录音、声学和收听艺术",
+    "kind_name": "艺术&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 3,
+    "title": "商用图片",
+    "href": "https://www.pexels.com/zh-cn/",
+    "slogan": "才华横溢的摄影作者在这里免费分享最精彩的素材图片和视频",
+    "kind_name": "实用&图片",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 4,
+    "title": "抠图",
+    "href": "https://www.remove.bg/",
+    "slogan": "从图像中消除背景",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 5,
+    "title": "抠视频",
+    "href": "https://www.unscreen.com/",
+    "slogan": "逐帧消除视频背景",
+    "kind_name": "工具&视频",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 6,
+    "title": "打字比赛",
+    "href": "https://play.typeracer.com/",
+    "slogan": "屡获殊荣的在线打字比赛，这是网络上的第一个多人打字游戏",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 7,
+    "title": "空投",
+    "href": "https://airportal.cn/",
+    "slogan": "只要您的设备联网，您就可以通过它在任意系统、任意设备间传输文件",
+    "kind_name": "实用&工具",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 8,
+    "title": "宝贝DJ",
+    "href": "http://www.bbdj.com/",
+    "slogan": "无损高品质DJ舞曲分享",
+    "kind_name": "娱乐&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 9,
+    "title": "色彩",
+    "href": "https://color.adobe.com/zh/create/color-wheel",
+    "slogan": "Adobe Color - 一个调色板生成器",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 10,
+    "title": "3D模型",
+    "href": "https://sketchfab.com/",
+    "slogan": "Sketchfab - 网络上最好的3D查看器",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 11,
+    "title": "3D模型",
+    "href": "https://www.thingiverse.com/",
+    "slogan": "Thingiverse - 立体实物的数字设计",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 13,
+    "title": "约稿",
+    "href": "https://www.mihuashi.com/artists",
+    "slogan": "米画师美术外包交易平台，带给你自由、高效、专业的美术工作体验",
+    "kind_name": "实用&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 14,
+    "title": "虚拟博物馆",
+    "href": "https://virtual.mauritshuis.nl/index.html?lang=en&startscene=21",
+    "slogan": "线上超高清虚拟游馆",
+    "kind_name": "艺术&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 15,
+    "title": "尺寸",
+    "href": "https://www.dimensions.com/",
+    "slogan": "尺寸参考网站，记录了构成日常物体的标准尺寸",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 16,
+    "title": "迪士尼化",
+    "href": "https://toonme.com/",
+    "slogan": "生成迪士尼画风的头像",
+    "kind_name": "娱乐&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 17,
+    "title": "动态图表",
+    "href": "https://hanabi.data-viz.cn/index?lang=zh-CN",
+    "slogan": "花火数图 - 好看的图标形态各异，制作的工具简单如一",
+    "kind_name": "实用&工具",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 18,
+    "title": "中国营养",
+    "href": "https://www.fatsecret.cn/%E7%83%AD%E9%87%8F%E8%90%A5%E5%85%BB/",
+    "slogan": "中国的各种食物和品牌",
+    "kind_name": "工具&生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 19,
+    "title": "发现",
+    "href": "https://www.producthunt.com/",
+    "slogan": "发现技术领域最好的新产品",
+    "kind_name": "实用&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 20,
+    "title": "找音乐",
+    "href": "https://www.tunefind.com/",
+    "slogan": "寻找电视和电影中的音乐",
+    "kind_name": "工具&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 21,
+    "title": "996身临其境",
+    "href": "https://imisstheoffice.eu/",
+    "slogan": "闭上眼睛想象你还在办公室，很美妙，不是吗",
+    "kind_name": "娱乐&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 22,
+    "title": "这个不存在",
+    "href": "https://thisxdoesnotexist.com/",
+    "slogan": "使用生成对抗网络，我们可以学习如何创建几乎任何东西的逼真的假版本",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 23,
+    "title": "森林之声",
+    "href": "https://www.tree.fm/",
+    "slogan": "收听来自世界各地森林的声音",
+    "kind_name": "娱乐&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 24,
+    "title": "西方电音",
+    "href": "https://www.traxsource.com/dj-top-10s",
+    "slogan": "不是每个人都懂House Music...但我们懂",
+    "kind_name": "音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 25,
+    "title": "猜真假",
+    "href": "https://landing.adobe.com/en/na/products/creative-cloud/69308-real-or-photoshop/index.html",
+    "slogan": "有些图片是如此惊人，我们不确定它们是真实的还是PS的，你能分辨吗",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 26,
+    "title": "魔性 \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://patatap.com/",
+    "slogan": "一个非常魔性的网站",
+    "kind_name": "娱乐&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 27,
+    "title": "中华珍宝馆",
+    "href": "https://www.ltfc.net/exhibit/recent",
+    "slogan": "中华书法、绘画欣赏，高清下载",
+    "kind_name": "艺术&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_7",
+    "id": 28,
+    "title": "英语游戏",
+    "href": "https://www.merriam-webster.com/",
+    "slogan": "单词游戏和测验",
+    "kind_name": "学习&游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 1,
+    "title": "AI音乐推荐",
+    "href": "https://www.gnoosic.com/faves.php",
+    "slogan": "根据您喜欢的音乐人，智能推荐新音乐",
+    "kind_name": "工具&音乐",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 3,
+    "title": "壁纸",
+    "href": "https://wallhaven.cc/",
+    "slogan": "wallhaven - 互联网最好的壁纸网站",
+    "kind_name": "实用&图片",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 4,
+    "title": "私人定制",
+    "href": "https://www.fiverr.com/",
+    "slogan": "企业自由职业者服务市场",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 5,
+    "title": "云旅游",
+    "href": "http://www.airpano.com/",
+    "slogan": "环游世界的虚拟之旅",
+    "kind_name": "生活&图片",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 6,
+    "title": "云住酒店云吃饭",
+    "href": "https://bbs.saraba1st.com/2b/space-uid-197835.html",
+    "slogan": "酒店评测，云体验餐厅酒店",
+    "kind_name": "生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 7,
+    "title": "开窗户",
+    "href": "https://window-swap.com/",
+    "slogan": "在世界的某个地方打开一扇新窗口",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 8,
+    "title": "伴奏提取",
+    "href": "https://www.lalal.ai/",
+    "slogan": "从任何音频中提取人声、伴奏和各种乐器",
+    "kind_name": "工具&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 9,
+    "title": "格式转换",
+    "href": "https://www.alltoall.net/",
+    "slogan": "免费的在线格式转换工具",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 10,
+    "title": "格式转换",
+    "href": "https://www.aconvert.com/cn/",
+    "slogan": "在线转换文档、视频和音频",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 11,
+    "title": "高端翻译",
+    "href": "https://www.deepl.com/translator",
+    "slogan": "DeepL翻译 - 全世界最准确的翻译",
+    "kind_name": "实用&工具",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 12,
+    "title": "好好说话",
+    "href": "https://lab.magiconch.com/nbnhhsh/",
+    "slogan": "拼音首字母缩写释义工具",
+    "kind_name": "娱乐&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 13,
+    "title": "那你能帮帮我吗",
+    "href": "https://zh.wikihow.com/%E9%A6%96%E9%A1%B5",
+    "slogan": "互联网上最值得信赖的指南网站",
+    "kind_name": "工具&生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 14,
+    "title": "天气",
+    "href": "https://www.windy.com/",
+    "slogan": "强大的天气预报网站，关于天气的都在这里",
+    "kind_name": "工具&生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 16,
+    "title": "起名",
+    "href": "https://www.behindthename.com/",
+    "slogan": "英文名字背后的词源和历史",
+    "kind_name": "工具&学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 17,
+    "title": "版权音乐曲库",
+    "href": "https://www.epidemicsound.com/",
+    "slogan": "免版税的音乐和音效",
+    "kind_name": "工具&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 18,
+    "title": "独立游戏",
+    "href": "https://www.indiexpo.net/",
+    "slogan": "独立游戏集合站",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 19,
+    "title": "学钢琴",
+    "href": "https://app.flowkey.com.cn/",
+    "slogan": "通过您喜爱的乐曲学习钢琴",
+    "kind_name": "学习&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 20,
+    "title": "焦段科普",
+    "href": "https://www.samyanglens.com/en/product/simulator/lens.php",
+    "slogan": "相机焦段科普",
+    "kind_name": "学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 21,
+    "title": "全球生活水平",
+    "href": "https://www.gapminder.org/dollar-street/",
+    "slogan": "看图了解世界各地人民的生活水平",
+    "kind_name": "生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 22,
+    "title": "海",
+    "href": "https://seaside-station.com/region/hokkaido/",
+    "slogan": "日本能看到海的车站",
+    "kind_name": "生活&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_6",
+    "id": 23,
+    "title": "标准地图",
+    "href": "http://bzdt.ch.mnr.gov.cn/index.html",
+    "slogan": "依据中国和世界各国国界线画法标准编制而成，可以免费浏览、下载标准地图",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 1,
+    "title": "大像素",
+    "href": "https://bigpixel.cn/zh-CN.html",
+    "slogan": "放大万倍体验中国城市，展现城市特色，讲好中华文化",
+    "kind_name": "娱乐&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 2,
+    "title": "PPT",
+    "href": "https://slidesgo.com/theme/isometric-proposal",
+    "slogan": "免费谷歌幻灯片主题和PowerPoint模板",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 3,
+    "title": "云",
+    "href": "https://www.ianfisherart.com/",
+    "slogan": "Ian Fisher - 一位专业画云十几年的艺术家",
+    "kind_name": "艺术&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 4,
+    "title": "展会",
+    "href": "http://www.eshow365.com/",
+    "slogan": "中国展会门户，找展会，订展位",
+    "kind_name": "工具&生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 5,
+    "title": "全历史",
+    "href": "https://www.allhistory.com/",
+    "slogan": "沉浸在纵横开阔、左图右史的知识海洋中",
+    "kind_name": "学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 6,
+    "title": "诡秘之主",
+    "href": "https://www.zcool.com.cn/work/ZNDI0NzUzNzY=.html",
+    "slogan": "22个全途径魔药徽章UI设计",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 7,
+    "title": "做音乐",
+    "href": "https://learningmusic.ableton.com/zh-Hans/",
+    "slogan": "学习到音乐创作的基础知识，无需任何经验或设备，在浏览器中完成所有工作",
+    "kind_name": "学习&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 8,
+    "title": "新媒体导航",
+    "href": "https://www.kaolamedia.com/",
+    "slogan": "新媒体人每天打开的第一个网站",
+    "kind_name": "工具&视频",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 9,
+    "title": "AI捏人",
+    "href": "https://artbreeder.com/",
+    "slogan": "只需不断选择最有趣的图像，即可发现全新的图像",
+    "kind_name": "工具&图片",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 10,
+    "title": "数据",
+    "href": "https://ncov.dxy.cn/ncovh5/view/pneumonia",
+    "slogan": "丁香医生 - 全球新冠肺炎疫情地图",
+    "kind_name": "生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 11,
+    "title": "人类测试",
+    "href": "https://humanbenchmark.com/",
+    "slogan": "通过脑力游戏和认知测试来衡量你的能力",
+    "kind_name": "工具&游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 13,
+    "title": "慕课",
+    "href": "https://www.icourse163.org/",
+    "slogan": "国家精品课程在线学习平台",
+    "kind_name": "学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 14,
+    "title": "反人类UI",
+    "href": "https://userinyerface.com/game.html",
+    "slogan": "最差的用户界面实验",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 15,
+    "title": "yes/no",
+    "href": "https://yesno.wtf/",
+    "slogan": "做出一个好的决定可能需要一些帮助",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 16,
+    "title": "老照片上色",
+    "href": "https://colourise.sg/",
+    "slogan": "给你的黑白照片上色",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 17,
+    "title": "地球时间",
+    "href": "http://timelineofearth.com/",
+    "slogan": "地球历史的互动年表",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 18,
+    "title": "猫",
+    "href": "https://bongo.cat/",
+    "slogan": "像邦戈猫一样击打邦戈鼓",
+    "kind_name": "娱乐&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 19,
+    "title": "大佬",
+    "href": "https://neave.com/",
+    "slogan": "来自Neave Interactive的应用程序",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 20,
+    "title": "太鼓达人",
+    "href": "https://tg.lv5.ac",
+    "slogan": "适用于桌面和移动浏览器的太鼓达人节奏游戏模拟器",
+    "kind_name": "游戏&音乐",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 21,
+    "title": "emm",
+    "href": "http://www.shushubuyue.net/#",
+    "slogan": "匿名聊天网",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 22,
+    "title": "全网热门",
+    "href": "https://tophub.today/",
+    "slogan": "追踪全网热点、简单高效阅读",
+    "kind_name": "实用&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 23,
+    "title": "数据表",
+    "href": "https://www.visualcapitalist.com/",
+    "slogan": "数据驱动的视觉效果，帮助解释复杂的世界",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 24,
+    "title": "医疗",
+    "href": "https://www.msdmanuals.com/zh#mission",
+    "slogan": "默沙东诊疗手册",
+    "kind_name": "生活&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 25,
+    "title": "临时验证码",
+    "href": "https://temp-mail.org/zh/",
+    "slogan": "提供临时邮箱接收烦人的验证码，使用时注意个人信息安全",
+    "kind_name": "工具",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 26,
+    "title": "词云",
+    "href": "https://www.weiciyun.com/",
+    "slogan": "简单强大的文字云艺术生成器",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 27,
+    "title": "探月",
+    "href": "http://moon.bao.ac.cn/mul/index/list",
+    "slogan": "月球与行星数据发布系统",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 28,
+    "title": "中国地图",
+    "href": "https://www.ageeye.cn/",
+    "slogan": "知识地图制作分享平台，它将地图和文字结合，反映中国历史、军事、地理、文化等方面的知识",
+    "kind_name": "工具&学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_5",
+    "id": 29,
+    "title": "解谜",
+    "href": "http://nazo.one-story.cn/",
+    "slogan": "一个脑洞大开的游戏",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 2,
+    "title": "小工具合集",
+    "href": "https://tools.miku.ac/",
+    "slogan": "目前共开发了数十款有趣的小功能，数量还在持续增加中",
+    "kind_name": "实用&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 3,
+    "title": "医学微视",
+    "href": "https://www.mvyxws.com/",
+    "slogan": "医学微视 - 看看专家怎么说",
+    "kind_name": "生活",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 4,
+    "title": "仿知网",
+    "href": "https://www.cn-ki.net/",
+    "slogan": "iData知识检索 - 免费下载学术文献，免费论文下载",
+    "kind_name": "工具&学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 5,
+    "title": "自动加字幕",
+    "href": "https://2zimu.com/#/",
+    "slogan": "上传视频，几分钟内得到字幕",
+    "kind_name": "工具&视频",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 6,
+    "title": "N卡深度学习",
+    "href": "https://www.nvidia.com/en-us/research/ai-playground/?fbclid=IwAR2QEjuH4aCYP3SycnKwa_LO36rfmDhulB4WCeY1plGCfofwIU-qf1anBTY",
+    "slogan": "实时播放人工智能演示，参观人工智能艺术馆",
+    "kind_name": "娱乐&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 7,
+    "title": "渐变图",
+    "href": "https://www.ls.graphics/meshgradients",
+    "slogan": "免费下载渐变素材图",
+    "kind_name": "图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 8,
+    "title": "时差",
+    "href": "https://everytimezone.com/",
+    "slogan": "时区转换器，比较时区差异，一键找到会议的最佳时间",
+    "kind_name": "生活&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 9,
+    "title": "双色 \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://duotone.shapefactory.co/?f=f56468&t=27184f&q=_",
+    "slogan": "上传你自己的图片并在几秒钟内应用双色效果来制作自定义双色图片",
+    "kind_name": "图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 10,
+    "title": "亚塞",
+    "href": "https://wangyasai.github.io/",
+    "slogan": "点开菜单栏，发现“设计工具”",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 11,
+    "title": "listen 1",
+    "href": "http://listen1.github.io/listen1/",
+    "slogan": "搜索和播放各大音乐网站的歌曲，让你的曲库更全面",
+    "kind_name": "工具&音乐",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 12,
+    "title": "音乐 \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://www.youtube.com/channel/UCht8qITGkBvXKsR1Byln-wA/videos",
+    "slogan": "无版权音乐提供频道",
+    "kind_name": "音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 13,
+    "title": "电音风格",
+    "href": "http://music.ishkur.com/",
+    "slogan": "电音风格科普网站",
+    "kind_name": "音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 14,
+    "title": "创意",
+    "href": "https://creativemass.cn/#/",
+    "slogan": "我们在全世界精挑细选，希望成为你最有价值的灵感来源",
+    "kind_name": "实用&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 15,
+    "title": "up主排名",
+    "href": "https://leptc.github.io/bili/",
+    "slogan": "B站up主排行榜",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 16,
+    "title": "yuzhua",
+    "href": "https://mj.yuzhua.com/search/3.html",
+    "slogan": "新媒体数据在线查询",
+    "kind_name": "工具&视频",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 17,
+    "title": "日麻",
+    "href": "https://www.maj-soul.com/#/home",
+    "slogan": "雀魂 - 随时随地，轻松麻将",
+    "kind_name": "游戏",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 18,
+    "title": "？",
+    "href": "https://resn.co.nz/#",
+    "slogan": "渲染屏幕，供您享受",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 19,
+    "title": "Grammarly",
+    "href": "https://app.grammarly.com/",
+    "slogan": "使用Grammarly的人工智能写作助理编写大胆、清晰、无错误的写作",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_4",
+    "id": 20,
+    "title": "机酒",
+    "href": "https://www.tianxun.com/",
+    "slogan": "出差机票酒店价格查询网站",
+    "kind_name": "生活&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_3",
+    "id": 1,
+    "title": "重力",
+    "href": "https://codepen.io/akm2/full/rHIsa",
+    "slogan": "Gravity Points - 重力点",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_3",
+    "id": 3,
+    "title": "成为批发商",
+    "href": "https://www.1688.com/",
+    "slogan": "全球领先的采购批发平台",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_3",
+    "id": 4,
+    "title": "龋齿一号",
+    "href": "http://www.gfxcamp.com/",
+    "slogan": "最新CG资源素材分享",
+    "kind_name": "实用&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_3",
+    "id": 5,
+    "title": "摄影老法师必读",
+    "href": "https://www.dxomark.com/",
+    "slogan": "质量测试、评分和评论",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_3",
+    "id": 7,
+    "title": "学说话",
+    "href": "https://zh.forvo.com/user/hikari1/pronounced-words/page-2/",
+    "slogan": "世界各地的母语者教你正确发音，LKs教你此网站的正确用法",
+    "kind_name": "娱乐&学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_3",
+    "id": 8,
+    "title": "做网站",
+    "href": "https://www.wix.com/",
+    "slogan": "创建一个您引以为豪的网站",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_3",
+    "id": 9,
+    "title": "在线效果",
+    "href": "https://photomosh.com/",
+    "slogan": "使用创造性的效果对图像、视频或网络摄像头进行故障处理",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_3",
+    "id": 10,
+    "title": "学英语",
+    "href": "https://nexus.leagueoflegends.com/en-us/",
+    "slogan": "英雄联盟美服官网，在这里浏览你感兴趣的英文文章",
+    "kind_name": "学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_3",
+    "id": 11,
+    "title": "音游",
+    "href": "http://ddrkirby.com/games/melody-muncher/melody-muncher.html",
+    "slogan": "音乐节奏游戏，作者是一位大佬，有很多优秀的独立游戏作品",
+    "kind_name": "游戏&音乐",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_3",
+    "id": 12,
+    "title": "f**king eat \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://wtfsigfd.com/#location",
+    "slogan": "找到你附近可以干饭的地方",
+    "kind_name": "生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_3",
+    "id": 14,
+    "title": "游戏",
+    "href": "https://pos.biborg.com/fr/",
+    "slogan": "网页版神庙逃亡",
+    "kind_name": "游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_3",
+    "id": 15,
+    "title": "拍卖",
+    "href": "https://sf.taobao.com/?spm=a213w.7398504.sfhead2014.2.9vuB5l&current=index",
+    "slogan": "阿里司法拍卖",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_3",
+    "id": 16,
+    "title": "拍卖",
+    "href": "http://auction.jd.com/haiguan.html",
+    "slogan": "京东海关政府拍卖",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 1,
+    "title": "世界数据统计",
+    "href": "http://www.everysecond.io/",
+    "slogan": "时间每过一秒钟，这个世界都发生了什么惊人的事情",
+    "kind_name": "娱乐&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 2,
+    "title": "五花肉",
+    "href": "https://eitheryoulikebaconoryourewrong.com/",
+    "slogan": "一片烤五花肉",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 3,
+    "title": "免费游戏音效",
+    "href": "http://www.sonniss.com/gameaudiogdc2017/",
+    "slogan": "免费下载游戏音效",
+    "kind_name": "音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 4,
+    "title": "adobe全系",
+    "href": "http://adobe.v404.cn/adobe/",
+    "slogan": "Adobe全系软件下载",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 5,
+    "title": "艺术字",
+    "href": "http://www.akuziti.com/yw/",
+    "slogan": "英文艺术字体在线生成",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 6,
+    "title": "2倍老婆",
+    "href": "http://waifu2x.udp.jp/",
+    "slogan": "使用卷积神经网络对动漫风格的图片进行放大操作",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 7,
+    "title": "截图搜新番",
+    "href": "https://trace.moe/",
+    "slogan": "通过截图在线搜索番剧",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 8,
+    "title": "自动上色",
+    "href": "http://paintschainer.preferred.tech/index_zh.html",
+    "slogan": "用AI为你的画自动上色",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 9,
+    "title": "自动生成女朋友 \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://hiroshiba.github.io/girl_friend_factory/index.html",
+    "slogan": "生成二次元女朋友照片",
+    "kind_name": "娱乐&图片",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 10,
+    "title": "设计",
+    "href": "https://www.chuangkit.com/dc.html",
+    "slogan": "在创客贴开启你的平面设计之旅",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 11,
+    "title": "简笔画 \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://aiexperiments.withgoogle.com/autodraw",
+    "slogan": "为每个人快速绘图",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 12,
+    "title": "wuxiaworld",
+    "href": "http://www.wuxiaworld.com/",
+    "slogan": "海外版的起点小说网，看小说的同时学习英文",
+    "kind_name": "娱乐&学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 13,
+    "title": "gif",
+    "href": "https://giphy.com/",
+    "slogan": "寻找GIF、剪辑和贴纸，使你的对话更积极，更有表现力，更做你自己",
+    "kind_name": "图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 14,
+    "title": "秘密",
+    "href": "http://soulapartment.net/bin/index.php",
+    "slogan": "世界各地的人在这里分享秘密",
+    "kind_name": "艺术&游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 15,
+    "title": "背景音合成器",
+    "href": "http://asoftmurmur.com/",
+    "slogan": "环境声音可以洗去分心",
+    "kind_name": "音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 16,
+    "title": "全球电台",
+    "href": "http://radio.garden/live/tokyo/j-idols-project-radio/",
+    "slogan": "通过旋转地球来探索现场广播电台",
+    "kind_name": "娱乐&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 17,
+    "title": "图片合成",
+    "href": "http://www.ostagram.ru/lenta?locale=en",
+    "slogan": "AI合成两张不相干的图片",
+    "kind_name": "娱乐&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 19,
+    "title": "png",
+    "href": "http://www.pngall.com/thug-life-png",
+    "slogan": "暴徒表情png",
+    "kind_name": "图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_2",
+    "id": 20,
+    "title": "空当接龙",
+    "href": "http://mrdoob.com/lab/javascript/effects/solitaire/?url_type=39&object_type=webpage&pos=1&url_type=39&object_type=webpage&pos=1",
+    "slogan": "这不是空当接龙",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 1,
+    "title": "The Internet map",
+    "href": "http://internet-map.net/",
+    "slogan": "全球互联网活跃地图",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 2,
+    "title": "钢琴",
+    "href": "http://touchpianist.com/",
+    "slogan": "点击并演奏你最喜欢的音乐",
+    "kind_name": "娱乐&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 3,
+    "title": "搜图",
+    "href": "http://iqdb.org/",
+    "slogan": "搜索二次元图片",
+    "kind_name": "图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 4,
+    "title": "搜图",
+    "href": "http://saucenao.com/index.php",
+    "slogan": "搜索二次元图片",
+    "kind_name": "图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 5,
+    "title": "环境",
+    "href": "http://www.rainymood.com/",
+    "slogan": "睡眠和学习时的雨声",
+    "kind_name": "音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 6,
+    "title": "环境",
+    "href": "http://www.ambient-mixer.com/",
+    "slogan": "一个由环境声音组成的世界",
+    "kind_name": "音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 7,
+    "title": "不明觉厉",
+    "href": "http://mrdoob.com/#/157/spin_painter",
+    "slogan": "不明觉厉",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 8,
+    "title": "不明觉厉",
+    "href": "http://www.ro.me/",
+    "slogan": "不明觉厉",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 9,
+    "title": "不明觉厉",
+    "href": "http://fff.cmiscm.com/#!/section/planttrees",
+    "slogan": "不明觉厉",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 10,
+    "title": "不明觉厉",
+    "href": "http://weavesilk.com/",
+    "slogan": "不明觉厉",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 11,
+    "title": "噫",
+    "href": "http://www.theuselessweb.com/",
+    "slogan": "随机跳出一个无用网站",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 12,
+    "title": "风景",
+    "href": "http://www.airpano.com/?n=10&sort_by=&page=1",
+    "slogan": "环游世界的虚拟之旅",
+    "kind_name": "娱乐&生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 13,
+    "title": "miku \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "http://johnsu.deviantart.com/art/Halfne-Miku-Studio-396850314",
+    "slogan": "一个消磨时间的网站",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 14,
+    "title": "miku \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "https://www.youtube.com/watch?v=1szQ7YDGdXw&feature=youtu.be",
+    "slogan": "上一个网站的视频示例",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 15,
+    "title": "音游",
+    "href": "http://www.beatstage.com/",
+    "slogan": "BeatStage - 第一个开放式网页音乐游戏",
+    "kind_name": "游戏&音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 16,
+    "title": "水效果",
+    "href": "http://watereffect.net/index.php",
+    "slogan": "创建您的动画水效果",
+    "kind_name": "工具&图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 17,
+    "title": "猜地点",
+    "href": "https://geoguessr.com/",
+    "slogan": "GeoGuessr - 让我们探索世界吧",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 18,
+    "title": "2ch",
+    "href": "http://kanquwen.com/",
+    "slogan": "看趣闻 - 2ch有趣帖子翻译",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 19,
+    "title": "音乐素材",
+    "href": "http://www.hmix.net/music_gallery/music_top.htm",
+    "slogan": "免费下载音乐素材",
+    "kind_name": "音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 20,
+    "title": "画 \u003Cspan class='iconfont'\u003E&#xe64b;\u003C/span\u003E",
+    "href": "http://en.gallerix.ru/",
+    "slogan": "17万张高分辨率世界名画",
+    "kind_name": "图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 23,
+    "title": "学英语",
+    "href": "http://www.wuxiaworld.com/cdindex-html/",
+    "slogan": "wuxiaworld",
+    "kind_name": "学习",
+    "star": "star",
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 25,
+    "title": "剁手",
+    "href": "http://www.chiphell.com/",
+    "slogan": "Chiphell - 分享与交流用户体验",
+    "kind_name": "生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 27,
+    "title": "电音",
+    "href": "https://the.wubmachine.com/",
+    "slogan": "在线改变音乐风格",
+    "kind_name": "音乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 28,
+    "title": "搬砖",
+    "href": "http://www.fotojet.com/",
+    "slogan": "把你的想法变成令人惊叹的艺术品",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 29,
+    "title": "搬砖",
+    "href": "https://habitica.com/static/front",
+    "slogan": "你完成的每一个任务都有助于改善生活",
+    "kind_name": "工具&游戏",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 30,
+    "title": "聊天",
+    "href": "http://drrr.com/lounge",
+    "slogan": "在线匿名聊天室",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 31,
+    "title": "图站",
+    "href": "https://anime-pictures.net/",
+    "slogan": "二次元图片站",
+    "kind_name": "图片",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 32,
+    "title": "与佛论禅",
+    "href": "http://www.ptxz.com/fo/",
+    "slogan": "与佛论禅",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 34,
+    "title": "学习",
+    "href": "http://www.wolframalpha.com/",
+    "slogan": "数学、科学、社会学等等",
+    "kind_name": "学习",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 35,
+    "title": "不明觉厉",
+    "href": "https://dribbble.com/wagerfield",
+    "slogan": "不明觉厉",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 36,
+    "title": "手机",
+    "href": "http://mowned.com/",
+    "slogan": "手机的全历史",
+    "kind_name": "娱乐",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 37,
+    "title": "GPS",
+    "href": "http://www.flashearth.com/",
+    "slogan": "实时气象卫星图片",
+    "kind_name": "生活&工具",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 38,
+    "title": "剁手",
+    "href": "http://www.smzdm.com/",
+    "slogan": "什么值得买 - 分享每一种值",
+    "kind_name": "生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 39,
+    "title": "剁手",
+    "href": "http://www.iliangcang.com/i/home/",
+    "slogan": "良仓 - 生活美学指南",
+    "kind_name": "生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 40,
+    "title": "菜板狂魔",
+    "href": "http://mtmwood.com/en",
+    "slogan": "定制各种烹饪杰作的切菜板",
+    "kind_name": "生活",
+    "star": null,
+    "icon": ""
+  },
+  {
+    "kind": "web_1",
+    "id": 41,
+    "title": "有趣网址",
+    "href": "http://youquhome.com/page/3/",
+    "slogan": "收藏全球最有趣的网站",
+    "kind_name": "工具",
+    "star": null,
+    "icon": ""
+  }
+]

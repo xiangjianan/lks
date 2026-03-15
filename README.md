@@ -26,7 +26,7 @@
 - **JavaScript 库**：jQuery 3.6.0
 - **布局库**：Isotope.js（筛选排序）
 - **图标库**：iconfont 2.0.1
-- **数据存储**：JSON 格式（web.v12.1.json）
+- **数据存储**：JSON 格式（web.v12.2.json）
 
 ## 项目结构
 
@@ -50,7 +50,7 @@ lks/
         ├── js/             # JavaScript 文件
         │   ├── index.2.2.4.js      # 主逻辑
         │   ├── defer.2.2.3.js      # 延迟加载
-        │   └── web.v12.1.json      # 网站数据文件
+        │   └── web.v12.2.json      # 网站数据文件
         └── img/            # 图片资源
 ```
 
@@ -83,7 +83,7 @@ python -m SimpleHTTPServer 8000
 
 ## 数据格式
 
-网站数据存储在 `static/site/js/web.v12.1.json` 文件中，每个网站包含以下字段：
+网站数据存储在 `static/site/js/web.v12.2.json` 文件中，每个网站包含以下字段：
 
 ```json
 {
@@ -120,7 +120,7 @@ python -m SimpleHTTPServer 8000
 
 ### 添加新网站
 
-1. 编辑 `static/site/js/web.v12.1.json` 文件
+1. 编辑 `static/site/js/web.v12.2.json` 文件
 2. 按照数据格式添加新的网站信息
 3. 确保 `kind` 字段对应正确的期数（如第12期为 `web_12`）
 4. 提交 Pull Request

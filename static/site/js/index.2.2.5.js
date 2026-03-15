@@ -15,7 +15,7 @@ if (local_web_list_md5 && local_web_list){
 // 通过前端服务获取json
 else {
     $.ajaxSettings.async = false;
-    $.getJSON("static/site/js/web.v12.1.json", function (data) {
+    $.getJSON("static/site/js/web.v12.2.json", function (data) {
         web_list = data;
         localStorage.setItem('web_list', JSON.stringify(data));
         localStorage.setItem('web_list_md5', JSON.stringify('2020-01-01 00:00:00'));

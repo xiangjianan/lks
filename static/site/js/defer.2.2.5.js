@@ -187,30 +187,25 @@ $('#DisclaimerClose').click(() => {
 setTimeout(() => {
     let local_web_list_md5 = localStorage.getItem('web_list_md5');
     // 后端接口获取最新MD5
-    let new_md5 = '';
-    $.ajaxSettings.async = false;
     $.ajax({
         type: "POST",
         url: 'https://api.lkssite.vip/api/get_web_json_md5',
         error: (res) => {
         },
-        success: (res) => {
-            new_md5 = res;
+        success: (new_md5) => {
+            if (local_web_list_md5 !== new_md5){
+                // 后端接口获取 web_list
+                $.ajax({
+                    type: "POST",
+                    url: 'https://api.lkssite.vip/api/get_web_json',
+                    error: (res) => {
+                    },
+                    success: (res) => {
+                        localStorage.setItem('web_list', JSON.stringify(res));
+                        localStorage.setItem('web_list_md5', new_md5);
+                    }
+                });
+            }
         }
     });
-    $.ajaxSettings.async = true;
-
-    if (local_web_list_md5 !== new_md5){
-        // 后端接口获取 web_list
-        $.ajax({
-            type: "POST",
-            url: 'https://api.lkssite.vip/api/get_web_json',
-            error: (res) => {
-            },
-            success: (res) => {
-                localStorage.setItem('web_list', JSON.stringify(res));
-                localStorage.setItem('web_list_md5', new_md5);
-            }
-        });
-    }
 }, 666);
